@@ -1,0 +1,1829 @@
+ElectionDate	PartyCode	PartyName	RaceCode	OfficeDesc	CountyCode	CountyName	Juris1num	Juris2num	Precincts	PrecinctsReporting	CanNameLast	CanNameFirst	CanNameMiddle	CanVotes
+8/23/2022	REP	Republican	USR	United States Representative	ESC	Escambia	001		79	79	Gaetz	Matt		25212
+8/23/2022	REP	Republican	USR	United States Representative	OKA	Okaloosa	001		52	52	Gaetz	Matt		20677
+8/23/2022	REP	Republican	USR	United States Representative	SAN	Santa Rosa	001		41	41	Gaetz	Matt		20932
+8/23/2022	REP	Republican	USR	United States Representative	WAL	Walton	001		14	14	Gaetz	Matt		6553
+8/23/2022	REP	Republican	USR	United States Representative	ESC	Escambia	001		79	79	Lombardo	Mark		9901
+8/23/2022	REP	Republican	USR	United States Representative	OKA	Okaloosa	001		52	52	Lombardo	Mark		7482
+8/23/2022	REP	Republican	USR	United States Representative	SAN	Santa Rosa	001		41	41	Lombardo	Mark		6439
+8/23/2022	REP	Republican	USR	United States Representative	WAL	Walton	001		14	14	Lombardo	Mark		1898
+8/23/2022	REP	Republican	USR	United States Representative	ESC	Escambia	001		79	79	Merk	Greg		2341
+8/23/2022	REP	Republican	USR	United States Representative	OKA	Okaloosa	001		52	52	Merk	Greg		1723
+8/23/2022	REP	Republican	USR	United States Representative	SAN	Santa Rosa	001		41	41	Merk	Greg		1551
+8/23/2022	REP	Republican	USR	United States Representative	WAL	Walton	001		14	14	Merk	Greg		555
+8/23/2022	REP	Republican	USR	United States Representative	ALA	Alachua	003		66	66	Cammack	Kat		13793
+8/23/2022	REP	Republican	USR	United States Representative	BAK	Baker	003		0	0	Cammack	Kat		3212
+8/23/2022	REP	Republican	USR	United States Representative	BRA	Bradford	003		14	14	Cammack	Kat		3408
+8/23/2022	REP	Republican	USR	United States Representative	CLM	Columbia	003		29	29	Cammack	Kat		5444
+8/23/2022	REP	Republican	USR	United States Representative	DIX	Dixie	003		10	10	Cammack	Kat		2062
+8/23/2022	REP	Republican	USR	United States Representative	GIL	Gilchrist	003		10	10	Cammack	Kat		2962
+8/23/2022	REP	Republican	USR	United States Representative	HAM	Hamilton	003		0	0	Cammack	Kat		994
+8/23/2022	REP	Republican	USR	United States Representative	LAF	Lafayette	003		5	5	Cammack	Kat		1218
+8/23/2022	REP	Republican	USR	United States Representative	LEV	Levy	003		13	13	Cammack	Kat		5577
+8/23/2022	REP	Republican	USR	United States Representative	MRN	Marion	003		61	61	Cammack	Kat		18426
+8/23/2022	REP	Republican	USR	United States Representative	SUW	Suwannee	003		16	16	Cammack	Kat		4683
+8/23/2022	REP	Republican	USR	United States Representative	UNI	Union	003		8	8	Cammack	Kat		1500
+8/23/2022	REP	Republican	USR	United States Representative	ALA	Alachua	003		66	66	Waters	Justin		1910
+8/23/2022	REP	Republican	USR	United States Representative	BAK	Baker	003		0	0	Waters	Justin		984
+8/23/2022	REP	Republican	USR	United States Representative	BRA	Bradford	003		14	14	Waters	Justin		343
+8/23/2022	REP	Republican	USR	United States Representative	CLM	Columbia	003		29	29	Waters	Justin		860
+8/23/2022	REP	Republican	USR	United States Representative	DIX	Dixie	003		10	10	Waters	Justin		248
+8/23/2022	REP	Republican	USR	United States Representative	GIL	Gilchrist	003		10	10	Waters	Justin		296
+8/23/2022	REP	Republican	USR	United States Representative	HAM	Hamilton	003		0	0	Waters	Justin		304
+8/23/2022	REP	Republican	USR	United States Representative	LAF	Lafayette	003		5	5	Waters	Justin		236
+8/23/2022	REP	Republican	USR	United States Representative	LEV	Levy	003		13	13	Waters	Justin		784
+8/23/2022	REP	Republican	USR	United States Representative	MRN	Marion	003		61	61	Waters	Justin		3585
+8/23/2022	REP	Republican	USR	United States Representative	SUW	Suwannee	003		16	16	Waters	Justin		1330
+8/23/2022	REP	Republican	USR	United States Representative	UNI	Union	003		8	8	Waters	Justin		142
+8/23/2022	REP	Republican	USR	United States Representative	CLA	Clay	004		48	48	Aguilar	Erick		7786
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	004		95	95	Aguilar	Erick		6566
+8/23/2022	REP	Republican	USR	United States Representative	NAS	Nassau	004		18	18	Aguilar	Erick		4253
+8/23/2022	REP	Republican	USR	United States Representative	CLA	Clay	004		48	48	Bean	Aaron		18496
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	004		95	95	Bean	Aaron		20286
+8/23/2022	REP	Republican	USR	United States Representative	NAS	Nassau	004		18	18	Bean	Aaron		10278
+8/23/2022	REP	Republican	USR	United States Representative	CLA	Clay	004		48	48	Chuba	Jon		1933
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	004		95	95	Chuba	Jon		1629
+8/23/2022	REP	Republican	USR	United States Representative	NAS	Nassau	004		18	18	Chuba	Jon		826
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	005		92	92	Lopez	Leigha	'Luna'	15286
+8/23/2022	REP	Republican	USR	United States Representative	STJ	St. Johns	005		0	0	Lopez	Leigha	'Luna'	6997
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	005		92	92	Macie	Mara	H.	14627
+8/23/2022	REP	Republican	USR	United States Representative	STJ	St. Johns	005		0	0	Macie	Mara	H.	8980
+8/23/2022	REP	Republican	USR	United States Representative	DUV	Duval	005		92	92	Rutherford	John	H.	58813
+8/23/2022	REP	Republican	USR	United States Representative	STJ	St. Johns	005		0	0	Rutherford	John	H.	28907
+8/23/2022	REP	Republican	USR	United States Representative	FLA	Flagler	006		22	22	Davis	Charles	E.	3190
+8/23/2022	REP	Republican	USR	United States Representative	LAK	Lake	006		30	30	Davis	Charles	E.	2396
+8/23/2022	REP	Republican	USR	United States Representative	MRN	Marion	006		45	45	Davis	Charles	E.	5018
+8/23/2022	REP	Republican	USR	United States Representative	PUT	Putnam	006		37	37	Davis	Charles	E.	3039
+8/23/2022	REP	Republican	USR	United States Representative	STJ	St. Johns	006		0	0	Davis	Charles	E.	1659
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	006		63	63	Davis	Charles	E.	3873
+8/23/2022	REP	Republican	USR	United States Representative	FLA	Flagler	006		22	22	Waltz	Michael		13134
+8/23/2022	REP	Republican	USR	United States Representative	LAK	Lake	006		30	30	Waltz	Michael		8842
+8/23/2022	REP	Republican	USR	United States Representative	MRN	Marion	006		45	45	Waltz	Michael		13069
+8/23/2022	REP	Republican	USR	United States Representative	PUT	Putnam	006		37	37	Waltz	Michael		5519
+8/23/2022	REP	Republican	USR	United States Representative	STJ	St. Johns	006		0	0	Waltz	Michael		4633
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	006		63	63	Waltz	Michael		20497
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Benfield	Erika		1886
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Benfield	Erika		2078
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Duke	Brady		7972
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Duke	Brady		3249
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Edwards	Ted		2792
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Edwards	Ted		1467
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Mills	Cory		11939
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Mills	Cory		15818
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Roberts	Rusty		2871
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Roberts	Rusty		1160
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Sabatini	Anthony		9810
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Sabatini	Anthony		7522
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Santos	Armando	Al	860
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Santos	Armando	Al	644
+8/23/2022	REP	Republican	USR	United States Representative	SEM	Seminole	007		83	83	Sturgill	Scott		2061
+8/23/2022	REP	Republican	USR	United States Representative	VOL	Volusia	007		73	73	Sturgill	Scott		1033
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	009		54	54	Castillo	Jose		2836
+8/23/2022	REP	Republican	USR	United States Representative	OSC	Osceola	009		125	125	Castillo	Jose		3858
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	009		0	0	Castillo	Jose		843
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	009		54	54	Moore	Scotty		7331
+8/23/2022	REP	Republican	USR	United States Representative	OSC	Osceola	009		125	125	Moore	Scotty		8692
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	009		0	0	Moore	Scotty		948
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	009		54	54	Morales	Adianis		1650
+8/23/2022	REP	Republican	USR	United States Representative	OSC	Osceola	009		125	125	Morales	Adianis		2015
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	009		0	0	Morales	Adianis		304
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	009		54	54	Ortiz	Sergio	E.	679
+8/23/2022	REP	Republican	USR	United States Representative	OSC	Osceola	009		125	125	Ortiz	Sergio	E.	1040
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	009		0	0	Ortiz	Sergio	E.	181
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Jones	Lateresa 'L.A.'		1614
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Le	Tuan		3601
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Lowe	Thuy 'Twee'		3201
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Montague	Willie		3176
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Weed	Peter		3541
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	010		147	147	Wimbish	Calvin	B.	12103
+8/23/2022	REP	Republican	USR	United States Representative	LAK	Lake	011		61	61	Loomer	Laura		11849
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	011		57	57	Loomer	Laura		7765
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	011		0	0	Loomer	Laura		1353
+8/23/2022	REP	Republican	USR	United States Representative	SUM	Sumter	011		30	30	Loomer	Laura		16680
+8/23/2022	REP	Republican	USR	United States Representative	LAK	Lake	011		61	61	Soriano	Gavriel	E.	1171
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	011		57	57	Soriano	Gavriel	E.	1259
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	011		0	0	Soriano	Gavriel	E.	186
+8/23/2022	REP	Republican	USR	United States Representative	SUM	Sumter	011		30	30	Soriano	Gavriel	E.	1456
+8/23/2022	REP	Republican	USR	United States Representative	LAK	Lake	011		61	61	Webster	Daniel		13175
+8/23/2022	REP	Republican	USR	United States Representative	ORA	Orange	011		57	57	Webster	Daniel		13855
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	011		0	0	Webster	Daniel		1378
+8/23/2022	REP	Republican	USR	United States Representative	SUM	Sumter	011		30	30	Webster	Daniel		15061
+8/23/2022	REP	Republican	USR	United States Representative	CIT	Citrus	012		31	31	Bilirakis	Gus	Michael	17487
+8/23/2022	REP	Republican	USR	United States Representative	HER	Hernando	012		0	0	Bilirakis	Gus	Michael	15801
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	012		0	0	Bilirakis	Gus	Michael	33901
+8/23/2022	REP	Republican	USR	United States Representative	CIT	Citrus	012		31	31	Leiser	Chris		1237
+8/23/2022	REP	Republican	USR	United States Representative	HER	Hernando	012		0	0	Leiser	Chris		1117
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	012		0	0	Leiser	Chris		1646
+8/23/2022	REP	Republican	USR	United States Representative	CIT	Citrus	012		31	31	Martin	Jack		2544
+8/23/2022	REP	Republican	USR	United States Representative	HER	Hernando	012		0	0	Martin	Jack		2681
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	012		0	0	Martin	Jack		2565
+8/23/2022	REP	Republican	USR	United States Representative	CIT	Citrus	012		31	31	Perras	Brian		907
+8/23/2022	REP	Republican	USR	United States Representative	HER	Hernando	012		0	0	Perras	Brian		957
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	012		0	0	Perras	Brian		1353
+8/23/2022	REP	Republican	USR	United States Representative	CIT	Citrus	012		31	31	Preskitt	Sid		750
+8/23/2022	REP	Republican	USR	United States Representative	HER	Hernando	012		0	0	Preskitt	Sid		635
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	012		0	0	Preskitt	Sid		757
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	013		229	229	Hayslett	Kevin		28108
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	013		229	229	Kheireddine	Moneer		1599
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	013		229	229	Luna	Anna	Paulina	37156
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	013		229	229	Makki	Amanda		14159
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	013		229	229	Quinn	Christine	Y.	2510
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	014		178	178	Judge	James		15220
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	014		57	57	Judge	James		5246
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	014		178	178	Nashagh	Samar 'Sam'		4821
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	014		57	57	Nashagh	Samar 'Sam'		1829
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	014		178	178	Torres	Jerry		8475
+8/23/2022	REP	Republican	USR	United States Representative	PIN	Pinellas	014		57	57	Torres	Jerry		2923
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	015		165	165	Grimes	Demetries	'Commander'	2923
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	015		0	0	Grimes	Demetries	'Commander'	1589
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	015		0	0	Grimes	Demetries	'Commander'	1117
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	015		165	165	Lee	Laurel		14607
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	015		0	0	Lee	Laurel		4541
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	015		0	0	Lee	Laurel		3333
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	015		165	165	McGovern	Kevin	'Mac'	2699
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	015		0	0	McGovern	Kevin	'Mac'	1222
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	015		0	0	McGovern	Kevin	'Mac'	792
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	015		165	165	Stargel	Kelli		8198
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	015		0	0	Stargel	Kelli		2559
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	015		0	0	Stargel	Kelli		4315
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	015		165	165	Toledo	Jackie		4496
+8/23/2022	REP	Republican	USR	United States Representative	PAS	Pasco	015		0	0	Toledo	Jackie		1270
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	015		0	0	Toledo	Jackie		541
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	016		107	107	Buchanan	Vern		24481
+8/23/2022	REP	Republican	USR	United States Representative	MAN	Manatee	016		71	71	Buchanan	Vern		39547
+8/23/2022	REP	Republican	USR	United States Representative	HIL	Hillsborough	016		107	107	Hyde	Martin		3790
+8/23/2022	REP	Republican	USR	United States Representative	MAN	Manatee	016		71	71	Hyde	Martin		6429
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	018		0	0	Franklin	Scott		12
+8/23/2022	REP	Republican	USR	United States Representative	DES	Desoto	018		15	15	Franklin	Scott		1276
+8/23/2022	REP	Republican	USR	United States Representative	GLA	Glades	018		13	13	Franklin	Scott		695
+8/23/2022	REP	Republican	USR	United States Representative	HAR	Hardee	018		12	12	Franklin	Scott		1395
+8/23/2022	REP	Republican	USR	United States Representative	HEN	Hendry	018		11	11	Franklin	Scott		1584
+8/23/2022	REP	Republican	USR	United States Representative	HIG	Highlands	018		25	25	Franklin	Scott		7723
+8/23/2022	REP	Republican	USR	United States Representative	OKE	Okeechobee	018		11	11	Franklin	Scott		1705
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	018		0	0	Franklin	Scott		30537
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	018		0	0	Hartpence	Kenneth 'Kenny'	James	2
+8/23/2022	REP	Republican	USR	United States Representative	DES	Desoto	018		15	15	Hartpence	Kenneth 'Kenny'	James	182
+8/23/2022	REP	Republican	USR	United States Representative	GLA	Glades	018		13	13	Hartpence	Kenneth 'Kenny'	James	113
+8/23/2022	REP	Republican	USR	United States Representative	HAR	Hardee	018		12	12	Hartpence	Kenneth 'Kenny'	James	111
+8/23/2022	REP	Republican	USR	United States Representative	HEN	Hendry	018		11	11	Hartpence	Kenneth 'Kenny'	James	181
+8/23/2022	REP	Republican	USR	United States Representative	HIG	Highlands	018		25	25	Hartpence	Kenneth 'Kenny'	James	950
+8/23/2022	REP	Republican	USR	United States Representative	OKE	Okeechobee	018		11	11	Hartpence	Kenneth 'Kenny'	James	198
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	018		0	0	Hartpence	Kenneth 'Kenny'	James	2262
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	018		0	0	Raybon	Jennifer		3
+8/23/2022	REP	Republican	USR	United States Representative	DES	Desoto	018		15	15	Raybon	Jennifer		350
+8/23/2022	REP	Republican	USR	United States Representative	GLA	Glades	018		13	13	Raybon	Jennifer		224
+8/23/2022	REP	Republican	USR	United States Representative	HAR	Hardee	018		12	12	Raybon	Jennifer		123
+8/23/2022	REP	Republican	USR	United States Representative	HEN	Hendry	018		11	11	Raybon	Jennifer		327
+8/23/2022	REP	Republican	USR	United States Representative	HIG	Highlands	018		25	25	Raybon	Jennifer		1613
+8/23/2022	REP	Republican	USR	United States Representative	OKE	Okeechobee	018		11	11	Raybon	Jennifer		900
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	018		0	0	Raybon	Jennifer		3066
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	018		0	0	Schmeling	Wendy	June	0
+8/23/2022	REP	Republican	USR	United States Representative	DES	Desoto	018		15	15	Schmeling	Wendy	June	105
+8/23/2022	REP	Republican	USR	United States Representative	GLA	Glades	018		13	13	Schmeling	Wendy	June	66
+8/23/2022	REP	Republican	USR	United States Representative	HAR	Hardee	018		12	12	Schmeling	Wendy	June	52
+8/23/2022	REP	Republican	USR	United States Representative	HEN	Hendry	018		11	11	Schmeling	Wendy	June	100
+8/23/2022	REP	Republican	USR	United States Representative	HIG	Highlands	018		25	25	Schmeling	Wendy	June	808
+8/23/2022	REP	Republican	USR	United States Representative	OKE	Okeechobee	018		11	11	Schmeling	Wendy	June	138
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	018		0	0	Schmeling	Wendy	June	2830
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	018		0	0	Tarazona	Eduardo 'Eddie'	G.	2
+8/23/2022	REP	Republican	USR	United States Representative	DES	Desoto	018		15	15	Tarazona	Eduardo 'Eddie'	G.	66
+8/23/2022	REP	Republican	USR	United States Representative	GLA	Glades	018		13	13	Tarazona	Eduardo 'Eddie'	G.	131
+8/23/2022	REP	Republican	USR	United States Representative	HAR	Hardee	018		12	12	Tarazona	Eduardo 'Eddie'	G.	34
+8/23/2022	REP	Republican	USR	United States Representative	HEN	Hendry	018		11	11	Tarazona	Eduardo 'Eddie'	G.	138
+8/23/2022	REP	Republican	USR	United States Representative	HIG	Highlands	018		25	25	Tarazona	Eduardo 'Eddie'	G.	342
+8/23/2022	REP	Republican	USR	United States Representative	OKE	Okeechobee	018		11	11	Tarazona	Eduardo 'Eddie'	G.	108
+8/23/2022	REP	Republican	USR	United States Representative	POL	Polk	018		0	0	Tarazona	Eduardo 'Eddie'	G.	1043
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	019		0	0	Donalds	Byron		21359
+8/23/2022	REP	Republican	USR	United States Representative	LEE	Lee	019		85	85	Donalds	Byron		54833
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	019		0	0	Huff	Jim		4595
+8/23/2022	REP	Republican	USR	United States Representative	LEE	Lee	019		85	85	Huff	Jim		10200
+8/23/2022	REP	Republican	USR	United States Representative	MRT	Martin	021		27	27	Buongiorno	Jeff		2948
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	021		219	219	Buongiorno	Jeff		3613
+8/23/2022	REP	Republican	USR	United States Representative	STL	St. Lucie	021		60	60	Buongiorno	Jeff		2289
+8/23/2022	REP	Republican	USR	United States Representative	MRT	Martin	021		27	27	Martz	Melissa		1976
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	021		219	219	Martz	Melissa		2359
+8/23/2022	REP	Republican	USR	United States Representative	STL	St. Lucie	021		60	60	Martz	Melissa		1851
+8/23/2022	REP	Republican	USR	United States Representative	MRT	Martin	021		27	27	Mast	Brian		18131
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	021		219	219	Mast	Brian		18015
+8/23/2022	REP	Republican	USR	United States Representative	STL	St. Lucie	021		60	60	Mast	Brian		20389
+8/23/2022	REP	Republican	USR	United States Representative	MRT	Martin	021		27	27	Skrbic	Ljubo		326
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	021		219	219	Skrbic	Ljubo		305
+8/23/2022	REP	Republican	USR	United States Representative	STL	St. Lucie	021		60	60	Skrbic	Ljubo		222
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	022		381	381	Adeimy	Deborah		11842
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	022		381	381	Arianas	Peter	Steven	2082
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	022		381	381	Dorilas	Rod		6594
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	022		381	381	Franzese	Dan		11972
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	022		381	381	Lawlor	Carrie		2055
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Budd	Joe		8020
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Budd	Joe		4572
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Cerezo Swaffar	Darlene		2616
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Cerezo Swaffar	Darlene		1256
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Chess	Steven		2382
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Chess	Steven		458
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	McLaughlin	Christy		2794
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	McLaughlin	Christy		1038
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Perrone	Myles		478
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Perrone	Myles		161
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Pruden	James 'Jim'		4967
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Pruden	James 'Jim'		2432
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	023		100	100	Weinstein	Ira		1385
+8/23/2022	REP	Republican	USR	United States Representative	PAL	Palm Beach	023		79	79	Weinstein	Ira		912
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	024		11	11	Navarro	Jesus	G.	431
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	024		291	291	Navarro	Jesus	G.	5942
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	024		11	11	Spicer	Lavern		225
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	024		291	291	Spicer	Lavern		3281
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	025		141	141	Spalding	Carla		16425
+8/23/2022	REP	Republican	USR	United States Representative	BRO	Broward	025		141	141	Young	Rubin		6511
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	026		0	0	Aquino	Darren		4454
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	026		203	203	Aquino	Darren		2431
+8/23/2022	REP	Republican	USR	United States Representative	CLL	Collier	026		0	0	Diaz-Balart	Mario		15126
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	026		203	203	Diaz-Balart	Mario		21735
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	027		318	318	Polo	Frank		8023
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	027		318	318	Salazar	Marìa	Elvira	33760
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	028		237	237	Garin	Carlos		5328
+8/23/2022	REP	Republican	USR	United States Representative	MON	Monroe	028		33	33	Garin	Carlos		720
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	028		237	237	Gimenez	Carlos	A.	23449
+8/23/2022	REP	Republican	USR	United States Representative	MON	Monroe	028		33	33	Gimenez	Carlos	A.	5313
+8/23/2022	REP	Republican	USR	United States Representative	DAD	Miami-Dade	028		237	237	Miller	Karl 'KW'		2213
+8/23/2022	REP	Republican	USR	United States Representative	MON	Monroe	028		33	33	Miller	Karl 'KW'		2182
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ALA	Alachua			66	66	Shaw	James	W.	4815
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BAK	Baker			0	0	Shaw	James	W.	1765
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BAY	Bay			27	27	Shaw	James	W.	6404
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRA	Bradford			14	14	Shaw	James	W.	1375
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRE	Brevard			0	0	Shaw	James	W.	17921
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRO	Broward			345	345	Shaw	James	W.	23661
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CAL	Calhoun			11	11	Shaw	James	W.	514
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CHA	Charlotte			0	0	Shaw	James	W.	9094
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CIT	Citrus			31	31	Shaw	James	W.	6730
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLA	Clay			48	48	Shaw	James	W.	9853
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLL	Collier			0	0	Shaw	James	W.	14086
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLM	Columbia			29	29	Shaw	James	W.	1947
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DES	Desoto			15	15	Shaw	James	W.	711
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DIX	Dixie			10	10	Shaw	James	W.	715
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DUV	Duval			186	186	Shaw	James	W.	31327
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ESC	Escambia			79	79	Shaw	James	W.	11846
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	FLA	Flagler			21	21	Shaw	James	W.	5709
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	FRA	Franklin			0	0	Shaw	James	W.	306
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GAD	Gadsden			25	25	Shaw	James	W.	279
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GIL	Gilchrist			10	10	Shaw	James	W.	946
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GLA	Glades			13	13	Shaw	James	W.	421
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GUL	Gulf			0	0	Shaw	James	W.	390
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HAM	Hamilton			0	0	Shaw	James	W.	514
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HAR	Hardee			12	12	Shaw	James	W.	429
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HEN	Hendry			11	11	Shaw	James	W.	655
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HER	Hernando			0	0	Shaw	James	W.	5954
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HIG	Highlands			25	25	Shaw	James	W.	4079
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HIL	Hillsborough			448	448	Shaw	James	W.	27893
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HOL	Holmes			8	8	Shaw	James	W.	1074
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	IND	Indian River			34	34	Shaw	James	W.	8684
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	JAC	Jackson			0	0	Shaw	James	W.	1718
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	JEF	Jefferson			16	16	Shaw	James	W.	505
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LAF	Lafayette			5	5	Shaw	James	W.	499
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LAK	Lake			91	91	Shaw	James	W.	12873
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEE	Lee			99	99	Shaw	James	W.	24403
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEO	Leon			133	133	Shaw	James	W.	4941
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEV	Levy			13	13	Shaw	James	W.	1898
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LIB	Liberty			0	0	Shaw	James	W.	269
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MAD	Madison			0	0	Shaw	James	W.	398
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MAN	Manatee			71	71	Shaw	James	W.	17255
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MRN	Marion			105	105	Shaw	James	W.	13682
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MRT	Martin			27	27	Shaw	James	W.	7911
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DAD	Miami-Dade			1045	1045	Shaw	James	W.	39438
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MON	Monroe			33	33	Shaw	James	W.	3470
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	NAS	Nassau			18	18	Shaw	James	W.	5458
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OKA	Okaloosa			52	52	Shaw	James	W.	10382
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OKE	Okeechobee			11	11	Shaw	James	W.	1078
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ORA	Orange			257	257	Shaw	James	W.	19926
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OSC	Osceola			125	125	Shaw	James	W.	5613
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PAL	Palm Beach			794	794	Shaw	James	W.	27059
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PAS	Pasco			0	0	Shaw	James	W.	16849
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PIN	Pinellas			286	286	Shaw	James	W.	31415
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	POL	Polk			0	0	Shaw	James	W.	18575
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PUT	Putnam			37	37	Shaw	James	W.	2989
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SAN	Santa Rosa			41	41	Shaw	James	W.	9764
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SAR	Sarasota			99	99	Shaw	James	W.	20934
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SEM	Seminole			83	83	Shaw	James	W.	12392
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	STJ	St. Johns			0	0	Shaw	James	W.	14161
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	STL	St. Lucie			60	60	Shaw	James	W.	7707
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SUM	Sumter			30	30	Shaw	James	W.	10697
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SUW	Suwannee			16	16	Shaw	James	W.	2244
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	TAY	Taylor			14	14	Shaw	James	W.	668
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	UNI	Union			8	8	Shaw	James	W.	556
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	VOL	Volusia			136	136	Shaw	James	W.	16826
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAK	Wakulla			3	3	Shaw	James	W.	1115
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAL	Walton			21	21	Shaw	James	W.	4890
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAS	Washington			12	12	Shaw	James	W.	1302
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ALA	Alachua			66	66	Simpson	Wilton		10634
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BAK	Baker			0	0	Simpson	Wilton		2452
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BAY	Bay			27	27	Simpson	Wilton		13796
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRA	Bradford			14	14	Simpson	Wilton		2218
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRE	Brevard			0	0	Simpson	Wilton		41905
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	BRO	Broward			345	345	Simpson	Wilton		30132
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CAL	Calhoun			11	11	Simpson	Wilton		952
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CHA	Charlotte			0	0	Simpson	Wilton		11731
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CIT	Citrus			31	31	Simpson	Wilton		16232
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLA	Clay			48	48	Simpson	Wilton		17627
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLL	Collier			0	0	Simpson	Wilton		28077
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	CLM	Columbia			29	29	Simpson	Wilton		4437
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DES	Desoto			15	15	Simpson	Wilton		1318
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DIX	Dixie			10	10	Simpson	Wilton		1561
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DUV	Duval			186	186	Simpson	Wilton		46651
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ESC	Escambia			79	79	Simpson	Wilton		24449
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	FLA	Flagler			21	21	Simpson	Wilton		9922
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	FRA	Franklin			0	0	Simpson	Wilton		714
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GAD	Gadsden			25	25	Simpson	Wilton		951
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GIL	Gilchrist			10	10	Simpson	Wilton		2264
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GLA	Glades			13	13	Simpson	Wilton		855
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	GUL	Gulf			0	0	Simpson	Wilton		1107
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HAM	Hamilton			0	0	Simpson	Wilton		823
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HAR	Hardee			12	12	Simpson	Wilton		1305
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HEN	Hendry			11	11	Simpson	Wilton		1766
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HER	Hernando			0	0	Simpson	Wilton		15102
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HIG	Highlands			25	25	Simpson	Wilton		7508
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HIL	Hillsborough			448	448	Simpson	Wilton		60568
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	HOL	Holmes			8	8	Simpson	Wilton		2016
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	IND	Indian River			34	34	Simpson	Wilton		12100
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	JAC	Jackson			0	0	Simpson	Wilton		3499
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	JEF	Jefferson			16	16	Simpson	Wilton		1428
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LAF	Lafayette			5	5	Simpson	Wilton		1024
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LAK	Lake			91	91	Simpson	Wilton		23229
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEE	Lee			99	99	Simpson	Wilton		48462
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEO	Leon			133	133	Simpson	Wilton		13320
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LEV	Levy			13	13	Simpson	Wilton		4469
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	LIB	Liberty			0	0	Simpson	Wilton		459
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MAD	Madison			0	0	Simpson	Wilton		1013
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MAN	Manatee			71	71	Simpson	Wilton		26952
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MRN	Marion			105	105	Simpson	Wilton		27008
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MRT	Martin			27	27	Simpson	Wilton		13701
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	DAD	Miami-Dade			1045	1045	Simpson	Wilton		59829
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	MON	Monroe			33	33	Simpson	Wilton		4163
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	NAS	Nassau			18	18	Simpson	Wilton		8752
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OKA	Okaloosa			52	52	Simpson	Wilton		17792
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OKE	Okeechobee			11	11	Simpson	Wilton		2073
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	ORA	Orange			257	257	Simpson	Wilton		41691
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	OSC	Osceola			125	125	Simpson	Wilton		9788
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PAL	Palm Beach			794	794	Simpson	Wilton		44806
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PAS	Pasco			0	0	Simpson	Wilton		33112
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PIN	Pinellas			286	286	Simpson	Wilton		57727
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	POL	Polk			0	0	Simpson	Wilton		35419
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	PUT	Putnam			37	37	Simpson	Wilton		5600
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SAN	Santa Rosa			41	41	Simpson	Wilton		17878
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SAR	Sarasota			99	99	Simpson	Wilton		33229
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SEM	Seminole			83	83	Simpson	Wilton		25669
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	STJ	St. Johns			0	0	Simpson	Wilton		22410
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	STL	St. Lucie			60	60	Simpson	Wilton		15613
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SUM	Sumter			30	30	Simpson	Wilton		20106
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	SUW	Suwannee			16	16	Simpson	Wilton		4069
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	TAY	Taylor			14	14	Simpson	Wilton		1354
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	UNI	Union			8	8	Simpson	Wilton		1066
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	VOL	Volusia			136	136	Simpson	Wilton		38534
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAK	Wakulla			3	3	Simpson	Wilton		2484
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAL	Walton			21	21	Simpson	Wilton		7473
+8/23/2022	REP	Republican	AGR	Commissioner of Agriculture	WAS	Washington			12	12	Simpson	Wilton		2400
+8/23/2022	REP	Republican	STS	State Senator	ESC	Escambia	001		79	79	Broxson	Doug		29600
+8/23/2022	REP	Republican	STS	State Senator	OKA	Okaloosa	001		10	10	Broxson	Doug		3830
+8/23/2022	REP	Republican	STS	State Senator	SAN	Santa Rosa	001		41	41	Broxson	Doug		20585
+8/23/2022	REP	Republican	STS	State Senator	ESC	Escambia	001		79	79	Mills	John		7961
+8/23/2022	REP	Republican	STS	State Senator	OKA	Okaloosa	001		10	10	Mills	John		1225
+8/23/2022	REP	Republican	STS	State Senator	SAN	Santa Rosa	001		41	41	Mills	John		8273
+8/23/2022	REP	Republican	STS	State Senator	BAY	Bay	002		27	27	Piazza	Regina		4509
+8/23/2022	REP	Republican	STS	State Senator	CAL	Calhoun	002		11	11	Piazza	Regina		226
+8/23/2022	REP	Republican	STS	State Senator	HOL	Holmes	002		8	8	Piazza	Regina		532
+8/23/2022	REP	Republican	STS	State Senator	JAC	Jackson	002		0	0	Piazza	Regina		768
+8/23/2022	REP	Republican	STS	State Senator	OKA	Okaloosa	002		45	45	Piazza	Regina		6436
+8/23/2022	REP	Republican	STS	State Senator	WAL	Walton	002		21	21	Piazza	Regina		3727
+8/23/2022	REP	Republican	STS	State Senator	WAS	Washington	002		12	12	Piazza	Regina		763
+8/23/2022	REP	Republican	STS	State Senator	BAY	Bay	002		27	27	Trumbull	Jay		16513
+8/23/2022	REP	Republican	STS	State Senator	CAL	Calhoun	002		11	11	Trumbull	Jay		1273
+8/23/2022	REP	Republican	STS	State Senator	HOL	Holmes	002		8	8	Trumbull	Jay		2658
+8/23/2022	REP	Republican	STS	State Senator	JAC	Jackson	002		0	0	Trumbull	Jay		4583
+8/23/2022	REP	Republican	STS	State Senator	OKA	Okaloosa	002		45	45	Trumbull	Jay		17679
+8/23/2022	REP	Republican	STS	State Senator	WAL	Walton	002		21	21	Trumbull	Jay		9431
+8/23/2022	REP	Republican	STS	State Senator	WAS	Washington	002		12	12	Trumbull	Jay		3061
+8/23/2022	REP	Republican	STS	State Senator	FLA	Flagler	007		21	21	Hutson	Travis		9844
+8/23/2022	REP	Republican	STS	State Senator	PUT	Putnam	007		37	37	Hutson	Travis		5303
+8/23/2022	REP	Republican	STS	State Senator	STJ	St. Johns	007		0	0	Hutson	Travis		18950
+8/23/2022	REP	Republican	STS	State Senator	VOL	Volusia	007		25	25	Hutson	Travis		6166
+8/23/2022	REP	Republican	STS	State Senator	FLA	Flagler	007		21	21	James	Gerry		6075
+8/23/2022	REP	Republican	STS	State Senator	PUT	Putnam	007		37	37	James	Gerry		3328
+8/23/2022	REP	Republican	STS	State Senator	STJ	St. Johns	007		0	0	James	Gerry		18707
+8/23/2022	REP	Republican	STS	State Senator	VOL	Volusia	007		25	25	James	Gerry		3376
+8/23/2022	REP	Republican	STS	State Senator	ORA	Orange	010		21	21	Brodeur	Jason		4177
+8/23/2022	REP	Republican	STS	State Senator	SEM	Seminole	010		83	83	Brodeur	Jason		33335
+8/23/2022	REP	Republican	STS	State Senator	ORA	Orange	010		21	21	Charres	Denali		902
+8/23/2022	REP	Republican	STS	State Senator	SEM	Seminole	010		83	83	Charres	Denali		5806
+8/23/2022	REP	Republican	STS	State Senator	HIL	Hillsborough	020		74	74	Boyd	Jim		31780
+8/23/2022	REP	Republican	STS	State Senator	MAN	Manatee	020		55	55	Boyd	Jim		44723
+8/23/2022	REP	Republican	STS	State Senator	HIL	Hillsborough	020		74	74	Houman	John		8729
+8/23/2022	REP	Republican	STS	State Senator	MAN	Manatee	020		55	55	Houman	John		10439
+8/23/2022	REP	Republican	STS	State Senator	MAN	Manatee	022		20	20	Gruters	Joe		13521
+8/23/2022	REP	Republican	STS	State Senator	SAR	Sarasota	022		99	99	Gruters	Joe		72175
+8/23/2022	REP	Republican	STS	State Senator	MAN	Manatee	022		20	20	Johnson	Michael		7091
+8/23/2022	REP	Republican	STS	State Senator	SAR	Sarasota	022		99	99	Johnson	Michael		35344
+8/23/2022	REP	Republican	STS	State Senator	PAL	Palm Beach	026		286	286	Byers	Steve		15784
+8/23/2022	REP	Republican	STS	State Senator	PAL	Palm Beach	026		286	286	Wheelen	William		11070
+8/23/2022	REP	Republican	STR	State Representative	ESC	Escambia	001		40	40	Hill	Mike		7382
+8/23/2022	REP	Republican	STR	State Representative	ESC	Escambia	001		40	40	Salzman	Michelle		13713
+8/23/2022	REP	Republican	STR	State Representative	ESC	Escambia	002		43	43	Andrade	Alex		10752
+8/23/2022	REP	Republican	STR	State Representative	SAN	Santa Rosa	002		12	12	Andrade	Alex		3746
+8/23/2022	REP	Republican	STR	State Representative	ESC	Escambia	002		43	43	Karr	Jordan		2287
+8/23/2022	REP	Republican	STR	State Representative	SAN	Santa Rosa	002		12	12	Karr	Jordan		1016
+8/23/2022	REP	Republican	STR	State Representative	ESC	Escambia	002		43	43	Litton	Greg		3510
+8/23/2022	REP	Republican	STR	State Representative	SAN	Santa Rosa	002		12	12	Litton	Greg		1118
+8/23/2022	REP	Republican	STR	State Representative	OKA	Okaloosa	003		10	10	Calkins	Mariya		2342
+8/23/2022	REP	Republican	STR	State Representative	SAN	Santa Rosa	003		34	34	Calkins	Mariya		8381
+8/23/2022	REP	Republican	STR	State Representative	OKA	Okaloosa	003		10	10	Rudman	Joel		2609
+8/23/2022	REP	Republican	STR	State Representative	SAN	Santa Rosa	003		34	34	Rudman	Joel		14566
+8/23/2022	REP	Republican	STR	State Representative	CAL	Calhoun	005		11	11	Abbott	Shane		1132
+8/23/2022	REP	Republican	STR	State Representative	HOL	Holmes	005		8	8	Abbott	Shane		2586
+8/23/2022	REP	Republican	STR	State Representative	JAC	Jackson	005		0	0	Abbott	Shane		4563
+8/23/2022	REP	Republican	STR	State Representative	WAL	Walton	005		21	21	Abbott	Shane		13114
+8/23/2022	REP	Republican	STR	State Representative	WAS	Washington	005		12	12	Abbott	Shane		3159
+8/23/2022	REP	Republican	STR	State Representative	CAL	Calhoun	005		11	11	Coley	Vance	D.	946
+8/23/2022	REP	Republican	STR	State Representative	HOL	Holmes	005		8	8	Coley	Vance	D.	386
+8/23/2022	REP	Republican	STR	State Representative	JAC	Jackson	005		0	0	Coley	Vance	D.	1947
+8/23/2022	REP	Republican	STR	State Representative	WAL	Walton	005		21	21	Coley	Vance	D.	1739
+8/23/2022	REP	Republican	STR	State Representative	WAS	Washington	005		12	12	Coley	Vance	D.	608
+8/23/2022	REP	Republican	STR	State Representative	CAL	Calhoun	005		11	11	Pate	Clint		318
+8/23/2022	REP	Republican	STR	State Representative	HOL	Holmes	005		8	8	Pate	Clint		961
+8/23/2022	REP	Republican	STR	State Representative	JAC	Jackson	005		0	0	Pate	Clint		1876
+8/23/2022	REP	Republican	STR	State Representative	WAL	Walton	005		21	21	Pate	Clint		1309
+8/23/2022	REP	Republican	STR	State Representative	WAS	Washington	005		12	12	Pate	Clint		1323
+8/23/2022	REP	Republican	STR	State Representative	BAY	Bay	006		27	27	Clowdus	Brian		9790
+8/23/2022	REP	Republican	STR	State Representative	BAY	Bay	006		27	27	Griffitts	Griff		19444
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	015		19	19	Black	Dean		5818
+8/23/2022	REP	Republican	STR	State Representative	NAS	Nassau	015		18	18	Black	Dean		9319
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	015		19	19	Nunez	Emily		3036
+8/23/2022	REP	Republican	STR	State Representative	NAS	Nassau	015		18	18	Nunez	Emily		5620
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	016		33	33	Michael	Kiyan		9965
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	016		33	33	Ray	Lake		5300
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	016		33	33	Stokes	Chet		5967
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	017		31	31	Baker	Jessica		9919
+8/23/2022	REP	Republican	STR	State Representative	DUV	Duval	017		31	31	Meredith	Christina		5596
+8/23/2022	REP	Republican	STR	State Representative	CLA	Clay	020		15	15	Miguel	Luis		1664
+8/23/2022	REP	Republican	STR	State Representative	MRN	Marion	020		11	11	Miguel	Luis		1026
+8/23/2022	REP	Republican	STR	State Representative	PUT	Putnam	020		37	37	Miguel	Luis		2505
+8/23/2022	REP	Republican	STR	State Representative	STJ	St. Johns	020		0	0	Miguel	Luis		2211
+8/23/2022	REP	Republican	STR	State Representative	CLA	Clay	020		15	15	Payne	Bobby		6596
+8/23/2022	REP	Republican	STR	State Representative	MRN	Marion	020		11	11	Payne	Bobby		3737
+8/23/2022	REP	Republican	STR	State Representative	PUT	Putnam	020		37	37	Payne	Bobby		10336
+8/23/2022	REP	Republican	STR	State Representative	STJ	St. Johns	020		0	0	Payne	Bobby		4325
+8/23/2022	REP	Republican	STR	State Representative	ALA	Alachua	022		27	27	Appiah	Ty		2567
+8/23/2022	REP	Republican	STR	State Representative	GIL	Gilchrist	022		10	10	Appiah	Ty		701
+8/23/2022	REP	Republican	STR	State Representative	LEV	Levy	022		13	13	Appiah	Ty		2170
+8/23/2022	REP	Republican	STR	State Representative	ALA	Alachua	022		27	27	Clemons	Chuck		6464
+8/23/2022	REP	Republican	STR	State Representative	GIL	Gilchrist	022		10	10	Clemons	Chuck		2603
+8/23/2022	REP	Republican	STR	State Representative	LEV	Levy	022		13	13	Clemons	Chuck		4297
+8/23/2022	REP	Republican	STR	State Representative	CIT	Citrus	023		31	31	Cloud	Tod		8825
+8/23/2022	REP	Republican	STR	State Representative	MRN	Marion	023		6	6	Cloud	Tod		1128
+8/23/2022	REP	Republican	STR	State Representative	CIT	Citrus	023		31	31	Massullo	Ralph	E.	20724
+8/23/2022	REP	Republican	STR	State Representative	MRN	Marion	023		6	6	Massullo	Ralph	E.	2087
+8/23/2022	REP	Republican	STR	State Representative	CIT	Citrus	023		31	31	Reinhardt	Paul	John	5569
+8/23/2022	REP	Republican	STR	State Representative	MRN	Marion	023		6	6	Reinhardt	Paul	John	1119
+8/23/2022	REP	Republican	STR	State Representative	LAK	Lake	025		40	40	Cornell	Liz		3243
+8/23/2022	REP	Republican	STR	State Representative	LAK	Lake	025		40	40	Silbernagel	Matthew	R.	3858
+8/23/2022	REP	Republican	STR	State Representative	LAK	Lake	025		40	40	Vail	Tom		4555
+8/23/2022	REP	Republican	STR	State Representative	LAK	Lake	025		40	40	Yarkosky	Taylor		4955
+8/23/2022	REP	Republican	STR	State Representative	VOL	Volusia	029		39	39	Barnaby	Webster		7450
+8/23/2022	REP	Republican	STR	State Representative	VOL	Volusia	029		39	39	Fetterhoff	Elizabeth		7420
+8/23/2022	REP	Republican	STR	State Representative	BRE	Brevard	030		0	0	Hattaway	Robyn		2905
+8/23/2022	REP	Republican	STR	State Representative	VOL	Volusia	030		35	35	Hattaway	Robyn		4432
+8/23/2022	REP	Republican	STR	State Representative	BRE	Brevard	030		0	0	Tramont	Chase		2354
+8/23/2022	REP	Republican	STR	State Representative	VOL	Volusia	030		35	35	Tramont	Chase		13735
+8/23/2022	REP	Republican	STR	State Representative	BRE	Brevard	034		0	0	Brackett	Robert		1261
+8/23/2022	REP	Republican	STR	State Representative	IND	Indian River	034		34	34	Brackett	Robert		13114
+8/23/2022	REP	Republican	STR	State Representative	BRE	Brevard	034		0	0	Hiltz	Karen		1118
+8/23/2022	REP	Republican	STR	State Representative	IND	Indian River	034		34	34	Hiltz	Karen		8624
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	035		32	32	Davenport	Kenneth		2718
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	035		18	18	Davenport	Kenneth		871
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	035		32	32	Hawkins	Fred		3847
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	035		18	18	Hawkins	Fred		1886
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	035		32	32	Liebnitzky	Dianna		923
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	035		18	18	Liebnitzky	Dianna		731
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	036		30	30	Perry	Angelique	'Angel'	867
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	036		30	30	Plakon	Rachel		8801
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	036		30	30	Santos	Richard		3827
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	037		24	24	Plasencia	Susan		2623
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	037		14	14	Plasencia	Susan		4729
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	037		24	24	Stark	Kris		781
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	037		14	14	Stark	Kris		1761
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	038		31	31	Smith	David		9707
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	038		31	31	Weingart	Patrick	D.	1257
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	038		31	31	Wuertz	Drake		2669
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	039		30	30	Bankson	Doug		5011
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	039		11	11	Bankson	Doug		2547
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	039		30	30	Hart	Charles		2625
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	039		11	11	Hart	Charles		1686
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	039		30	30	Ross	Randy		1369
+8/23/2022	REP	Republican	STR	State Representative	SEM	Seminole	039		11	11	Ross	Randy		1036
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	042		56	56	Dwyer	David		5916
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	042		56	56	Jackson	Bonnie		6967
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	043		35	35	Rodriguez	Jay	J.	1755
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	043		35	35	Wright	Christopher		3331
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	045		26	26	Amesty	Carolina		4863
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	045		20	20	Amesty	Carolina		956
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	045		26	26	Francois	Vennia		1860
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	045		20	20	Francois	Vennia		208
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	045		26	26	Frevola	Janet		458
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	045		20	20	Frevola	Janet		110
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	045		26	26	Portigliatti	Bruno		2521
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	045		20	20	Portigliatti	Bruno		274
+8/23/2022	REP	Republican	STR	State Representative	ORA	Orange	045		26	26	Zhao	Mike		1322
+8/23/2022	REP	Republican	STR	State Representative	OSC	Osceola	045		20	20	Zhao	Mike		232
+8/23/2022	REP	Republican	STR	State Representative	POL	Polk	050		0	0	Canady	Jennifer		17245
+8/23/2022	REP	Republican	STR	State Representative	POL	Polk	050		0	0	Walker	Phillip		9921
+8/23/2022	REP	Republican	STR	State Representative	POL	Polk	051		0	0	Olson	William	'Bill'	6713
+8/23/2022	REP	Republican	STR	State Representative	POL	Polk	051		0	0	Tomkow	Josie		13882
+8/23/2022	REP	Republican	STR	State Representative	HER	Hernando	052		0	0	Daze	Rock		2194
+8/23/2022	REP	Republican	STR	State Representative	SUM	Sumter	052		30	30	Daze	Rock		14744
+8/23/2022	REP	Republican	STR	State Representative	HER	Hernando	052		0	0	Temple	John		2980
+8/23/2022	REP	Republican	STR	State Representative	SUM	Sumter	052		30	30	Temple	John		15300
+8/23/2022	REP	Republican	STR	State Representative	HER	Hernando	053		0	0	Holcomb	Jeff		12630
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	053		0	0	Holcomb	Jeff		3122
+8/23/2022	REP	Republican	STR	State Representative	HER	Hernando	053		0	0	Kocovic	Anthony		2586
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	053		0	0	Kocovic	Anthony		657
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	055		0	0	Papadopoulos	Gabriel		5105
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	055		0	0	Sollberger	Brad		2486
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	055		0	0	Steele	Kevin	M.	10961
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	056		0	0	Cocuzza	Jayden		5846
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	056		0	0	Moore	Scott		6845
+8/23/2022	REP	Republican	STR	State Representative	PAS	Pasco	056		0	0	Yeager	Brad		10598
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	058		50	50	Berfield	Kimberly	'Kim'	9967
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	058		50	50	Holloway	Jason		5387
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	058		50	50	Vricos	Jim		3271
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	059		52	52	Jacques	Berny		9542
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	059		52	52	Nadkarni	Dipak	D.	2637
+8/23/2022	REP	Republican	STR	State Representative	PIN	Pinellas	059		52	52	Wilson	Jennifer		6533
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	065		50	50	Gonzalez Pittman	Karen		5933
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	065		50	50	Hoffman	Jake		5693
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	065		50	50	Minardi	Michael	C.	1835
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	068		49	49	Hatfield	Paul	D.	3061
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	068		49	49	McClure	Lawrence		12434
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	069		53	53	Alvarez	Daniel	'Danny'	10937
+8/23/2022	REP	Republican	STR	State Representative	HIL	Hillsborough	069		53	53	Petty	Megan	Angel	1921
+8/23/2022	REP	Republican	STR	State Representative	LEE	Lee	077		26	26	Esposito	Tiffany		8760
+8/23/2022	REP	Republican	STR	State Representative	LEE	Lee	077		26	26	O'Connell	Ford		3633
+8/23/2022	REP	Republican	STR	State Representative	PAL	Palm Beach	087		155	155	Caruso	Mike		8797
+8/23/2022	REP	Republican	STR	State Representative	PAL	Palm Beach	087		155	155	Justice	Jane		4232
+8/23/2022	REP	Republican	STR	State Representative	PAL	Palm Beach	091		72	72	DuCasse	Christina		4684
+8/23/2022	REP	Republican	STR	State Representative	PAL	Palm Beach	091		72	72	Gossett-Seidman	Peggy		5196
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	106		60	60	Basabe	Fabian		1845
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	106		60	60	Ross	Douglas	John	1325
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	106		60	60	Sutjapojnukul	Lynn Su		1713
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	113		54	54	Lopez	Vicki		4171
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	113		54	54	Perosch	Alberto		2095
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	118		63	63	Fernandez-Barquin	Juan		7722
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	118		63	63	Rodriguez	Francisco		910
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	118		63	63	Sotelo	Daniel		3215
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	119		49	49	Alvarez	Ashley		1461
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	119		49	49	Gonzalez	Rob		1959
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	119		49	49	Porras	Juan	Carlos	4660
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	119		49	49	Soto	Jose		353
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	119		49	49	Tsay	Ricky		1233
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	120		69	69	Allen	Robert	Scott	366
+8/23/2022	REP	Republican	STR	State Representative	MON	Monroe	120		33	33	Allen	Robert	Scott	778
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	120		69	69	Lopez	Rhonda	Rebman	1444
+8/23/2022	REP	Republican	STR	State Representative	MON	Monroe	120		33	33	Lopez	Rhonda	Rebman	3503
+8/23/2022	REP	Republican	STR	State Representative	DAD	Miami-Dade	120		69	69	Mooney	James 'Jim'	V.	751
+8/23/2022	REP	Republican	STR	State Representative	MON	Monroe	120		33	33	Mooney	James 'Jim'	V.	4286
+8/23/2022	DEM	Democrat	USS	United States Senator	ALA	Alachua			66	66	De La Fuente	Ricardo		857
+8/23/2022	DEM	Democrat	USS	United States Senator	BAK	Baker			0	0	De La Fuente	Ricardo		57
+8/23/2022	DEM	Democrat	USS	United States Senator	BAY	Bay			27	27	De La Fuente	Ricardo		339
+8/23/2022	DEM	Democrat	USS	United States Senator	BRA	Bradford			14	14	De La Fuente	Ricardo		58
+8/23/2022	DEM	Democrat	USS	United States Senator	BRE	Brevard			0	0	De La Fuente	Ricardo		951
+8/23/2022	DEM	Democrat	USS	United States Senator	BRO	Broward			345	345	De La Fuente	Ricardo		5724
+8/23/2022	DEM	Democrat	USS	United States Senator	CAL	Calhoun			11	11	De La Fuente	Ricardo		67
+8/23/2022	DEM	Democrat	USS	United States Senator	CHA	Charlotte			0	0	De La Fuente	Ricardo		688
+8/23/2022	DEM	Democrat	USS	United States Senator	CIT	Citrus			31	31	De La Fuente	Ricardo		332
+8/23/2022	DEM	Democrat	USS	United States Senator	CLA	Clay			48	48	De La Fuente	Ricardo		317
+8/23/2022	DEM	Democrat	USS	United States Senator	CLL	Collier			0	0	De La Fuente	Ricardo		764
+8/23/2022	DEM	Democrat	USS	United States Senator	CLM	Columbia			29	29	De La Fuente	Ricardo		88
+8/23/2022	DEM	Democrat	USS	United States Senator	DES	Desoto			15	15	De La Fuente	Ricardo		124
+8/23/2022	DEM	Democrat	USS	United States Senator	DIX	Dixie			10	10	De La Fuente	Ricardo		39
+8/23/2022	DEM	Democrat	USS	United States Senator	DUV	Duval			186	186	De La Fuente	Ricardo		2535
+8/23/2022	DEM	Democrat	USS	United States Senator	ESC	Escambia			79	79	De La Fuente	Ricardo		1087
+8/23/2022	DEM	Democrat	USS	United States Senator	FLA	Flagler			22	22	De La Fuente	Ricardo		269
+8/23/2022	DEM	Democrat	USS	United States Senator	FRA	Franklin			0	0	De La Fuente	Ricardo		43
+8/23/2022	DEM	Democrat	USS	United States Senator	GAD	Gadsden			25	25	De La Fuente	Ricardo		290
+8/23/2022	DEM	Democrat	USS	United States Senator	GIL	Gilchrist			10	10	De La Fuente	Ricardo		24
+8/23/2022	DEM	Democrat	USS	United States Senator	GLA	Glades			13	13	De La Fuente	Ricardo		25
+8/23/2022	DEM	Democrat	USS	United States Senator	GUL	Gulf			0	0	De La Fuente	Ricardo		20
+8/23/2022	DEM	Democrat	USS	United States Senator	HAM	Hamilton			0	0	De La Fuente	Ricardo		59
+8/23/2022	DEM	Democrat	USS	United States Senator	HAR	Hardee			12	12	De La Fuente	Ricardo		40
+8/23/2022	DEM	Democrat	USS	United States Senator	HEN	Hendry			11	11	De La Fuente	Ricardo		155
+8/23/2022	DEM	Democrat	USS	United States Senator	HER	Hernando			0	0	De La Fuente	Ricardo		561
+8/23/2022	DEM	Democrat	USS	United States Senator	HIG	Highlands			25	25	De La Fuente	Ricardo		269
+8/23/2022	DEM	Democrat	USS	United States Senator	HIL	Hillsborough			448	448	De La Fuente	Ricardo		4514
+8/23/2022	DEM	Democrat	USS	United States Senator	HOL	Holmes			8	8	De La Fuente	Ricardo		26
+8/23/2022	DEM	Democrat	USS	United States Senator	IND	Indian River			34	34	De La Fuente	Ricardo		320
+8/23/2022	DEM	Democrat	USS	United States Senator	JAC	Jackson			0	0	De La Fuente	Ricardo		195
+8/23/2022	DEM	Democrat	USS	United States Senator	JEF	Jefferson			16	16	De La Fuente	Ricardo		78
+8/23/2022	DEM	Democrat	USS	United States Senator	LAF	Lafayette			5	5	De La Fuente	Ricardo		11
+8/23/2022	DEM	Democrat	USS	United States Senator	LAK	Lake			91	91	De La Fuente	Ricardo		439
+8/23/2022	DEM	Democrat	USS	United States Senator	LEE	Lee			99	99	De La Fuente	Ricardo		1992
+8/23/2022	DEM	Democrat	USS	United States Senator	LEO	Leon			133	133	De La Fuente	Ricardo		996
+8/23/2022	DEM	Democrat	USS	United States Senator	LEV	Levy			13	13	De La Fuente	Ricardo		100
+8/23/2022	DEM	Democrat	USS	United States Senator	LIB	Liberty			0	0	De La Fuente	Ricardo		39
+8/23/2022	DEM	Democrat	USS	United States Senator	MAD	Madison			0	0	De La Fuente	Ricardo		73
+8/23/2022	DEM	Democrat	USS	United States Senator	MAN	Manatee			71	71	De La Fuente	Ricardo		924
+8/23/2022	DEM	Democrat	USS	United States Senator	MRN	Marion			105	105	De La Fuente	Ricardo		669
+8/23/2022	DEM	Democrat	USS	United States Senator	MRT	Martin			27	27	De La Fuente	Ricardo		281
+8/23/2022	DEM	Democrat	USS	United States Senator	DAD	Miami-Dade			1049	1049	De La Fuente	Ricardo		9566
+8/23/2022	DEM	Democrat	USS	United States Senator	MON	Monroe			33	33	De La Fuente	Ricardo		271
+8/23/2022	DEM	Democrat	USS	United States Senator	NAS	Nassau			18	18	De La Fuente	Ricardo		126
+8/23/2022	DEM	Democrat	USS	United States Senator	OKA	Okaloosa			52	52	De La Fuente	Ricardo		492
+8/23/2022	DEM	Democrat	USS	United States Senator	OKE	Okeechobee			11	11	De La Fuente	Ricardo		51
+8/23/2022	DEM	Democrat	USS	United States Senator	ORA	Orange			257	257	De La Fuente	Ricardo		2238
+8/23/2022	DEM	Democrat	USS	United States Senator	OSC	Osceola			125	125	De La Fuente	Ricardo		1536
+8/23/2022	DEM	Democrat	USS	United States Senator	PAL	Palm Beach			795	795	De La Fuente	Ricardo		4322
+8/23/2022	DEM	Democrat	USS	United States Senator	PAS	Pasco			0	0	De La Fuente	Ricardo		1542
+8/23/2022	DEM	Democrat	USS	United States Senator	PIN	Pinellas			286	286	De La Fuente	Ricardo		2746
+8/23/2022	DEM	Democrat	USS	United States Senator	POL	Polk			0	0	De La Fuente	Ricardo		1995
+8/23/2022	DEM	Democrat	USS	United States Senator	PUT	Putnam			37	37	De La Fuente	Ricardo		134
+8/23/2022	DEM	Democrat	USS	United States Senator	SAN	Santa Rosa			41	41	De La Fuente	Ricardo		377
+8/23/2022	DEM	Democrat	USS	United States Senator	SAR	Sarasota			99	99	De La Fuente	Ricardo		1314
+8/23/2022	DEM	Democrat	USS	United States Senator	SEM	Seminole			83	83	De La Fuente	Ricardo		695
+8/23/2022	DEM	Democrat	USS	United States Senator	STJ	St. Johns			0	0	De La Fuente	Ricardo		519
+8/23/2022	DEM	Democrat	USS	United States Senator	STL	St. Lucie			60	60	De La Fuente	Ricardo		751
+8/23/2022	DEM	Democrat	USS	United States Senator	SUM	Sumter			30	30	De La Fuente	Ricardo		194
+8/23/2022	DEM	Democrat	USS	United States Senator	SUW	Suwannee			16	16	De La Fuente	Ricardo		110
+8/23/2022	DEM	Democrat	USS	United States Senator	TAY	Taylor			14	14	De La Fuente	Ricardo		35
+8/23/2022	DEM	Democrat	USS	United States Senator	UNI	Union			8	8	De La Fuente	Ricardo		17
+8/23/2022	DEM	Democrat	USS	United States Senator	VOL	Volusia			136	136	De La Fuente	Ricardo		996
+8/23/2022	DEM	Democrat	USS	United States Senator	WAK	Wakulla			3	3	De La Fuente	Ricardo		85
+8/23/2022	DEM	Democrat	USS	United States Senator	WAL	Walton			14	14	De La Fuente	Ricardo		121
+8/23/2022	DEM	Democrat	USS	United States Senator	WAS	Washington			12	12	De La Fuente	Ricardo		77
+8/23/2022	DEM	Democrat	USS	United States Senator	ALA	Alachua			66	66	Demings	Val		24002
+8/23/2022	DEM	Democrat	USS	United States Senator	BAK	Baker			0	0	Demings	Val		516
+8/23/2022	DEM	Democrat	USS	United States Senator	BAY	Bay			27	27	Demings	Val		4565
+8/23/2022	DEM	Democrat	USS	United States Senator	BRA	Bradford			14	14	Demings	Val		910
+8/23/2022	DEM	Democrat	USS	United States Senator	BRE	Brevard			0	0	Demings	Val		41956
+8/23/2022	DEM	Democrat	USS	United States Senator	BRO	Broward			345	345	Demings	Val		144615
+8/23/2022	DEM	Democrat	USS	United States Senator	CAL	Calhoun			11	11	Demings	Val		319
+8/23/2022	DEM	Democrat	USS	United States Senator	CHA	Charlotte			0	0	Demings	Val		9658
+8/23/2022	DEM	Democrat	USS	United States Senator	CIT	Citrus			31	31	Demings	Val		7932
+8/23/2022	DEM	Democrat	USS	United States Senator	CLA	Clay			48	48	Demings	Val		7260
+8/23/2022	DEM	Democrat	USS	United States Senator	CLL	Collier			0	0	Demings	Val		14389
+8/23/2022	DEM	Democrat	USS	United States Senator	CLM	Columbia			29	29	Demings	Val		2146
+8/23/2022	DEM	Democrat	USS	United States Senator	DES	Desoto			15	15	Demings	Val		721
+8/23/2022	DEM	Democrat	USS	United States Senator	DIX	Dixie			10	10	Demings	Val		305
+8/23/2022	DEM	Democrat	USS	United States Senator	DUV	Duval			186	186	Demings	Val		68635
+8/23/2022	DEM	Democrat	USS	United States Senator	ESC	Escambia			79	79	Demings	Val		14059
+8/23/2022	DEM	Democrat	USS	United States Senator	FLA	Flagler			22	22	Demings	Val		9456
+8/23/2022	DEM	Democrat	USS	United States Senator	FRA	Franklin			0	0	Demings	Val		688
+8/23/2022	DEM	Democrat	USS	United States Senator	GAD	Gadsden			25	25	Demings	Val		5914
+8/23/2022	DEM	Democrat	USS	United States Senator	GIL	Gilchrist			10	10	Demings	Val		373
+8/23/2022	DEM	Democrat	USS	United States Senator	GLA	Glades			13	13	Demings	Val		287
+8/23/2022	DEM	Democrat	USS	United States Senator	GUL	Gulf			0	0	Demings	Val		484
+8/23/2022	DEM	Democrat	USS	United States Senator	HAM	Hamilton			0	0	Demings	Val		572
+8/23/2022	DEM	Democrat	USS	United States Senator	HAR	Hardee			12	12	Demings	Val		421
+8/23/2022	DEM	Democrat	USS	United States Senator	HEN	Hendry			11	11	Demings	Val		698
+8/23/2022	DEM	Democrat	USS	United States Senator	HER	Hernando			0	0	Demings	Val		9338
+8/23/2022	DEM	Democrat	USS	United States Senator	HIG	Highlands			25	25	Demings	Val		3799
+8/23/2022	DEM	Democrat	USS	United States Senator	HIL	Hillsborough			448	448	Demings	Val		84468
+8/23/2022	DEM	Democrat	USS	United States Senator	HOL	Holmes			8	8	Demings	Val		181
+8/23/2022	DEM	Democrat	USS	United States Senator	IND	Indian River			34	34	Demings	Val		9763
+8/23/2022	DEM	Democrat	USS	United States Senator	JAC	Jackson			0	0	Demings	Val		1665
+8/23/2022	DEM	Democrat	USS	United States Senator	JEF	Jefferson			16	16	Demings	Val		1617
+8/23/2022	DEM	Democrat	USS	United States Senator	LAF	Lafayette			5	5	Demings	Val		145
+8/23/2022	DEM	Democrat	USS	United States Senator	LAK	Lake			91	91	Demings	Val		20929
+8/23/2022	DEM	Democrat	USS	United States Senator	LEE	Lee			99	99	Demings	Val		30850
+8/23/2022	DEM	Democrat	USS	United States Senator	LEO	Leon			133	133	Demings	Val		33571
+8/23/2022	DEM	Democrat	USS	United States Senator	LEV	Levy			13	13	Demings	Val		1431
+8/23/2022	DEM	Democrat	USS	United States Senator	LIB	Liberty			0	0	Demings	Val		178
+8/23/2022	DEM	Democrat	USS	United States Senator	MAD	Madison			0	0	Demings	Val		1236
+8/23/2022	DEM	Democrat	USS	United States Senator	MAN	Manatee			71	71	Demings	Val		25248
+8/23/2022	DEM	Democrat	USS	United States Senator	MRN	Marion			105	105	Demings	Val		21896
+8/23/2022	DEM	Democrat	USS	United States Senator	MRT	Martin			27	27	Demings	Val		9034
+8/23/2022	DEM	Democrat	USS	United States Senator	DAD	Miami-Dade			1049	1049	Demings	Val		103805
+8/23/2022	DEM	Democrat	USS	United States Senator	MON	Monroe			33	33	Demings	Val		6025
+8/23/2022	DEM	Democrat	USS	United States Senator	NAS	Nassau			18	18	Demings	Val		4148
+8/23/2022	DEM	Democrat	USS	United States Senator	OKA	Okaloosa			52	52	Demings	Val		5330
+8/23/2022	DEM	Democrat	USS	United States Senator	OKE	Okeechobee			11	11	Demings	Val		836
+8/23/2022	DEM	Democrat	USS	United States Senator	ORA	Orange			257	257	Demings	Val		89619
+8/23/2022	DEM	Democrat	USS	United States Senator	OSC	Osceola			125	125	Demings	Val		16740
+8/23/2022	DEM	Democrat	USS	United States Senator	PAL	Palm Beach			795	795	Demings	Val		111005
+8/23/2022	DEM	Democrat	USS	United States Senator	PAS	Pasco			0	0	Demings	Val		27700
+8/23/2022	DEM	Democrat	USS	United States Senator	PIN	Pinellas			286	286	Demings	Val		79505
+8/23/2022	DEM	Democrat	USS	United States Senator	POL	Polk			0	0	Demings	Val		33224
+8/23/2022	DEM	Democrat	USS	United States Senator	PUT	Putnam			37	37	Demings	Val		2809
+8/23/2022	DEM	Democrat	USS	United States Senator	SAN	Santa Rosa			41	41	Demings	Val		4295
+8/23/2022	DEM	Democrat	USS	United States Senator	SAR	Sarasota			99	99	Demings	Val		40795
+8/23/2022	DEM	Democrat	USS	United States Senator	SEM	Seminole			83	83	Demings	Val		31233
+8/23/2022	DEM	Democrat	USS	United States Senator	STJ	St. Johns			0	0	Demings	Val		15931
+8/23/2022	DEM	Democrat	USS	United States Senator	STL	St. Lucie			60	60	Demings	Val		19428
+8/23/2022	DEM	Democrat	USS	United States Senator	SUM	Sumter			30	30	Demings	Val		11209
+8/23/2022	DEM	Democrat	USS	United States Senator	SUW	Suwannee			16	16	Demings	Val		1402
+8/23/2022	DEM	Democrat	USS	United States Senator	TAY	Taylor			14	14	Demings	Val		769
+8/23/2022	DEM	Democrat	USS	United States Senator	UNI	Union			8	8	Demings	Val		204
+8/23/2022	DEM	Democrat	USS	United States Senator	VOL	Volusia			136	136	Demings	Val		37248
+8/23/2022	DEM	Democrat	USS	United States Senator	WAK	Wakulla			3	3	Demings	Val		1974
+8/23/2022	DEM	Democrat	USS	United States Senator	WAL	Walton			14	14	Demings	Val		1740
+8/23/2022	DEM	Democrat	USS	United States Senator	WAS	Washington			12	12	Demings	Val		502
+8/23/2022	DEM	Democrat	USS	United States Senator	ALA	Alachua			66	66	Rush	Brian		2336
+8/23/2022	DEM	Democrat	USS	United States Senator	BAK	Baker			0	0	Rush	Brian		225
+8/23/2022	DEM	Democrat	USS	United States Senator	BAY	Bay			27	27	Rush	Brian		997
+8/23/2022	DEM	Democrat	USS	United States Senator	BRA	Bradford			14	14	Rush	Brian		276
+8/23/2022	DEM	Democrat	USS	United States Senator	BRE	Brevard			0	0	Rush	Brian		1987
+8/23/2022	DEM	Democrat	USS	United States Senator	BRO	Broward			345	345	Rush	Brian		8667
+8/23/2022	DEM	Democrat	USS	United States Senator	CAL	Calhoun			11	11	Rush	Brian		256
+8/23/2022	DEM	Democrat	USS	United States Senator	CHA	Charlotte			0	0	Rush	Brian		1390
+8/23/2022	DEM	Democrat	USS	United States Senator	CIT	Citrus			31	31	Rush	Brian		898
+8/23/2022	DEM	Democrat	USS	United States Senator	CLA	Clay			48	48	Rush	Brian		499
+8/23/2022	DEM	Democrat	USS	United States Senator	CLL	Collier			0	0	Rush	Brian		1333
+8/23/2022	DEM	Democrat	USS	United States Senator	CLM	Columbia			29	29	Rush	Brian		407
+8/23/2022	DEM	Democrat	USS	United States Senator	DES	Desoto			15	15	Rush	Brian		287
+8/23/2022	DEM	Democrat	USS	United States Senator	DIX	Dixie			10	10	Rush	Brian		130
+8/23/2022	DEM	Democrat	USS	United States Senator	DUV	Duval			186	186	Rush	Brian		4868
+8/23/2022	DEM	Democrat	USS	United States Senator	ESC	Escambia			79	79	Rush	Brian		2558
+8/23/2022	DEM	Democrat	USS	United States Senator	FLA	Flagler			22	22	Rush	Brian		389
+8/23/2022	DEM	Democrat	USS	United States Senator	FRA	Franklin			0	0	Rush	Brian		125
+8/23/2022	DEM	Democrat	USS	United States Senator	GAD	Gadsden			25	25	Rush	Brian		948
+8/23/2022	DEM	Democrat	USS	United States Senator	GIL	Gilchrist			10	10	Rush	Brian		132
+8/23/2022	DEM	Democrat	USS	United States Senator	GLA	Glades			13	13	Rush	Brian		119
+8/23/2022	DEM	Democrat	USS	United States Senator	GUL	Gulf			0	0	Rush	Brian		120
+8/23/2022	DEM	Democrat	USS	United States Senator	HAM	Hamilton			0	0	Rush	Brian		191
+8/23/2022	DEM	Democrat	USS	United States Senator	HAR	Hardee			12	12	Rush	Brian		76
+8/23/2022	DEM	Democrat	USS	United States Senator	HEN	Hendry			11	11	Rush	Brian		224
+8/23/2022	DEM	Democrat	USS	United States Senator	HER	Hernando			0	0	Rush	Brian		966
+8/23/2022	DEM	Democrat	USS	United States Senator	HIG	Highlands			25	25	Rush	Brian		572
+8/23/2022	DEM	Democrat	USS	United States Senator	HIL	Hillsborough			448	448	Rush	Brian		6632
+8/23/2022	DEM	Democrat	USS	United States Senator	HOL	Holmes			8	8	Rush	Brian		222
+8/23/2022	DEM	Democrat	USS	United States Senator	IND	Indian River			34	34	Rush	Brian		776
+8/23/2022	DEM	Democrat	USS	United States Senator	JAC	Jackson			0	0	Rush	Brian		642
+8/23/2022	DEM	Democrat	USS	United States Senator	JEF	Jefferson			16	16	Rush	Brian		203
+8/23/2022	DEM	Democrat	USS	United States Senator	LAF	Lafayette			5	5	Rush	Brian		74
+8/23/2022	DEM	Democrat	USS	United States Senator	LAK	Lake			91	91	Rush	Brian		756
+8/23/2022	DEM	Democrat	USS	United States Senator	LEE	Lee			99	99	Rush	Brian		4242
+8/23/2022	DEM	Democrat	USS	United States Senator	LEO	Leon			133	133	Rush	Brian		2370
+8/23/2022	DEM	Democrat	USS	United States Senator	LEV	Levy			13	13	Rush	Brian		403
+8/23/2022	DEM	Democrat	USS	United States Senator	LIB	Liberty			0	0	Rush	Brian		202
+8/23/2022	DEM	Democrat	USS	United States Senator	MAD	Madison			0	0	Rush	Brian		208
+8/23/2022	DEM	Democrat	USS	United States Senator	MAN	Manatee			71	71	Rush	Brian		1859
+8/23/2022	DEM	Democrat	USS	United States Senator	MRN	Marion			105	105	Rush	Brian		1236
+8/23/2022	DEM	Democrat	USS	United States Senator	MRT	Martin			27	27	Rush	Brian		681
+8/23/2022	DEM	Democrat	USS	United States Senator	DAD	Miami-Dade			1049	1049	Rush	Brian		8166
+8/23/2022	DEM	Democrat	USS	United States Senator	MON	Monroe			33	33	Rush	Brian		474
+8/23/2022	DEM	Democrat	USS	United States Senator	NAS	Nassau			18	18	Rush	Brian		358
+8/23/2022	DEM	Democrat	USS	United States Senator	OKA	Okaloosa			52	52	Rush	Brian		807
+8/23/2022	DEM	Democrat	USS	United States Senator	OKE	Okeechobee			11	11	Rush	Brian		171
+8/23/2022	DEM	Democrat	USS	United States Senator	ORA	Orange			257	257	Rush	Brian		2322
+8/23/2022	DEM	Democrat	USS	United States Senator	OSC	Osceola			125	125	Rush	Brian		920
+8/23/2022	DEM	Democrat	USS	United States Senator	PAL	Palm Beach			795	795	Rush	Brian		7202
+8/23/2022	DEM	Democrat	USS	United States Senator	PAS	Pasco			0	0	Rush	Brian		2683
+8/23/2022	DEM	Democrat	USS	United States Senator	PIN	Pinellas			286	286	Rush	Brian		5989
+8/23/2022	DEM	Democrat	USS	United States Senator	POL	Polk			0	0	Rush	Brian		2859
+8/23/2022	DEM	Democrat	USS	United States Senator	PUT	Putnam			37	37	Rush	Brian		501
+8/23/2022	DEM	Democrat	USS	United States Senator	SAN	Santa Rosa			41	41	Rush	Brian		755
+8/23/2022	DEM	Democrat	USS	United States Senator	SAR	Sarasota			99	99	Rush	Brian		2123
+8/23/2022	DEM	Democrat	USS	United States Senator	SEM	Seminole			83	83	Rush	Brian		1021
+8/23/2022	DEM	Democrat	USS	United States Senator	STJ	St. Johns			0	0	Rush	Brian		908
+8/23/2022	DEM	Democrat	USS	United States Senator	STL	St. Lucie			60	60	Rush	Brian		1628
+8/23/2022	DEM	Democrat	USS	United States Senator	SUM	Sumter			30	30	Rush	Brian		483
+8/23/2022	DEM	Democrat	USS	United States Senator	SUW	Suwannee			16	16	Rush	Brian		434
+8/23/2022	DEM	Democrat	USS	United States Senator	TAY	Taylor			14	14	Rush	Brian		161
+8/23/2022	DEM	Democrat	USS	United States Senator	UNI	Union			8	8	Rush	Brian		95
+8/23/2022	DEM	Democrat	USS	United States Senator	VOL	Volusia			136	136	Rush	Brian		1749
+8/23/2022	DEM	Democrat	USS	United States Senator	WAK	Wakulla			3	3	Rush	Brian		329
+8/23/2022	DEM	Democrat	USS	United States Senator	WAL	Walton			14	14	Rush	Brian		287
+8/23/2022	DEM	Democrat	USS	United States Senator	WAS	Washington			12	12	Rush	Brian		278
+8/23/2022	DEM	Democrat	USS	United States Senator	ALA	Alachua			66	66	Sanchez	William		2057
+8/23/2022	DEM	Democrat	USS	United States Senator	BAK	Baker			0	0	Sanchez	William		176
+8/23/2022	DEM	Democrat	USS	United States Senator	BAY	Bay			27	27	Sanchez	William		640
+8/23/2022	DEM	Democrat	USS	United States Senator	BRA	Bradford			14	14	Sanchez	William		132
+8/23/2022	DEM	Democrat	USS	United States Senator	BRE	Brevard			0	0	Sanchez	William		1886
+8/23/2022	DEM	Democrat	USS	United States Senator	BRO	Broward			345	345	Sanchez	William		7408
+8/23/2022	DEM	Democrat	USS	United States Senator	CAL	Calhoun			11	11	Sanchez	William		160
+8/23/2022	DEM	Democrat	USS	United States Senator	CHA	Charlotte			0	0	Sanchez	William		892
+8/23/2022	DEM	Democrat	USS	United States Senator	CIT	Citrus			31	31	Sanchez	William		611
+8/23/2022	DEM	Democrat	USS	United States Senator	CLA	Clay			48	48	Sanchez	William		459
+8/23/2022	DEM	Democrat	USS	United States Senator	CLL	Collier			0	0	Sanchez	William		1013
+8/23/2022	DEM	Democrat	USS	United States Senator	CLM	Columbia			29	29	Sanchez	William		283
+8/23/2022	DEM	Democrat	USS	United States Senator	DES	Desoto			15	15	Sanchez	William		177
+8/23/2022	DEM	Democrat	USS	United States Senator	DIX	Dixie			10	10	Sanchez	William		120
+8/23/2022	DEM	Democrat	USS	United States Senator	DUV	Duval			186	186	Sanchez	William		4941
+8/23/2022	DEM	Democrat	USS	United States Senator	ESC	Escambia			79	79	Sanchez	William		2551
+8/23/2022	DEM	Democrat	USS	United States Senator	FLA	Flagler			22	22	Sanchez	William		363
+8/23/2022	DEM	Democrat	USS	United States Senator	FRA	Franklin			0	0	Sanchez	William		81
+8/23/2022	DEM	Democrat	USS	United States Senator	GAD	Gadsden			25	25	Sanchez	William		648
+8/23/2022	DEM	Democrat	USS	United States Senator	GIL	Gilchrist			10	10	Sanchez	William		131
+8/23/2022	DEM	Democrat	USS	United States Senator	GLA	Glades			13	13	Sanchez	William		49
+8/23/2022	DEM	Democrat	USS	United States Senator	GUL	Gulf			0	0	Sanchez	William		65
+8/23/2022	DEM	Democrat	USS	United States Senator	HAM	Hamilton			0	0	Sanchez	William		151
+8/23/2022	DEM	Democrat	USS	United States Senator	HAR	Hardee			12	12	Sanchez	William		54
+8/23/2022	DEM	Democrat	USS	United States Senator	HEN	Hendry			11	11	Sanchez	William		186
+8/23/2022	DEM	Democrat	USS	United States Senator	HER	Hernando			0	0	Sanchez	William		756
+8/23/2022	DEM	Democrat	USS	United States Senator	HIG	Highlands			25	25	Sanchez	William		297
+8/23/2022	DEM	Democrat	USS	United States Senator	HIL	Hillsborough			448	448	Sanchez	William		6960
+8/23/2022	DEM	Democrat	USS	United States Senator	HOL	Holmes			8	8	Sanchez	William		92
+8/23/2022	DEM	Democrat	USS	United States Senator	IND	Indian River			34	34	Sanchez	William		533
+8/23/2022	DEM	Democrat	USS	United States Senator	JAC	Jackson			0	0	Sanchez	William		486
+8/23/2022	DEM	Democrat	USS	United States Senator	JEF	Jefferson			16	16	Sanchez	William		199
+8/23/2022	DEM	Democrat	USS	United States Senator	LAF	Lafayette			5	5	Sanchez	William		33
+8/23/2022	DEM	Democrat	USS	United States Senator	LAK	Lake			91	91	Sanchez	William		739
+8/23/2022	DEM	Democrat	USS	United States Senator	LEE	Lee			99	99	Sanchez	William		2653
+8/23/2022	DEM	Democrat	USS	United States Senator	LEO	Leon			133	133	Sanchez	William		2793
+8/23/2022	DEM	Democrat	USS	United States Senator	LEV	Levy			13	13	Sanchez	William		270
+8/23/2022	DEM	Democrat	USS	United States Senator	LIB	Liberty			0	0	Sanchez	William		132
+8/23/2022	DEM	Democrat	USS	United States Senator	MAD	Madison			0	0	Sanchez	William		174
+8/23/2022	DEM	Democrat	USS	United States Senator	MAN	Manatee			71	71	Sanchez	William		1333
+8/23/2022	DEM	Democrat	USS	United States Senator	MRN	Marion			105	105	Sanchez	William		1003
+8/23/2022	DEM	Democrat	USS	United States Senator	MRT	Martin			27	27	Sanchez	William		521
+8/23/2022	DEM	Democrat	USS	United States Senator	DAD	Miami-Dade			1049	1049	Sanchez	William		8849
+8/23/2022	DEM	Democrat	USS	United States Senator	MON	Monroe			33	33	Sanchez	William		426
+8/23/2022	DEM	Democrat	USS	United States Senator	NAS	Nassau			18	18	Sanchez	William		260
+8/23/2022	DEM	Democrat	USS	United States Senator	OKA	Okaloosa			52	52	Sanchez	William		731
+8/23/2022	DEM	Democrat	USS	United States Senator	OKE	Okeechobee			11	11	Sanchez	William		91
+8/23/2022	DEM	Democrat	USS	United States Senator	ORA	Orange			257	257	Sanchez	William		4003
+8/23/2022	DEM	Democrat	USS	United States Senator	OSC	Osceola			125	125	Sanchez	William		1762
+8/23/2022	DEM	Democrat	USS	United States Senator	PAL	Palm Beach			795	795	Sanchez	William		5561
+8/23/2022	DEM	Democrat	USS	United States Senator	PAS	Pasco			0	0	Sanchez	William		2135
+8/23/2022	DEM	Democrat	USS	United States Senator	PIN	Pinellas			286	286	Sanchez	William		5048
+8/23/2022	DEM	Democrat	USS	United States Senator	POL	Polk			0	0	Sanchez	William		2135
+8/23/2022	DEM	Democrat	USS	United States Senator	PUT	Putnam			37	37	Sanchez	William		357
+8/23/2022	DEM	Democrat	USS	United States Senator	SAN	Santa Rosa			41	41	Sanchez	William		732
+8/23/2022	DEM	Democrat	USS	United States Senator	SAR	Sarasota			99	99	Sanchez	William		1704
+8/23/2022	DEM	Democrat	USS	United States Senator	SEM	Seminole			83	83	Sanchez	William		1556
+8/23/2022	DEM	Democrat	USS	United States Senator	STJ	St. Johns			0	0	Sanchez	William		886
+8/23/2022	DEM	Democrat	USS	United States Senator	STL	St. Lucie			60	60	Sanchez	William		1122
+8/23/2022	DEM	Democrat	USS	United States Senator	SUM	Sumter			30	30	Sanchez	William		318
+8/23/2022	DEM	Democrat	USS	United States Senator	SUW	Suwannee			16	16	Sanchez	William		287
+8/23/2022	DEM	Democrat	USS	United States Senator	TAY	Taylor			14	14	Sanchez	William		92
+8/23/2022	DEM	Democrat	USS	United States Senator	UNI	Union			8	8	Sanchez	William		74
+8/23/2022	DEM	Democrat	USS	United States Senator	VOL	Volusia			136	136	Sanchez	William		1615
+8/23/2022	DEM	Democrat	USS	United States Senator	WAK	Wakulla			3	3	Sanchez	William		212
+8/23/2022	DEM	Democrat	USS	United States Senator	WAL	Walton			14	14	Sanchez	William		247
+8/23/2022	DEM	Democrat	USS	United States Senator	WAS	Washington			12	12	Sanchez	William		165
+8/23/2022	DEM	Democrat	USR	United States Representative	ESC	Escambia	001		79	79	Jones	Rebekah		12461
+8/23/2022	DEM	Democrat	USR	United States Representative	OKA	Okaloosa	001		52	52	Jones	Rebekah		4736
+8/23/2022	DEM	Democrat	USR	United States Representative	SAN	Santa Rosa	001		41	41	Jones	Rebekah		3871
+8/23/2022	DEM	Democrat	USR	United States Representative	WAL	Walton	001		14	14	Jones	Rebekah		807
+8/23/2022	DEM	Democrat	USR	United States Representative	ESC	Escambia	001		79	79	Schiller	Peggy		7761
+8/23/2022	DEM	Democrat	USR	United States Representative	OKA	Okaloosa	001		52	52	Schiller	Peggy		2564
+8/23/2022	DEM	Democrat	USR	United States Representative	SAN	Santa Rosa	001		41	41	Schiller	Peggy		2256
+8/23/2022	DEM	Democrat	USR	United States Representative	WAL	Walton	001		14	14	Schiller	Peggy		510
+8/23/2022	DEM	Democrat	USR	United States Representative	ALA	Alachua	003		66	66	Hawk	Danielle		19771
+8/23/2022	DEM	Democrat	USR	United States Representative	BAK	Baker	003		0	0	Hawk	Danielle		460
+8/23/2022	DEM	Democrat	USR	United States Representative	BRA	Bradford	003		14	14	Hawk	Danielle		695
+8/23/2022	DEM	Democrat	USR	United States Representative	CLM	Columbia	003		29	29	Hawk	Danielle		1721
+8/23/2022	DEM	Democrat	USR	United States Representative	DIX	Dixie	003		10	10	Hawk	Danielle		335
+8/23/2022	DEM	Democrat	USR	United States Representative	GIL	Gilchrist	003		10	10	Hawk	Danielle		377
+8/23/2022	DEM	Democrat	USR	United States Representative	HAM	Hamilton	003		0	0	Hawk	Danielle		529
+8/23/2022	DEM	Democrat	USR	United States Representative	LAF	Lafayette	003		5	5	Hawk	Danielle		129
+8/23/2022	DEM	Democrat	USR	United States Representative	LEV	Levy	003		13	13	Hawk	Danielle		1352
+8/23/2022	DEM	Democrat	USR	United States Representative	MRN	Marion	003		61	61	Hawk	Danielle		10364
+8/23/2022	DEM	Democrat	USR	United States Representative	SUW	Suwannee	003		16	16	Hawk	Danielle		1275
+8/23/2022	DEM	Democrat	USR	United States Representative	UNI	Union	003		8	8	Hawk	Danielle		173
+8/23/2022	DEM	Democrat	USR	United States Representative	ALA	Alachua	003		66	66	Wells	Tom		8755
+8/23/2022	DEM	Democrat	USR	United States Representative	BAK	Baker	003		0	0	Wells	Tom		470
+8/23/2022	DEM	Democrat	USR	United States Representative	BRA	Bradford	003		14	14	Wells	Tom		639
+8/23/2022	DEM	Democrat	USR	United States Representative	CLM	Columbia	003		29	29	Wells	Tom		1018
+8/23/2022	DEM	Democrat	USR	United States Representative	DIX	Dixie	003		10	10	Wells	Tom		238
+8/23/2022	DEM	Democrat	USR	United States Representative	GIL	Gilchrist	003		10	10	Wells	Tom		253
+8/23/2022	DEM	Democrat	USR	United States Representative	HAM	Hamilton	003		0	0	Wells	Tom		404
+8/23/2022	DEM	Democrat	USR	United States Representative	LAF	Lafayette	003		5	5	Wells	Tom		110
+8/23/2022	DEM	Democrat	USR	United States Representative	LEV	Levy	003		13	13	Wells	Tom		802
+8/23/2022	DEM	Democrat	USR	United States Representative	MRN	Marion	003		61	61	Wells	Tom		4051
+8/23/2022	DEM	Democrat	USR	United States Representative	SUW	Suwannee	003		16	16	Wells	Tom		847
+8/23/2022	DEM	Democrat	USR	United States Representative	UNI	Union	003		8	8	Wells	Tom		212
+8/23/2022	DEM	Democrat	USR	United States Representative	CLA	Clay	004		48	48	Hill	Anthony	'Tony'	3692
+8/23/2022	DEM	Democrat	USR	United States Representative	DUV	Duval	004		95	95	Hill	Anthony	'Tony'	23278
+8/23/2022	DEM	Democrat	USR	United States Representative	NAS	Nassau	004		18	18	Hill	Anthony	'Tony'	2175
+8/23/2022	DEM	Democrat	USR	United States Representative	CLA	Clay	004		48	48	Holloway	LaShonda	'L.J.'	4634
+8/23/2022	DEM	Democrat	USR	United States Representative	DUV	Duval	004		95	95	Holloway	LaShonda	'L.J.'	22175
+8/23/2022	DEM	Democrat	USR	United States Representative	NAS	Nassau	004		18	18	Holloway	LaShonda	'L.J.'	2543
+8/23/2022	DEM	Democrat	USR	United States Representative	SEM	Seminole	007		83	83	Fernandez	Hilsia 'Tatiana'		6026
+8/23/2022	DEM	Democrat	USR	United States Representative	VOL	Volusia	007		73	73	Fernandez	Hilsia 'Tatiana'		4235
+8/23/2022	DEM	Democrat	USR	United States Representative	SEM	Seminole	007		83	83	Green	Karen		14537
+8/23/2022	DEM	Democrat	USR	United States Representative	VOL	Volusia	007		73	73	Green	Karen		8514
+8/23/2022	DEM	Democrat	USR	United States Representative	SEM	Seminole	007		83	83	Krulick	Al		6839
+8/23/2022	DEM	Democrat	USR	United States Representative	VOL	Volusia	007		73	73	Krulick	Al		3948
+8/23/2022	DEM	Democrat	USR	United States Representative	SEM	Seminole	007		83	83	Pastrana	Allek		4693
+8/23/2022	DEM	Democrat	USR	United States Representative	VOL	Volusia	007		73	73	Pastrana	Allek		2596
+8/23/2022	DEM	Democrat	USR	United States Representative	BRE	Brevard	008		0	0	Dodge	Danelle		20350
+8/23/2022	DEM	Democrat	USR	United States Representative	IND	Indian River	008		34	34	Dodge	Danelle		4198
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	008		4	4	Dodge	Danelle		44
+8/23/2022	DEM	Democrat	USR	United States Representative	BRE	Brevard	008		0	0	Terry	Joanne		23216
+8/23/2022	DEM	Democrat	USR	United States Representative	IND	Indian River	008		34	34	Terry	Joanne		6261
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	008		4	4	Terry	Joanne		65
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Achenbach	Jack		714
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Boone	Jeffrey		1181
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Bracy	Randolph		13677
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Brown	Corrine		5274
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Frost	Maxwell	Alejandro	19288
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Gray	Terence	R.	1032
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Grayson	Alan		8526
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Jackson	Natalie		3872
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Muneer	Khalid		604
+8/23/2022	DEM	Democrat	USR	United States Representative	ORA	Orange	010		147	147	Tachon	Teresa		1301
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	014		178	178	Bradley	Christopher		4277
+8/23/2022	DEM	Democrat	USR	United States Representative	PIN	Pinellas	014		57	57	Bradley	Christopher		2407
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	014		178	178	Castor	Kathy		40896
+8/23/2022	DEM	Democrat	USR	United States Representative	PIN	Pinellas	014		57	57	Castor	Kathy		21666
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	015		165	165	Brown	Gavin		6525
+8/23/2022	DEM	Democrat	USR	United States Representative	PAS	Pasco	015		0	0	Brown	Gavin		2122
+8/23/2022	DEM	Democrat	USR	United States Representative	POL	Polk	015		0	0	Brown	Gavin		1387
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	015		165	165	Cohn	Alan	M.	10783
+8/23/2022	DEM	Democrat	USR	United States Representative	PAS	Pasco	015		0	0	Cohn	Alan	M.	2255
+8/23/2022	DEM	Democrat	USR	United States Representative	POL	Polk	015		0	0	Cohn	Alan	M.	1890
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	015		165	165	Geller	Eddie		6571
+8/23/2022	DEM	Democrat	USR	United States Representative	PAS	Pasco	015		0	0	Geller	Eddie		1982
+8/23/2022	DEM	Democrat	USR	United States Representative	POL	Polk	015		0	0	Geller	Eddie		1306
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	015		165	165	Ramirez	Cesar		4998
+8/23/2022	DEM	Democrat	USR	United States Representative	PAS	Pasco	015		0	0	Ramirez	Cesar		1536
+8/23/2022	DEM	Democrat	USR	United States Representative	POL	Polk	015		0	0	Ramirez	Cesar		1283
+8/23/2022	DEM	Democrat	USR	United States Representative	HIL	Hillsborough	015		165	165	VanHorn	William		1524
+8/23/2022	DEM	Democrat	USR	United States Representative	PAS	Pasco	015		0	0	VanHorn	William		527
+8/23/2022	DEM	Democrat	USR	United States Representative	POL	Polk	015		0	0	VanHorn	William		384
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	020		97	97	Cherfilus-McCormick	Sheila		34435
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	020		116	116	Cherfilus-McCormick	Sheila		13166
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	020		97	97	Holness	Dale	V.C.	17509
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	020		116	116	Holness	Dale	V.C.	3274
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	020		97	97	Omphroy	Anika		3339
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	020		116	116	Omphroy	Anika		858
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Ellison	Allen		3045
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Ellison	Allen		915
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Hamilton	Michaelangelo	Collins	834
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Hamilton	Michaelangelo	Collins	230
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Holzhauer	Hava		3236
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Holzhauer	Hava		2040
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Moskowitz	Jared		27336
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Moskowitz	Jared		11486
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Sorensen	Ben		10615
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Sorensen	Ben		2397
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	023		100	100	Trout	W.	Michael 'Mike'	1127
+8/23/2022	DEM	Democrat	USR	United States Representative	PAL	Palm Beach	023		79	79	Trout	W.	Michael 'Mike'	263
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	024		11	11	Harris	Kevin	C.	639
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	024		291	291	Harris	Kevin	C.	6177
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	024		11	11	Wilson	Frederica		7105
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	024		291	291	Wilson	Frederica		49671
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	025		141	141	Millwee	Robert		6241
+8/23/2022	DEM	Democrat	USR	United States Representative	BRO	Broward	025		141	141	Schultz	Debbie	Wasserman	50554
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	027		318	318	Montalvo	Angel		2493
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	027		318	318	Russell	Ken		10337
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	027		318	318	Taddeo	Annette		27015
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	028		237	237	Asencio	Robert		13791
+8/23/2022	DEM	Democrat	USR	United States Representative	MON	Monroe	028		33	33	Asencio	Robert		4713
+8/23/2022	DEM	Democrat	USR	United States Representative	DAD	Miami-Dade	028		237	237	Paredes	Juan		6545
+8/23/2022	DEM	Democrat	USR	United States Representative	MON	Monroe	028		33	33	Paredes	Juan		1672
+8/23/2022	DEM	Democrat	GOV	Governor	ALA	Alachua			66	66	Crist	Charlie		14072
+8/23/2022	DEM	Democrat	GOV	Governor	BAK	Baker			0	0	Crist	Charlie		439
+8/23/2022	DEM	Democrat	GOV	Governor	BAY	Bay			27	27	Crist	Charlie		3045
+8/23/2022	DEM	Democrat	GOV	Governor	BRA	Bradford			14	14	Crist	Charlie		752
+8/23/2022	DEM	Democrat	GOV	Governor	BRE	Brevard			0	0	Crist	Charlie		26766
+8/23/2022	DEM	Democrat	GOV	Governor	BRO	Broward			345	345	Crist	Charlie		106667
+8/23/2022	DEM	Democrat	GOV	Governor	CAL	Calhoun			11	11	Crist	Charlie		395
+8/23/2022	DEM	Democrat	GOV	Governor	CHA	Charlotte			0	0	Crist	Charlie		7429
+8/23/2022	DEM	Democrat	GOV	Governor	CIT	Citrus			31	31	Crist	Charlie		6266
+8/23/2022	DEM	Democrat	GOV	Governor	CLA	Clay			48	48	Crist	Charlie		4364
+8/23/2022	DEM	Democrat	GOV	Governor	CLL	Collier			0	0	Crist	Charlie		10257
+8/23/2022	DEM	Democrat	GOV	Governor	CLM	Columbia			29	29	Crist	Charlie		1468
+8/23/2022	DEM	Democrat	GOV	Governor	DES	Desoto			15	15	Crist	Charlie		694
+8/23/2022	DEM	Democrat	GOV	Governor	DIX	Dixie			10	10	Crist	Charlie		327
+8/23/2022	DEM	Democrat	GOV	Governor	DUV	Duval			186	186	Crist	Charlie		39976
+8/23/2022	DEM	Democrat	GOV	Governor	ESC	Escambia			79	79	Crist	Charlie		11995
+8/23/2022	DEM	Democrat	GOV	Governor	FLA	Flagler			21	21	Crist	Charlie		6184
+8/23/2022	DEM	Democrat	GOV	Governor	FRA	Franklin			0	0	Crist	Charlie		437
+8/23/2022	DEM	Democrat	GOV	Governor	GAD	Gadsden			25	25	Crist	Charlie		5312
+8/23/2022	DEM	Democrat	GOV	Governor	GIL	Gilchrist			10	10	Crist	Charlie		330
+8/23/2022	DEM	Democrat	GOV	Governor	GLA	Glades			13	13	Crist	Charlie		247
+8/23/2022	DEM	Democrat	GOV	Governor	GUL	Gulf			0	0	Crist	Charlie		367
+8/23/2022	DEM	Democrat	GOV	Governor	HAM	Hamilton			0	0	Crist	Charlie		557
+8/23/2022	DEM	Democrat	GOV	Governor	HAR	Hardee			12	12	Crist	Charlie		361
+8/23/2022	DEM	Democrat	GOV	Governor	HEN	Hendry			11	11	Crist	Charlie		651
+8/23/2022	DEM	Democrat	GOV	Governor	HER	Hernando			0	0	Crist	Charlie		7639
+8/23/2022	DEM	Democrat	GOV	Governor	HIG	Highlands			25	25	Crist	Charlie		3130
+8/23/2022	DEM	Democrat	GOV	Governor	HIL	Hillsborough			448	448	Crist	Charlie		63109
+8/23/2022	DEM	Democrat	GOV	Governor	HOL	Holmes			8	8	Crist	Charlie		256
+8/23/2022	DEM	Democrat	GOV	Governor	IND	Indian River			34	34	Crist	Charlie		6869
+8/23/2022	DEM	Democrat	GOV	Governor	JAC	Jackson			0	0	Crist	Charlie		1679
+8/23/2022	DEM	Democrat	GOV	Governor	JEF	Jefferson			16	16	Crist	Charlie		1368
+8/23/2022	DEM	Democrat	GOV	Governor	LAF	Lafayette			5	5	Crist	Charlie		136
+8/23/2022	DEM	Democrat	GOV	Governor	LAK	Lake			91	91	Crist	Charlie		13727
+8/23/2022	DEM	Democrat	GOV	Governor	LEE	Lee			99	99	Crist	Charlie		21740
+8/23/2022	DEM	Democrat	GOV	Governor	LEO	Leon			133	133	Crist	Charlie		24083
+8/23/2022	DEM	Democrat	GOV	Governor	LEV	Levy			13	13	Crist	Charlie		1187
+8/23/2022	DEM	Democrat	GOV	Governor	LIB	Liberty			0	0	Crist	Charlie		293
+8/23/2022	DEM	Democrat	GOV	Governor	MAD	Madison			0	0	Crist	Charlie		1195
+8/23/2022	DEM	Democrat	GOV	Governor	MAN	Manatee			71	71	Crist	Charlie		18480
+8/23/2022	DEM	Democrat	GOV	Governor	MRN	Marion			105	105	Crist	Charlie		15322
+8/23/2022	DEM	Democrat	GOV	Governor	MRT	Martin			27	27	Crist	Charlie		6511
+8/23/2022	DEM	Democrat	GOV	Governor	DAD	Miami-Dade			1045	1045	Crist	Charlie		81918
+8/23/2022	DEM	Democrat	GOV	Governor	MON	Monroe			33	33	Crist	Charlie		3890
+8/23/2022	DEM	Democrat	GOV	Governor	NAS	Nassau			18	18	Crist	Charlie		2667
+8/23/2022	DEM	Democrat	GOV	Governor	OKA	Okaloosa			52	52	Crist	Charlie		3646
+8/23/2022	DEM	Democrat	GOV	Governor	OKE	Okeechobee			11	11	Crist	Charlie		644
+8/23/2022	DEM	Democrat	GOV	Governor	ORA	Orange			257	257	Crist	Charlie		56869
+8/23/2022	DEM	Democrat	GOV	Governor	OSC	Osceola			125	125	Crist	Charlie		11465
+8/23/2022	DEM	Democrat	GOV	Governor	PAL	Palm Beach			794	794	Crist	Charlie		80955
+8/23/2022	DEM	Democrat	GOV	Governor	PAS	Pasco			0	0	Crist	Charlie		21049
+8/23/2022	DEM	Democrat	GOV	Governor	PIN	Pinellas			286	286	Crist	Charlie		66551
+8/23/2022	DEM	Democrat	GOV	Governor	POL	Polk			0	0	Crist	Charlie		24496
+8/23/2022	DEM	Democrat	GOV	Governor	PUT	Putnam			37	37	Crist	Charlie		2064
+8/23/2022	DEM	Democrat	GOV	Governor	SAN	Santa Rosa			41	41	Crist	Charlie		3006
+8/23/2022	DEM	Democrat	GOV	Governor	SAR	Sarasota			99	99	Crist	Charlie		28735
+8/23/2022	DEM	Democrat	GOV	Governor	SEM	Seminole			83	83	Crist	Charlie		19763
+8/23/2022	DEM	Democrat	GOV	Governor	STJ	St. Johns			0	0	Crist	Charlie		9345
+8/23/2022	DEM	Democrat	GOV	Governor	STL	St. Lucie			60	60	Crist	Charlie		14172
+8/23/2022	DEM	Democrat	GOV	Governor	SUM	Sumter			30	30	Crist	Charlie		8016
+8/23/2022	DEM	Democrat	GOV	Governor	SUW	Suwannee			16	16	Crist	Charlie		1184
+8/23/2022	DEM	Democrat	GOV	Governor	TAY	Taylor			14	14	Crist	Charlie		602
+8/23/2022	DEM	Democrat	GOV	Governor	UNI	Union			8	8	Crist	Charlie		187
+8/23/2022	DEM	Democrat	GOV	Governor	VOL	Volusia			136	136	Crist	Charlie		24130
+8/23/2022	DEM	Democrat	GOV	Governor	WAK	Wakulla			3	3	Crist	Charlie		1465
+8/23/2022	DEM	Democrat	GOV	Governor	WAL	Walton			21	21	Crist	Charlie		1082
+8/23/2022	DEM	Democrat	GOV	Governor	WAS	Washington			12	12	Crist	Charlie		541
+8/23/2022	DEM	Democrat	GOV	Governor	ALA	Alachua			66	66	Daniel	Cadance		624
+8/23/2022	DEM	Democrat	GOV	Governor	BAK	Baker			0	0	Daniel	Cadance		83
+8/23/2022	DEM	Democrat	GOV	Governor	BAY	Bay			27	27	Daniel	Cadance		261
+8/23/2022	DEM	Democrat	GOV	Governor	BRA	Bradford			14	14	Daniel	Cadance		72
+8/23/2022	DEM	Democrat	GOV	Governor	BRE	Brevard			0	0	Daniel	Cadance		1163
+8/23/2022	DEM	Democrat	GOV	Governor	BRO	Broward			345	345	Daniel	Cadance		3582
+8/23/2022	DEM	Democrat	GOV	Governor	CAL	Calhoun			11	11	Daniel	Cadance		49
+8/23/2022	DEM	Democrat	GOV	Governor	CHA	Charlotte			0	0	Daniel	Cadance		285
+8/23/2022	DEM	Democrat	GOV	Governor	CIT	Citrus			31	31	Daniel	Cadance		218
+8/23/2022	DEM	Democrat	GOV	Governor	CLA	Clay			48	48	Daniel	Cadance		306
+8/23/2022	DEM	Democrat	GOV	Governor	CLL	Collier			0	0	Daniel	Cadance		347
+8/23/2022	DEM	Democrat	GOV	Governor	CLM	Columbia			29	29	Daniel	Cadance		112
+8/23/2022	DEM	Democrat	GOV	Governor	DES	Desoto			15	15	Daniel	Cadance		50
+8/23/2022	DEM	Democrat	GOV	Governor	DIX	Dixie			10	10	Daniel	Cadance		37
+8/23/2022	DEM	Democrat	GOV	Governor	DUV	Duval			186	186	Daniel	Cadance		3638
+8/23/2022	DEM	Democrat	GOV	Governor	ESC	Escambia			79	79	Daniel	Cadance		807
+8/23/2022	DEM	Democrat	GOV	Governor	FLA	Flagler			21	21	Daniel	Cadance		276
+8/23/2022	DEM	Democrat	GOV	Governor	FRA	Franklin			0	0	Daniel	Cadance		38
+8/23/2022	DEM	Democrat	GOV	Governor	GAD	Gadsden			25	25	Daniel	Cadance		154
+8/23/2022	DEM	Democrat	GOV	Governor	GIL	Gilchrist			10	10	Daniel	Cadance		36
+8/23/2022	DEM	Democrat	GOV	Governor	GLA	Glades			13	13	Daniel	Cadance		22
+8/23/2022	DEM	Democrat	GOV	Governor	GUL	Gulf			0	0	Daniel	Cadance		32
+8/23/2022	DEM	Democrat	GOV	Governor	HAM	Hamilton			0	0	Daniel	Cadance		67
+8/23/2022	DEM	Democrat	GOV	Governor	HAR	Hardee			12	12	Daniel	Cadance		24
+8/23/2022	DEM	Democrat	GOV	Governor	HEN	Hendry			11	11	Daniel	Cadance		51
+8/23/2022	DEM	Democrat	GOV	Governor	HER	Hernando			0	0	Daniel	Cadance		308
+8/23/2022	DEM	Democrat	GOV	Governor	HIG	Highlands			25	25	Daniel	Cadance		127
+8/23/2022	DEM	Democrat	GOV	Governor	HIL	Hillsborough			448	448	Daniel	Cadance		2489
+8/23/2022	DEM	Democrat	GOV	Governor	HOL	Holmes			8	8	Daniel	Cadance		55
+8/23/2022	DEM	Democrat	GOV	Governor	IND	Indian River			34	34	Daniel	Cadance		279
+8/23/2022	DEM	Democrat	GOV	Governor	JAC	Jackson			0	0	Daniel	Cadance		149
+8/23/2022	DEM	Democrat	GOV	Governor	JEF	Jefferson			16	16	Daniel	Cadance		55
+8/23/2022	DEM	Democrat	GOV	Governor	LAF	Lafayette			5	5	Daniel	Cadance		17
+8/23/2022	DEM	Democrat	GOV	Governor	LAK	Lake			91	91	Daniel	Cadance		678
+8/23/2022	DEM	Democrat	GOV	Governor	LEE	Lee			99	99	Daniel	Cadance		954
+8/23/2022	DEM	Democrat	GOV	Governor	LEO	Leon			133	133	Daniel	Cadance		690
+8/23/2022	DEM	Democrat	GOV	Governor	LEV	Levy			13	13	Daniel	Cadance		75
+8/23/2022	DEM	Democrat	GOV	Governor	LIB	Liberty			0	0	Daniel	Cadance		35
+8/23/2022	DEM	Democrat	GOV	Governor	MAD	Madison			0	0	Daniel	Cadance		66
+8/23/2022	DEM	Democrat	GOV	Governor	MAN	Manatee			71	71	Daniel	Cadance		571
+8/23/2022	DEM	Democrat	GOV	Governor	MRN	Marion			105	105	Daniel	Cadance		808
+8/23/2022	DEM	Democrat	GOV	Governor	MRT	Martin			27	27	Daniel	Cadance		205
+8/23/2022	DEM	Democrat	GOV	Governor	DAD	Miami-Dade			1045	1045	Daniel	Cadance		3491
+8/23/2022	DEM	Democrat	GOV	Governor	MON	Monroe			33	33	Daniel	Cadance		209
+8/23/2022	DEM	Democrat	GOV	Governor	NAS	Nassau			18	18	Daniel	Cadance		140
+8/23/2022	DEM	Democrat	GOV	Governor	OKA	Okaloosa			52	52	Daniel	Cadance		319
+8/23/2022	DEM	Democrat	GOV	Governor	OKE	Okeechobee			11	11	Daniel	Cadance		54
+8/23/2022	DEM	Democrat	GOV	Governor	ORA	Orange			257	257	Daniel	Cadance		2581
+8/23/2022	DEM	Democrat	GOV	Governor	OSC	Osceola			125	125	Daniel	Cadance		876
+8/23/2022	DEM	Democrat	GOV	Governor	PAL	Palm Beach			794	794	Daniel	Cadance		2280
+8/23/2022	DEM	Democrat	GOV	Governor	PAS	Pasco			0	0	Daniel	Cadance		871
+8/23/2022	DEM	Democrat	GOV	Governor	PIN	Pinellas			286	286	Daniel	Cadance		1349
+8/23/2022	DEM	Democrat	GOV	Governor	POL	Polk			0	0	Daniel	Cadance		1154
+8/23/2022	DEM	Democrat	GOV	Governor	PUT	Putnam			37	37	Daniel	Cadance		184
+8/23/2022	DEM	Democrat	GOV	Governor	SAN	Santa Rosa			41	41	Daniel	Cadance		250
+8/23/2022	DEM	Democrat	GOV	Governor	SAR	Sarasota			99	99	Daniel	Cadance		745
+8/23/2022	DEM	Democrat	GOV	Governor	SEM	Seminole			83	83	Daniel	Cadance		858
+8/23/2022	DEM	Democrat	GOV	Governor	STJ	St. Johns			0	0	Daniel	Cadance		363
+8/23/2022	DEM	Democrat	GOV	Governor	STL	St. Lucie			60	60	Daniel	Cadance		633
+8/23/2022	DEM	Democrat	GOV	Governor	SUM	Sumter			30	30	Daniel	Cadance		301
+8/23/2022	DEM	Democrat	GOV	Governor	SUW	Suwannee			16	16	Daniel	Cadance		123
+8/23/2022	DEM	Democrat	GOV	Governor	TAY	Taylor			14	14	Daniel	Cadance		39
+8/23/2022	DEM	Democrat	GOV	Governor	UNI	Union			8	8	Daniel	Cadance		21
+8/23/2022	DEM	Democrat	GOV	Governor	VOL	Volusia			136	136	Daniel	Cadance		1226
+8/23/2022	DEM	Democrat	GOV	Governor	WAK	Wakulla			3	3	Daniel	Cadance		82
+8/23/2022	DEM	Democrat	GOV	Governor	WAL	Walton			21	21	Daniel	Cadance		83
+8/23/2022	DEM	Democrat	GOV	Governor	WAS	Washington			12	12	Daniel	Cadance		71
+8/23/2022	DEM	Democrat	GOV	Governor	ALA	Alachua			66	66	Fried	Nicole 'Nikki'		14733
+8/23/2022	DEM	Democrat	GOV	Governor	BAK	Baker			0	0	Fried	Nicole 'Nikki'		340
+8/23/2022	DEM	Democrat	GOV	Governor	BAY	Bay			27	27	Fried	Nicole 'Nikki'		3080
+8/23/2022	DEM	Democrat	GOV	Governor	BRA	Bradford			14	14	Fried	Nicole 'Nikki'		485
+8/23/2022	DEM	Democrat	GOV	Governor	BRE	Brevard			0	0	Fried	Nicole 'Nikki'		17247
+8/23/2022	DEM	Democrat	GOV	Governor	BRO	Broward			345	345	Fried	Nicole 'Nikki'		54312
+8/23/2022	DEM	Democrat	GOV	Governor	CAL	Calhoun			11	11	Fried	Nicole 'Nikki'		280
+8/23/2022	DEM	Democrat	GOV	Governor	CHA	Charlotte			0	0	Fried	Nicole 'Nikki'		5069
+8/23/2022	DEM	Democrat	GOV	Governor	CIT	Citrus			31	31	Fried	Nicole 'Nikki'		3144
+8/23/2022	DEM	Democrat	GOV	Governor	CLA	Clay			48	48	Fried	Nicole 'Nikki'		3616
+8/23/2022	DEM	Democrat	GOV	Governor	CLL	Collier			0	0	Fried	Nicole 'Nikki'		7088
+8/23/2022	DEM	Democrat	GOV	Governor	CLM	Columbia			29	29	Fried	Nicole 'Nikki'		1228
+8/23/2022	DEM	Democrat	GOV	Governor	DES	Desoto			15	15	Fried	Nicole 'Nikki'		547
+8/23/2022	DEM	Democrat	GOV	Governor	DIX	Dixie			10	10	Fried	Nicole 'Nikki'		213
+8/23/2022	DEM	Democrat	GOV	Governor	DUV	Duval			186	186	Fried	Nicole 'Nikki'		36169
+8/23/2022	DEM	Democrat	GOV	Governor	ESC	Escambia			79	79	Fried	Nicole 'Nikki'		7102
+8/23/2022	DEM	Democrat	GOV	Governor	FLA	Flagler			21	21	Fried	Nicole 'Nikki'		3814
+8/23/2022	DEM	Democrat	GOV	Governor	FRA	Franklin			0	0	Fried	Nicole 'Nikki'		431
+8/23/2022	DEM	Democrat	GOV	Governor	GAD	Gadsden			25	25	Fried	Nicole 'Nikki'		2259
+8/23/2022	DEM	Democrat	GOV	Governor	GIL	Gilchrist			10	10	Fried	Nicole 'Nikki'		273
+8/23/2022	DEM	Democrat	GOV	Governor	GLA	Glades			13	13	Fried	Nicole 'Nikki'		203
+8/23/2022	DEM	Democrat	GOV	Governor	GUL	Gulf			0	0	Fried	Nicole 'Nikki'		262
+8/23/2022	DEM	Democrat	GOV	Governor	HAM	Hamilton			0	0	Fried	Nicole 'Nikki'		296
+8/23/2022	DEM	Democrat	GOV	Governor	HAR	Hardee			12	12	Fried	Nicole 'Nikki'		191
+8/23/2022	DEM	Democrat	GOV	Governor	HEN	Hendry			11	11	Fried	Nicole 'Nikki'		515
+8/23/2022	DEM	Democrat	GOV	Governor	HER	Hernando			0	0	Fried	Nicole 'Nikki'		3548
+8/23/2022	DEM	Democrat	GOV	Governor	HIG	Highlands			25	25	Fried	Nicole 'Nikki'		1610
+8/23/2022	DEM	Democrat	GOV	Governor	HIL	Hillsborough			448	448	Fried	Nicole 'Nikki'		35621
+8/23/2022	DEM	Democrat	GOV	Governor	HOL	Holmes			8	8	Fried	Nicole 'Nikki'		179
+8/23/2022	DEM	Democrat	GOV	Governor	IND	Indian River			34	34	Fried	Nicole 'Nikki'		4113
+8/23/2022	DEM	Democrat	GOV	Governor	JAC	Jackson			0	0	Fried	Nicole 'Nikki'		1041
+8/23/2022	DEM	Democrat	GOV	Governor	JEF	Jefferson			16	16	Fried	Nicole 'Nikki'		617
+8/23/2022	DEM	Democrat	GOV	Governor	LAF	Lafayette			5	5	Fried	Nicole 'Nikki'		90
+8/23/2022	DEM	Democrat	GOV	Governor	LAK	Lake			91	91	Fried	Nicole 'Nikki'		7844
+8/23/2022	DEM	Democrat	GOV	Governor	LEE	Lee			99	99	Fried	Nicole 'Nikki'		17077
+8/23/2022	DEM	Democrat	GOV	Governor	LEO	Leon			133	133	Fried	Nicole 'Nikki'		15106
+8/23/2022	DEM	Democrat	GOV	Governor	LEV	Levy			13	13	Fried	Nicole 'Nikki'		888
+8/23/2022	DEM	Democrat	GOV	Governor	LIB	Liberty			0	0	Fried	Nicole 'Nikki'		182
+8/23/2022	DEM	Democrat	GOV	Governor	MAD	Madison			0	0	Fried	Nicole 'Nikki'		369
+8/23/2022	DEM	Democrat	GOV	Governor	MAN	Manatee			71	71	Fried	Nicole 'Nikki'		10024
+8/23/2022	DEM	Democrat	GOV	Governor	MRN	Marion			105	105	Fried	Nicole 'Nikki'		7877
+8/23/2022	DEM	Democrat	GOV	Governor	MRT	Martin			27	27	Fried	Nicole 'Nikki'		3851
+8/23/2022	DEM	Democrat	GOV	Governor	DAD	Miami-Dade			1045	1045	Fried	Nicole 'Nikki'		42845
+8/23/2022	DEM	Democrat	GOV	Governor	MON	Monroe			33	33	Fried	Nicole 'Nikki'		3073
+8/23/2022	DEM	Democrat	GOV	Governor	NAS	Nassau			18	18	Fried	Nicole 'Nikki'		1981
+8/23/2022	DEM	Democrat	GOV	Governor	OKA	Okaloosa			52	52	Fried	Nicole 'Nikki'		3237
+8/23/2022	DEM	Democrat	GOV	Governor	OKE	Okeechobee			11	11	Fried	Nicole 'Nikki'		412
+8/23/2022	DEM	Democrat	GOV	Governor	ORA	Orange			257	257	Fried	Nicole 'Nikki'		36136
+8/23/2022	DEM	Democrat	GOV	Governor	OSC	Osceola			125	125	Fried	Nicole 'Nikki'		7656
+8/23/2022	DEM	Democrat	GOV	Governor	PAL	Palm Beach			794	794	Fried	Nicole 'Nikki'		44024
+8/23/2022	DEM	Democrat	GOV	Governor	PAS	Pasco			0	0	Fried	Nicole 'Nikki'		11719
+8/23/2022	DEM	Democrat	GOV	Governor	PIN	Pinellas			286	286	Fried	Nicole 'Nikki'		25414
+8/23/2022	DEM	Democrat	GOV	Governor	POL	Polk			0	0	Fried	Nicole 'Nikki'		13824
+8/23/2022	DEM	Democrat	GOV	Governor	PUT	Putnam			37	37	Fried	Nicole 'Nikki'		1384
+8/23/2022	DEM	Democrat	GOV	Governor	SAN	Santa Rosa			41	41	Fried	Nicole 'Nikki'		2780
+8/23/2022	DEM	Democrat	GOV	Governor	SAR	Sarasota			99	99	Fried	Nicole 'Nikki'		16519
+8/23/2022	DEM	Democrat	GOV	Governor	SEM	Seminole			83	83	Fried	Nicole 'Nikki'		13063
+8/23/2022	DEM	Democrat	GOV	Governor	STJ	St. Johns			0	0	Fried	Nicole 'Nikki'		8361
+8/23/2022	DEM	Democrat	GOV	Governor	STL	St. Lucie			60	60	Fried	Nicole 'Nikki'		7851
+8/23/2022	DEM	Democrat	GOV	Governor	SUM	Sumter			30	30	Fried	Nicole 'Nikki'		3621
+8/23/2022	DEM	Democrat	GOV	Governor	SUW	Suwannee			16	16	Fried	Nicole 'Nikki'		810
+8/23/2022	DEM	Democrat	GOV	Governor	TAY	Taylor			14	14	Fried	Nicole 'Nikki'		350
+8/23/2022	DEM	Democrat	GOV	Governor	UNI	Union			8	8	Fried	Nicole 'Nikki'		130
+8/23/2022	DEM	Democrat	GOV	Governor	VOL	Volusia			136	136	Fried	Nicole 'Nikki'		14843
+8/23/2022	DEM	Democrat	GOV	Governor	WAK	Wakulla			3	3	Fried	Nicole 'Nikki'		955
+8/23/2022	DEM	Democrat	GOV	Governor	WAL	Walton			21	21	Fried	Nicole 'Nikki'		1198
+8/23/2022	DEM	Democrat	GOV	Governor	WAS	Washington			12	12	Fried	Nicole 'Nikki'		360
+8/23/2022	DEM	Democrat	GOV	Governor	ALA	Alachua			66	66	Willis	Robert	L.	637
+8/23/2022	DEM	Democrat	GOV	Governor	BAK	Baker			0	0	Willis	Robert	L.	150
+8/23/2022	DEM	Democrat	GOV	Governor	BAY	Bay			27	27	Willis	Robert	L.	300
+8/23/2022	DEM	Democrat	GOV	Governor	BRA	Bradford			14	14	Willis	Robert	L.	108
+8/23/2022	DEM	Democrat	GOV	Governor	BRE	Brevard			0	0	Willis	Robert	L.	1527
+8/23/2022	DEM	Democrat	GOV	Governor	BRO	Broward			345	345	Willis	Robert	L.	3604
+8/23/2022	DEM	Democrat	GOV	Governor	CAL	Calhoun			11	11	Willis	Robert	L.	124
+8/23/2022	DEM	Democrat	GOV	Governor	CHA	Charlotte			0	0	Willis	Robert	L.	231
+8/23/2022	DEM	Democrat	GOV	Governor	CIT	Citrus			31	31	Willis	Robert	L.	274
+8/23/2022	DEM	Democrat	GOV	Governor	CLA	Clay			48	48	Willis	Robert	L.	282
+8/23/2022	DEM	Democrat	GOV	Governor	CLL	Collier			0	0	Willis	Robert	L.	279
+8/23/2022	DEM	Democrat	GOV	Governor	CLM	Columbia			29	29	Willis	Robert	L.	186
+8/23/2022	DEM	Democrat	GOV	Governor	DES	Desoto			15	15	Willis	Robert	L.	118
+8/23/2022	DEM	Democrat	GOV	Governor	DIX	Dixie			10	10	Willis	Robert	L.	48
+8/23/2022	DEM	Democrat	GOV	Governor	DUV	Duval			186	186	Willis	Robert	L.	2380
+8/23/2022	DEM	Democrat	GOV	Governor	ESC	Escambia			79	79	Willis	Robert	L.	717
+8/23/2022	DEM	Democrat	GOV	Governor	FLA	Flagler			21	21	Willis	Robert	L.	236
+8/23/2022	DEM	Democrat	GOV	Governor	FRA	Franklin			0	0	Willis	Robert	L.	51
+8/23/2022	DEM	Democrat	GOV	Governor	GAD	Gadsden			25	25	Willis	Robert	L.	233
+8/23/2022	DEM	Democrat	GOV	Governor	GIL	Gilchrist			10	10	Willis	Robert	L.	53
+8/23/2022	DEM	Democrat	GOV	Governor	GLA	Glades			13	13	Willis	Robert	L.	43
+8/23/2022	DEM	Democrat	GOV	Governor	GUL	Gulf			0	0	Willis	Robert	L.	46
+8/23/2022	DEM	Democrat	GOV	Governor	HAM	Hamilton			0	0	Willis	Robert	L.	104
+8/23/2022	DEM	Democrat	GOV	Governor	HAR	Hardee			12	12	Willis	Robert	L.	29
+8/23/2022	DEM	Democrat	GOV	Governor	HEN	Hendry			11	11	Willis	Robert	L.	77
+8/23/2022	DEM	Democrat	GOV	Governor	HER	Hernando			0	0	Willis	Robert	L.	270
+8/23/2022	DEM	Democrat	GOV	Governor	HIG	Highlands			25	25	Willis	Robert	L.	179
+8/23/2022	DEM	Democrat	GOV	Governor	HIL	Hillsborough			448	448	Willis	Robert	L.	2384
+8/23/2022	DEM	Democrat	GOV	Governor	HOL	Holmes			8	8	Willis	Robert	L.	64
+8/23/2022	DEM	Democrat	GOV	Governor	IND	Indian River			34	34	Willis	Robert	L.	206
+8/23/2022	DEM	Democrat	GOV	Governor	JAC	Jackson			0	0	Willis	Robert	L.	211
+8/23/2022	DEM	Democrat	GOV	Governor	JEF	Jefferson			16	16	Willis	Robert	L.	102
+8/23/2022	DEM	Democrat	GOV	Governor	LAF	Lafayette			5	5	Willis	Robert	L.	28
+8/23/2022	DEM	Democrat	GOV	Governor	LAK	Lake			91	91	Willis	Robert	L.	564
+8/23/2022	DEM	Democrat	GOV	Governor	LEE	Lee			99	99	Willis	Robert	L.	760
+8/23/2022	DEM	Democrat	GOV	Governor	LEO	Leon			133	133	Willis	Robert	L.	854
+8/23/2022	DEM	Democrat	GOV	Governor	LEV	Levy			13	13	Willis	Robert	L.	137
+8/23/2022	DEM	Democrat	GOV	Governor	LIB	Liberty			0	0	Willis	Robert	L.	96
+8/23/2022	DEM	Democrat	GOV	Governor	MAD	Madison			0	0	Willis	Robert	L.	105
+8/23/2022	DEM	Democrat	GOV	Governor	MAN	Manatee			71	71	Willis	Robert	L.	519
+8/23/2022	DEM	Democrat	GOV	Governor	MRN	Marion			105	105	Willis	Robert	L.	799
+8/23/2022	DEM	Democrat	GOV	Governor	MRT	Martin			27	27	Willis	Robert	L.	173
+8/23/2022	DEM	Democrat	GOV	Governor	DAD	Miami-Dade			1045	1045	Willis	Robert	L.	3581
+8/23/2022	DEM	Democrat	GOV	Governor	MON	Monroe			33	33	Willis	Robert	L.	168
+8/23/2022	DEM	Democrat	GOV	Governor	NAS	Nassau			18	18	Willis	Robert	L.	157
+8/23/2022	DEM	Democrat	GOV	Governor	OKA	Okaloosa			52	52	Willis	Robert	L.	288
+8/23/2022	DEM	Democrat	GOV	Governor	OKE	Okeechobee			11	11	Willis	Robert	L.	59
+8/23/2022	DEM	Democrat	GOV	Governor	ORA	Orange			257	257	Willis	Robert	L.	2223
+8/23/2022	DEM	Democrat	GOV	Governor	OSC	Osceola			125	125	Willis	Robert	L.	880
+8/23/2022	DEM	Democrat	GOV	Governor	PAL	Palm Beach			794	794	Willis	Robert	L.	2145
+8/23/2022	DEM	Democrat	GOV	Governor	PAS	Pasco			0	0	Willis	Robert	L.	737
+8/23/2022	DEM	Democrat	GOV	Governor	PIN	Pinellas			286	286	Willis	Robert	L.	1192
+8/23/2022	DEM	Democrat	GOV	Governor	POL	Polk			0	0	Willis	Robert	L.	1137
+8/23/2022	DEM	Democrat	GOV	Governor	PUT	Putnam			37	37	Willis	Robert	L.	225
+8/23/2022	DEM	Democrat	GOV	Governor	SAN	Santa Rosa			41	41	Willis	Robert	L.	259
+8/23/2022	DEM	Democrat	GOV	Governor	SAR	Sarasota			99	99	Willis	Robert	L.	555
+8/23/2022	DEM	Democrat	GOV	Governor	SEM	Seminole			83	83	Willis	Robert	L.	745
+8/23/2022	DEM	Democrat	GOV	Governor	STJ	St. Johns			0	0	Willis	Robert	L.	315
+8/23/2022	DEM	Democrat	GOV	Governor	STL	St. Lucie			60	60	Willis	Robert	L.	583
+8/23/2022	DEM	Democrat	GOV	Governor	SUM	Sumter			30	30	Willis	Robert	L.	259
+8/23/2022	DEM	Democrat	GOV	Governor	SUW	Suwannee			16	16	Willis	Robert	L.	192
+8/23/2022	DEM	Democrat	GOV	Governor	TAY	Taylor			14	14	Willis	Robert	L.	95
+8/23/2022	DEM	Democrat	GOV	Governor	UNI	Union			8	8	Willis	Robert	L.	63
+8/23/2022	DEM	Democrat	GOV	Governor	VOL	Volusia			136	136	Willis	Robert	L.	1286
+8/23/2022	DEM	Democrat	GOV	Governor	WAK	Wakulla			3	3	Willis	Robert	L.	150
+8/23/2022	DEM	Democrat	GOV	Governor	WAL	Walton			21	21	Willis	Robert	L.	97
+8/23/2022	DEM	Democrat	GOV	Governor	WAS	Washington			12	12	Willis	Robert	L.	107
+8/23/2022	DEM	Democrat	ATG	Attorney General	ALA	Alachua			66	66	Ayala	Aramis		14545
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAK	Baker			0	0	Ayala	Aramis		240
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAY	Bay			27	27	Ayala	Aramis		2518
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRA	Bradford			14	14	Ayala	Aramis		412
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRE	Brevard			0	0	Ayala	Aramis		20121
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRO	Broward			345	345	Ayala	Aramis		70185
+8/23/2022	DEM	Democrat	ATG	Attorney General	CAL	Calhoun			11	11	Ayala	Aramis		204
+8/23/2022	DEM	Democrat	ATG	Attorney General	CHA	Charlotte			0	0	Ayala	Aramis		4352
+8/23/2022	DEM	Democrat	ATG	Attorney General	CIT	Citrus			31	31	Ayala	Aramis		3420
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLA	Clay			48	48	Ayala	Aramis		4160
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLL	Collier			0	0	Ayala	Aramis		6582
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLM	Columbia			29	29	Ayala	Aramis		1068
+8/23/2022	DEM	Democrat	ATG	Attorney General	DES	Desoto			15	15	Ayala	Aramis		410
+8/23/2022	DEM	Democrat	ATG	Attorney General	DIX	Dixie			10	10	Ayala	Aramis		153
+8/23/2022	DEM	Democrat	ATG	Attorney General	DUV	Duval			186	186	Ayala	Aramis		38514
+8/23/2022	DEM	Democrat	ATG	Attorney General	ESC	Escambia			79	79	Ayala	Aramis		9278
+8/23/2022	DEM	Democrat	ATG	Attorney General	FLA	Flagler			21	21	Ayala	Aramis		4654
+8/23/2022	DEM	Democrat	ATG	Attorney General	FRA	Franklin			0	0	Ayala	Aramis		324
+8/23/2022	DEM	Democrat	ATG	Attorney General	GAD	Gadsden			25	25	Ayala	Aramis		3420
+8/23/2022	DEM	Democrat	ATG	Attorney General	GIL	Gilchrist			10	10	Ayala	Aramis		183
+8/23/2022	DEM	Democrat	ATG	Attorney General	GLA	Glades			13	13	Ayala	Aramis		145
+8/23/2022	DEM	Democrat	ATG	Attorney General	GUL	Gulf			0	0	Ayala	Aramis		238
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAM	Hamilton			0	0	Ayala	Aramis		318
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAR	Hardee			12	12	Ayala	Aramis		231
+8/23/2022	DEM	Democrat	ATG	Attorney General	HEN	Hendry			11	11	Ayala	Aramis		507
+8/23/2022	DEM	Democrat	ATG	Attorney General	HER	Hernando			0	0	Ayala	Aramis		4293
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIG	Highlands			25	25	Ayala	Aramis		1727
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIL	Hillsborough			448	448	Ayala	Aramis		45578
+8/23/2022	DEM	Democrat	ATG	Attorney General	HOL	Holmes			8	8	Ayala	Aramis		109
+8/23/2022	DEM	Democrat	ATG	Attorney General	IND	Indian River			34	34	Ayala	Aramis		4196
+8/23/2022	DEM	Democrat	ATG	Attorney General	JAC	Jackson			0	0	Ayala	Aramis		953
+8/23/2022	DEM	Democrat	ATG	Attorney General	JEF	Jefferson			16	16	Ayala	Aramis		900
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAF	Lafayette			5	5	Ayala	Aramis		80
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAK	Lake			91	91	Ayala	Aramis		10201
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEE	Lee			99	99	Ayala	Aramis		15867
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEO	Leon			133	133	Ayala	Aramis		16977
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEV	Levy			13	13	Ayala	Aramis		729
+8/23/2022	DEM	Democrat	ATG	Attorney General	LIB	Liberty			0	0	Ayala	Aramis		91
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAD	Madison			0	0	Ayala	Aramis		579
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAN	Manatee			71	71	Ayala	Aramis		11808
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRN	Marion			105	105	Ayala	Aramis		10851
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRT	Martin			27	27	Ayala	Aramis		3597
+8/23/2022	DEM	Democrat	ATG	Attorney General	DAD	Miami-Dade			1045	1045	Ayala	Aramis		50574
+8/23/2022	DEM	Democrat	ATG	Attorney General	MON	Monroe			33	33	Ayala	Aramis		2527
+8/23/2022	DEM	Democrat	ATG	Attorney General	NAS	Nassau			18	18	Ayala	Aramis		1680
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKA	Okaloosa			52	52	Ayala	Aramis		3071
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKE	Okeechobee			11	11	Ayala	Aramis		347
+8/23/2022	DEM	Democrat	ATG	Attorney General	ORA	Orange			257	257	Ayala	Aramis		55361
+8/23/2022	DEM	Democrat	ATG	Attorney General	OSC	Osceola			125	125	Ayala	Aramis		12020
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAL	Palm Beach			794	794	Ayala	Aramis		52454
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAS	Pasco			0	0	Ayala	Aramis		13230
+8/23/2022	DEM	Democrat	ATG	Attorney General	PIN	Pinellas			286	286	Ayala	Aramis		33836
+8/23/2022	DEM	Democrat	ATG	Attorney General	POL	Polk			0	0	Ayala	Aramis		18540
+8/23/2022	DEM	Democrat	ATG	Attorney General	PUT	Putnam			37	37	Ayala	Aramis		1316
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAN	Santa Rosa			41	41	Ayala	Aramis		2472
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAR	Sarasota			99	99	Ayala	Aramis		16840
+8/23/2022	DEM	Democrat	ATG	Attorney General	SEM	Seminole			83	83	Ayala	Aramis		16336
+8/23/2022	DEM	Democrat	ATG	Attorney General	STJ	St. Johns			0	0	Ayala	Aramis		8305
+8/23/2022	DEM	Democrat	ATG	Attorney General	STL	St. Lucie			60	60	Ayala	Aramis		9171
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUM	Sumter			30	30	Ayala	Aramis		4442
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUW	Suwannee			16	16	Ayala	Aramis		677
+8/23/2022	DEM	Democrat	ATG	Attorney General	TAY	Taylor			14	14	Ayala	Aramis		321
+8/23/2022	DEM	Democrat	ATG	Attorney General	UNI	Union			8	8	Ayala	Aramis		90
+8/23/2022	DEM	Democrat	ATG	Attorney General	VOL	Volusia			136	136	Ayala	Aramis		17653
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAK	Wakulla			3	3	Ayala	Aramis		892
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAL	Walton			21	21	Ayala	Aramis		676
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAS	Washington			12	12	Ayala	Aramis		307
+8/23/2022	DEM	Democrat	ATG	Attorney General	ALA	Alachua			66	66	Lewis	Jim		4755
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAK	Baker			0	0	Lewis	Jim		500
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAY	Bay			27	27	Lewis	Jim		2218
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRA	Bradford			14	14	Lewis	Jim		710
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRE	Brevard			0	0	Lewis	Jim		11100
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRO	Broward			345	345	Lewis	Jim		46356
+8/23/2022	DEM	Democrat	ATG	Attorney General	CAL	Calhoun			11	11	Lewis	Jim		457
+8/23/2022	DEM	Democrat	ATG	Attorney General	CHA	Charlotte			0	0	Lewis	Jim		4208
+8/23/2022	DEM	Democrat	ATG	Attorney General	CIT	Citrus			31	31	Lewis	Jim		3422
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLA	Clay			48	48	Lewis	Jim		2248
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLL	Collier			0	0	Lewis	Jim		3972
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLM	Columbia			29	29	Lewis	Jim		1074
+8/23/2022	DEM	Democrat	ATG	Attorney General	DES	Desoto			15	15	Lewis	Jim		623
+8/23/2022	DEM	Democrat	ATG	Attorney General	DIX	Dixie			10	10	Lewis	Jim		283
+8/23/2022	DEM	Democrat	ATG	Attorney General	DUV	Duval			186	186	Lewis	Jim		24263
+8/23/2022	DEM	Democrat	ATG	Attorney General	ESC	Escambia			79	79	Lewis	Jim		5889
+8/23/2022	DEM	Democrat	ATG	Attorney General	FLA	Flagler			21	21	Lewis	Jim		2645
+8/23/2022	DEM	Democrat	ATG	Attorney General	FRA	Franklin			0	0	Lewis	Jim		280
+8/23/2022	DEM	Democrat	ATG	Attorney General	GAD	Gadsden			25	25	Lewis	Jim		2915
+8/23/2022	DEM	Democrat	ATG	Attorney General	GIL	Gilchrist			10	10	Lewis	Jim		301
+8/23/2022	DEM	Democrat	ATG	Attorney General	GLA	Glades			13	13	Lewis	Jim		240
+8/23/2022	DEM	Democrat	ATG	Attorney General	GUL	Gulf			0	0	Lewis	Jim		257
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAM	Hamilton			0	0	Lewis	Jim		469
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAR	Hardee			12	12	Lewis	Jim		212
+8/23/2022	DEM	Democrat	ATG	Attorney General	HEN	Hendry			11	11	Lewis	Jim		493
+8/23/2022	DEM	Democrat	ATG	Attorney General	HER	Hernando			0	0	Lewis	Jim		3547
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIG	Highlands			25	25	Lewis	Jim		2025
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIL	Hillsborough			448	448	Lewis	Jim		21546
+8/23/2022	DEM	Democrat	ATG	Attorney General	HOL	Holmes			8	8	Lewis	Jim		319
+8/23/2022	DEM	Democrat	ATG	Attorney General	IND	Indian River			34	34	Lewis	Jim		3215
+8/23/2022	DEM	Democrat	ATG	Attorney General	JAC	Jackson			0	0	Lewis	Jim		1598
+8/23/2022	DEM	Democrat	ATG	Attorney General	JEF	Jefferson			16	16	Lewis	Jim		714
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAF	Lafayette			5	5	Lewis	Jim		131
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAK	Lake			91	91	Lewis	Jim		6045
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEE	Lee			99	99	Lewis	Jim		11561
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEO	Leon			133	133	Lewis	Jim		8000
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEV	Levy			13	13	Lewis	Jim		842
+8/23/2022	DEM	Democrat	ATG	Attorney General	LIB	Liberty			0	0	Lewis	Jim		369
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAD	Madison			0	0	Lewis	Jim		690
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAN	Manatee			71	71	Lewis	Jim		7487
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRN	Marion			105	105	Lewis	Jim		7280
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRT	Martin			27	27	Lewis	Jim		2843
+8/23/2022	DEM	Democrat	ATG	Attorney General	DAD	Miami-Dade			1045	1045	Lewis	Jim		39546
+8/23/2022	DEM	Democrat	ATG	Attorney General	MON	Monroe			33	33	Lewis	Jim		2059
+8/23/2022	DEM	Democrat	ATG	Attorney General	NAS	Nassau			18	18	Lewis	Jim		1416
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKA	Okaloosa			52	52	Lewis	Jim		1817
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKE	Okeechobee			11	11	Lewis	Jim		488
+8/23/2022	DEM	Democrat	ATG	Attorney General	ORA	Orange			257	257	Lewis	Jim		15908
+8/23/2022	DEM	Democrat	ATG	Attorney General	OSC	Osceola			125	125	Lewis	Jim		4577
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAL	Palm Beach			794	794	Lewis	Jim		27496
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAS	Pasco			0	0	Lewis	Jim		9657
+8/23/2022	DEM	Democrat	ATG	Attorney General	PIN	Pinellas			286	286	Lewis	Jim		20772
+8/23/2022	DEM	Democrat	ATG	Attorney General	POL	Polk			0	0	Lewis	Jim		11550
+8/23/2022	DEM	Democrat	ATG	Attorney General	PUT	Putnam			37	37	Lewis	Jim		1498
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAN	Santa Rosa			41	41	Lewis	Jim		1649
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAR	Sarasota			99	99	Lewis	Jim		10470
+8/23/2022	DEM	Democrat	ATG	Attorney General	SEM	Seminole			83	83	Lewis	Jim		5837
+8/23/2022	DEM	Democrat	ATG	Attorney General	STJ	St. Johns			0	0	Lewis	Jim		3672
+8/23/2022	DEM	Democrat	ATG	Attorney General	STL	St. Lucie			60	60	Lewis	Jim		6697
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUM	Sumter			30	30	Lewis	Jim		3543
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUW	Suwannee			16	16	Lewis	Jim		993
+8/23/2022	DEM	Democrat	ATG	Attorney General	TAY	Taylor			14	14	Lewis	Jim		530
+8/23/2022	DEM	Democrat	ATG	Attorney General	UNI	Union			8	8	Lewis	Jim		198
+8/23/2022	DEM	Democrat	ATG	Attorney General	VOL	Volusia			136	136	Lewis	Jim		11155
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAK	Wakulla			3	3	Lewis	Jim		862
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAL	Walton			21	21	Lewis	Jim		555
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAS	Washington			12	12	Lewis	Jim		528
+8/23/2022	DEM	Democrat	ATG	Attorney General	ALA	Alachua			66	66	Uhlfelder	Daniel		8391
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAK	Baker			0	0	Uhlfelder	Daniel		186
+8/23/2022	DEM	Democrat	ATG	Attorney General	BAY	Bay			27	27	Uhlfelder	Daniel		1658
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRA	Bradford			14	14	Uhlfelder	Daniel		221
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRE	Brevard			0	0	Uhlfelder	Daniel		12502
+8/23/2022	DEM	Democrat	ATG	Attorney General	BRO	Broward			345	345	Uhlfelder	Daniel		41773
+8/23/2022	DEM	Democrat	ATG	Attorney General	CAL	Calhoun			11	11	Uhlfelder	Daniel		131
+8/23/2022	DEM	Democrat	ATG	Attorney General	CHA	Charlotte			0	0	Uhlfelder	Daniel		3489
+8/23/2022	DEM	Democrat	ATG	Attorney General	CIT	Citrus			31	31	Uhlfelder	Daniel		2366
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLA	Clay			48	48	Uhlfelder	Daniel		1776
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLL	Collier			0	0	Uhlfelder	Daniel		5596
+8/23/2022	DEM	Democrat	ATG	Attorney General	CLM	Columbia			29	29	Uhlfelder	Daniel		610
+8/23/2022	DEM	Democrat	ATG	Attorney General	DES	Desoto			15	15	Uhlfelder	Daniel		229
+8/23/2022	DEM	Democrat	ATG	Attorney General	DIX	Dixie			10	10	Uhlfelder	Daniel		130
+8/23/2022	DEM	Democrat	ATG	Attorney General	DUV	Duval			186	186	Uhlfelder	Daniel		14033
+8/23/2022	DEM	Democrat	ATG	Attorney General	ESC	Escambia			79	79	Uhlfelder	Daniel		4526
+8/23/2022	DEM	Democrat	ATG	Attorney General	FLA	Flagler			21	21	Uhlfelder	Daniel		2555
+8/23/2022	DEM	Democrat	ATG	Attorney General	FRA	Franklin			0	0	Uhlfelder	Daniel		308
+8/23/2022	DEM	Democrat	ATG	Attorney General	GAD	Gadsden			25	25	Uhlfelder	Daniel		1221
+8/23/2022	DEM	Democrat	ATG	Attorney General	GIL	Gilchrist			10	10	Uhlfelder	Daniel		149
+8/23/2022	DEM	Democrat	ATG	Attorney General	GLA	Glades			13	13	Uhlfelder	Daniel		83
+8/23/2022	DEM	Democrat	ATG	Attorney General	GUL	Gulf			0	0	Uhlfelder	Daniel		164
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAM	Hamilton			0	0	Uhlfelder	Daniel		149
+8/23/2022	DEM	Democrat	ATG	Attorney General	HAR	Hardee			12	12	Uhlfelder	Daniel		103
+8/23/2022	DEM	Democrat	ATG	Attorney General	HEN	Hendry			11	11	Uhlfelder	Daniel		225
+8/23/2022	DEM	Democrat	ATG	Attorney General	HER	Hernando			0	0	Uhlfelder	Daniel		3245
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIG	Highlands			25	25	Uhlfelder	Daniel		936
+8/23/2022	DEM	Democrat	ATG	Attorney General	HIL	Hillsborough			448	448	Uhlfelder	Daniel		30902
+8/23/2022	DEM	Democrat	ATG	Attorney General	HOL	Holmes			8	8	Uhlfelder	Daniel		99
+8/23/2022	DEM	Democrat	ATG	Attorney General	IND	Indian River			34	34	Uhlfelder	Daniel		3016
+8/23/2022	DEM	Democrat	ATG	Attorney General	JAC	Jackson			0	0	Uhlfelder	Daniel		414
+8/23/2022	DEM	Democrat	ATG	Attorney General	JEF	Jefferson			16	16	Uhlfelder	Daniel		407
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAF	Lafayette			5	5	Uhlfelder	Daniel		45
+8/23/2022	DEM	Democrat	ATG	Attorney General	LAK	Lake			91	91	Uhlfelder	Daniel		5443
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEE	Lee			99	99	Uhlfelder	Daniel		10264
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEO	Leon			133	133	Uhlfelder	Daniel		12850
+8/23/2022	DEM	Democrat	ATG	Attorney General	LEV	Levy			13	13	Uhlfelder	Daniel		577
+8/23/2022	DEM	Democrat	ATG	Attorney General	LIB	Liberty			0	0	Uhlfelder	Daniel		97
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAD	Madison			0	0	Uhlfelder	Daniel		359
+8/23/2022	DEM	Democrat	ATG	Attorney General	MAN	Manatee			71	71	Uhlfelder	Daniel		8515
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRN	Marion			105	105	Uhlfelder	Daniel		5341
+8/23/2022	DEM	Democrat	ATG	Attorney General	MRT	Martin			27	27	Uhlfelder	Daniel		3103
+8/23/2022	DEM	Democrat	ATG	Attorney General	DAD	Miami-Dade			1045	1045	Uhlfelder	Daniel		33249
+8/23/2022	DEM	Democrat	ATG	Attorney General	MON	Monroe			33	33	Uhlfelder	Daniel		1940
+8/23/2022	DEM	Democrat	ATG	Attorney General	NAS	Nassau			18	18	Uhlfelder	Daniel		1405
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKA	Okaloosa			52	52	Uhlfelder	Daniel		2298
+8/23/2022	DEM	Democrat	ATG	Attorney General	OKE	Okeechobee			11	11	Uhlfelder	Daniel		231
+8/23/2022	DEM	Democrat	ATG	Attorney General	ORA	Orange			257	257	Uhlfelder	Daniel		22581
+8/23/2022	DEM	Democrat	ATG	Attorney General	OSC	Osceola			125	125	Uhlfelder	Daniel		3729
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAL	Palm Beach			794	794	Uhlfelder	Daniel		40178
+8/23/2022	DEM	Democrat	ATG	Attorney General	PAS	Pasco			0	0	Uhlfelder	Daniel		9414
+8/23/2022	DEM	Democrat	ATG	Attorney General	PIN	Pinellas			286	286	Uhlfelder	Daniel		33928
+8/23/2022	DEM	Democrat	ATG	Attorney General	POL	Polk			0	0	Uhlfelder	Daniel		8126
+8/23/2022	DEM	Democrat	ATG	Attorney General	PUT	Putnam			37	37	Uhlfelder	Daniel		816
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAN	Santa Rosa			41	41	Uhlfelder	Daniel		1837
+8/23/2022	DEM	Democrat	ATG	Attorney General	SAR	Sarasota			99	99	Uhlfelder	Daniel		14556
+8/23/2022	DEM	Democrat	ATG	Attorney General	SEM	Seminole			83	83	Uhlfelder	Daniel		10392
+8/23/2022	DEM	Democrat	ATG	Attorney General	STJ	St. Johns			0	0	Uhlfelder	Daniel		5330
+8/23/2022	DEM	Democrat	ATG	Attorney General	STL	St. Lucie			60	60	Uhlfelder	Daniel		5621
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUM	Sumter			30	30	Uhlfelder	Daniel		3170
+8/23/2022	DEM	Democrat	ATG	Attorney General	SUW	Suwannee			16	16	Uhlfelder	Daniel		459
+8/23/2022	DEM	Democrat	ATG	Attorney General	TAY	Taylor			14	14	Uhlfelder	Daniel		153
+8/23/2022	DEM	Democrat	ATG	Attorney General	UNI	Union			8	8	Uhlfelder	Daniel		85
+8/23/2022	DEM	Democrat	ATG	Attorney General	VOL	Volusia			136	136	Uhlfelder	Daniel		9922
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAK	Wakulla			3	3	Uhlfelder	Daniel		744
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAL	Walton			21	21	Uhlfelder	Daniel		1104
+8/23/2022	DEM	Democrat	ATG	Attorney General	WAS	Washington			12	12	Uhlfelder	Daniel		165
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ALA	Alachua			66	66	Blemur	Naomi	Esther	11514
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAK	Baker			0	0	Blemur	Naomi	Esther	367
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAY	Bay			27	27	Blemur	Naomi	Esther	2919
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRA	Bradford			14	14	Blemur	Naomi	Esther	581
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRE	Brevard			0	0	Blemur	Naomi	Esther	18810
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRO	Broward			345	345	Blemur	Naomi	Esther	82922
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CAL	Calhoun			11	11	Blemur	Naomi	Esther	262
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CHA	Charlotte			0	0	Blemur	Naomi	Esther	5782
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CIT	Citrus			31	31	Blemur	Naomi	Esther	4178
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLA	Clay			48	48	Blemur	Naomi	Esther	4010
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLL	Collier			0	0	Blemur	Naomi	Esther	7581
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLM	Columbia			29	29	Blemur	Naomi	Esther	1120
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DES	Desoto			15	15	Blemur	Naomi	Esther	451
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DIX	Dixie			10	10	Blemur	Naomi	Esther	222
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DUV	Duval			186	186	Blemur	Naomi	Esther	42556
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ESC	Escambia			79	79	Blemur	Naomi	Esther	10269
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FLA	Flagler			21	21	Blemur	Naomi	Esther	4941
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FRA	Franklin			0	0	Blemur	Naomi	Esther	389
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GAD	Gadsden			25	25	Blemur	Naomi	Esther	3407
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GIL	Gilchrist			10	10	Blemur	Naomi	Esther	256
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GLA	Glades			13	13	Blemur	Naomi	Esther	205
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GUL	Gulf			0	0	Blemur	Naomi	Esther	305
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAM	Hamilton			0	0	Blemur	Naomi	Esther	391
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAR	Hardee			12	12	Blemur	Naomi	Esther	205
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HEN	Hendry			11	11	Blemur	Naomi	Esther	540
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HER	Hernando			0	0	Blemur	Naomi	Esther	5342
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIG	Highlands			25	25	Blemur	Naomi	Esther	2075
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIL	Hillsborough			448	448	Blemur	Naomi	Esther	53616
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HOL	Holmes			8	8	Blemur	Naomi	Esther	164
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	IND	Indian River			34	34	Blemur	Naomi	Esther	4656
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JAC	Jackson			0	0	Blemur	Naomi	Esther	1139
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JEF	Jefferson			16	16	Blemur	Naomi	Esther	948
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAF	Lafayette			5	5	Blemur	Naomi	Esther	85
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAK	Lake			91	91	Blemur	Naomi	Esther	9148
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEE	Lee			99	99	Blemur	Naomi	Esther	17533
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEO	Leon			133	133	Blemur	Naomi	Esther	15330
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEV	Levy			13	13	Blemur	Naomi	Esther	872
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LIB	Liberty			0	0	Blemur	Naomi	Esther	149
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAD	Madison			0	0	Blemur	Naomi	Esther	678
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAN	Manatee			71	71	Blemur	Naomi	Esther	13463
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRN	Marion			105	105	Blemur	Naomi	Esther	10006
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRT	Martin			27	27	Blemur	Naomi	Esther	4411
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DAD	Miami-Dade			1045	1045	Blemur	Naomi	Esther	67361
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MON	Monroe			33	33	Blemur	Naomi	Esther	2966
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	NAS	Nassau			18	18	Blemur	Naomi	Esther	2136
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKA	Okaloosa			52	52	Blemur	Naomi	Esther	3495
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKE	Okeechobee			11	11	Blemur	Naomi	Esther	407
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ORA	Orange			257	257	Blemur	Naomi	Esther	41646
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OSC	Osceola			125	125	Blemur	Naomi	Esther	8262
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAL	Palm Beach			794	794	Blemur	Naomi	Esther	60209
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAS	Pasco			0	0	Blemur	Naomi	Esther	16454
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PIN	Pinellas			286	286	Blemur	Naomi	Esther	51764
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	POL	Polk			0	0	Blemur	Naomi	Esther	18289
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PUT	Putnam			37	37	Blemur	Naomi	Esther	1483
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAN	Santa Rosa			41	41	Blemur	Naomi	Esther	2716
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAR	Sarasota			99	99	Blemur	Naomi	Esther	19686
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SEM	Seminole			83	83	Blemur	Naomi	Esther	14388
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STJ	St. Johns			0	0	Blemur	Naomi	Esther	7873
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STL	St. Lucie			60	60	Blemur	Naomi	Esther	10030
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUM	Sumter			30	30	Blemur	Naomi	Esther	5217
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUW	Suwannee			16	16	Blemur	Naomi	Esther	847
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	TAY	Taylor			14	14	Blemur	Naomi	Esther	408
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	UNI	Union			8	8	Blemur	Naomi	Esther	145
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	VOL	Volusia			136	136	Blemur	Naomi	Esther	17338
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAK	Wakulla			3	3	Blemur	Naomi	Esther	977
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAL	Walton			21	21	Blemur	Naomi	Esther	1022
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAS	Washington			12	12	Blemur	Naomi	Esther	358
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ALA	Alachua			66	66	Gaillot	J. R.		8261
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAK	Baker			0	0	Gaillot	J. R.		210
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAY	Bay			27	27	Gaillot	J. R.		1369
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRA	Bradford			14	14	Gaillot	J. R.		333
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRE	Brevard			0	0	Gaillot	J. R.		9795
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRO	Broward			345	345	Gaillot	J. R.		24907
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CAL	Calhoun			11	11	Gaillot	J. R.		240
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CHA	Charlotte			0	0	Gaillot	J. R.		2227
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CIT	Citrus			31	31	Gaillot	J. R.		1732
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLA	Clay			48	48	Gaillot	J. R.		1697
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLL	Collier			0	0	Gaillot	J. R.		3247
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLM	Columbia			29	29	Gaillot	J. R.		750
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DES	Desoto			15	15	Gaillot	J. R.		306
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DIX	Dixie			10	10	Gaillot	J. R.		153
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DUV	Duval			186	186	Gaillot	J. R.		13615
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ESC	Escambia			79	79	Gaillot	J. R.		3814
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FLA	Flagler			21	21	Gaillot	J. R.		1656
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FRA	Franklin			0	0	Gaillot	J. R.		190
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GAD	Gadsden			25	25	Gaillot	J. R.		2122
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GIL	Gilchrist			10	10	Gaillot	J. R.		160
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GLA	Glades			13	13	Gaillot	J. R.		98
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GUL	Gulf			0	0	Gaillot	J. R.		182
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAM	Hamilton			0	0	Gaillot	J. R.		235
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAR	Hardee			12	12	Gaillot	J. R.		128
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HEN	Hendry			11	11	Gaillot	J. R.		286
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HER	Hernando			0	0	Gaillot	J. R.		2063
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIG	Highlands			25	25	Gaillot	J. R.		977
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIL	Hillsborough			448	448	Gaillot	J. R.		17150
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HOL	Holmes			8	8	Gaillot	J. R.		122
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	IND	Indian River			34	34	Gaillot	J. R.		2002
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JAC	Jackson			0	0	Gaillot	J. R.		743
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JEF	Jefferson			16	16	Gaillot	J. R.		468
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAF	Lafayette			5	5	Gaillot	J. R.		72
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAK	Lake			91	91	Gaillot	J. R.		4131
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEE	Lee			99	99	Gaillot	J. R.		7340
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEO	Leon			133	133	Gaillot	J. R.		9298
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEV	Levy			13	13	Gaillot	J. R.		484
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LIB	Liberty			0	0	Gaillot	J. R.		166
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAD	Madison			0	0	Gaillot	J. R.		472
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAN	Manatee			71	71	Gaillot	J. R.		5686
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRN	Marion			105	105	Gaillot	J. R.		4561
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRT	Martin			27	27	Gaillot	J. R.		1958
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DAD	Miami-Dade			1045	1045	Gaillot	J. R.		20607
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MON	Monroe			33	33	Gaillot	J. R.		1177
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	NAS	Nassau			18	18	Gaillot	J. R.		872
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKA	Okaloosa			52	52	Gaillot	J. R.		1333
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKE	Okeechobee			11	11	Gaillot	J. R.		243
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ORA	Orange			257	257	Gaillot	J. R.		18300
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OSC	Osceola			125	125	Gaillot	J. R.		3596
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAL	Palm Beach			794	794	Gaillot	J. R.		22908
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAS	Pasco			0	0	Gaillot	J. R.		6004
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PIN	Pinellas			286	286	Gaillot	J. R.		14591
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	POL	Polk			0	0	Gaillot	J. R.		7076
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PUT	Putnam			37	37	Gaillot	J. R.		886
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAN	Santa Rosa			41	41	Gaillot	J. R.		1256
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAR	Sarasota			99	99	Gaillot	J. R.		7146
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SEM	Seminole			83	83	Gaillot	J. R.		7248
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STJ	St. Johns			0	0	Gaillot	J. R.		3816
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STL	St. Lucie			60	60	Gaillot	J. R.		4308
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUM	Sumter			30	30	Gaillot	J. R.		2167
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUW	Suwannee			16	16	Gaillot	J. R.		478
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	TAY	Taylor			14	14	Gaillot	J. R.		235
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	UNI	Union			8	8	Gaillot	J. R.		106
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	VOL	Volusia			136	136	Gaillot	J. R.		7856
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAK	Wakulla			3	3	Gaillot	J. R.		538
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAL	Walton			21	21	Gaillot	J. R.		459
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAS	Washington			12	12	Gaillot	J. R.		251
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ALA	Alachua			66	66	Morales	Ryan		7253
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAK	Baker			0	0	Morales	Ryan		341
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BAY	Bay			27	27	Morales	Ryan		1998
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRA	Bradford			14	14	Morales	Ryan		411
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRE	Brevard			0	0	Morales	Ryan		14276
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	BRO	Broward			345	345	Morales	Ryan		45337
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CAL	Calhoun			11	11	Morales	Ryan		280
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CHA	Charlotte			0	0	Morales	Ryan		3895
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CIT	Citrus			31	31	Morales	Ryan		3217
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLA	Clay			48	48	Morales	Ryan		2413
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLL	Collier			0	0	Morales	Ryan		4840
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	CLM	Columbia			29	29	Morales	Ryan		868
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DES	Desoto			15	15	Morales	Ryan		497
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DIX	Dixie			10	10	Morales	Ryan		191
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DUV	Duval			186	186	Morales	Ryan		20043
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ESC	Escambia			79	79	Morales	Ryan		5334
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FLA	Flagler			21	21	Morales	Ryan		3044
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	FRA	Franklin			0	0	Morales	Ryan		323
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GAD	Gadsden			25	25	Morales	Ryan		1964
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GIL	Gilchrist			10	10	Morales	Ryan		212
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GLA	Glades			13	13	Morales	Ryan		171
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	GUL	Gulf			0	0	Morales	Ryan		181
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAM	Hamilton			0	0	Morales	Ryan		323
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HAR	Hardee			12	12	Morales	Ryan		209
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HEN	Hendry			11	11	Morales	Ryan		404
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HER	Hernando			0	0	Morales	Ryan		3566
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIG	Highlands			25	25	Morales	Ryan		1584
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HIL	Hillsborough			448	448	Morales	Ryan		25795
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	HOL	Holmes			8	8	Morales	Ryan		240
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	IND	Indian River			34	34	Morales	Ryan		3523
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JAC	Jackson			0	0	Morales	Ryan		1063
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	JEF	Jefferson			16	16	Morales	Ryan		588
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAF	Lafayette			5	5	Morales	Ryan		98
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LAK	Lake			91	91	Morales	Ryan		7825
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEE	Lee			99	99	Morales	Ryan		12319
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEO	Leon			133	133	Morales	Ryan		11426
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LEV	Levy			13	13	Morales	Ryan		764
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	LIB	Liberty			0	0	Morales	Ryan		233
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAD	Madison			0	0	Morales	Ryan		492
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MAN	Manatee			71	71	Morales	Ryan		8232
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRN	Marion			105	105	Morales	Ryan		8478
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MRT	Martin			27	27	Morales	Ryan		2988
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	DAD	Miami-Dade			1045	1045	Morales	Ryan		34047
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	MON	Monroe			33	33	Morales	Ryan		2207
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	NAS	Nassau			18	18	Morales	Ryan		1399
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKA	Okaloosa			52	52	Morales	Ryan		2207
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OKE	Okeechobee			11	11	Morales	Ryan		418
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	ORA	Orange			257	257	Morales	Ryan		29735
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	OSC	Osceola			125	125	Morales	Ryan		8015
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAL	Palm Beach			794	794	Morales	Ryan		33852
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PAS	Pasco			0	0	Morales	Ryan		9580
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PIN	Pinellas			286	286	Morales	Ryan		21280
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	POL	Polk			0	0	Morales	Ryan		12265
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	PUT	Putnam			37	37	Morales	Ryan		1248
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAN	Santa Rosa			41	41	Morales	Ryan		1920
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SAR	Sarasota			99	99	Morales	Ryan		14126
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SEM	Seminole			83	83	Morales	Ryan		9599
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STJ	St. Johns			0	0	Morales	Ryan		5230
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	STL	St. Lucie			60	60	Morales	Ryan		6854
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUM	Sumter			30	30	Morales	Ryan		3514
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	SUW	Suwannee			16	16	Morales	Ryan		804
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	TAY	Taylor			14	14	Morales	Ryan		348
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	UNI	Union			8	8	Morales	Ryan		130
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	VOL	Volusia			136	136	Morales	Ryan		12548
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAK	Wakulla			3	3	Morales	Ryan		930
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAL	Walton			21	21	Morales	Ryan		734
+8/23/2022	DEM	Democrat	AGR	Commissioner of Agriculture	WAS	Washington			12	12	Morales	Ryan		380
+8/23/2022	DEM	Democrat	STS	State Senator	DUV	Duval	005		109	109	Davis	Tracie		34075
+8/23/2022	DEM	Democrat	STS	State Senator	DUV	Duval	005		109	109	Gaffney	Reggie		15996
+8/23/2022	DEM	Democrat	STS	State Senator	BRE	Brevard	008		0	0	Dembinsky	Richard	Paul	678
+8/23/2022	DEM	Democrat	STS	State Senator	VOL	Volusia	008		114	114	Dembinsky	Richard	Paul	4915
+8/23/2022	DEM	Democrat	STS	State Senator	BRE	Brevard	008		0	0	Williams	Andrea		4190
+8/23/2022	DEM	Democrat	STS	State Senator	VOL	Volusia	008		114	114	Williams	Andrea		26868
+8/23/2022	DEM	Democrat	STS	State Senator	ORA	Orange	015		103	103	Brown	Kamia		25641
+8/23/2022	DEM	Democrat	STS	State Senator	ORA	Orange	015		103	103	Thompson	Geraldine	F.	29173
+8/23/2022	DEM	Democrat	STS	State Senator	DAD	Miami-Dade	034		239	239	Escarment	Pitchie 'Peachy'		8216
+8/23/2022	DEM	Democrat	STS	State Senator	DAD	Miami-Dade	034		239	239	Ighodaro	Erhabor		9445
+8/23/2022	DEM	Democrat	STS	State Senator	DAD	Miami-Dade	034		239	239	Jones	Shevrin	'Shev'	37640
+8/23/2022	DEM	Democrat	STS	State Senator	BRO	Broward	035		97	97	Book	Lauren		37953
+8/23/2022	DEM	Democrat	STS	State Senator	BRO	Broward	035		97	97	Sharief	Barbara		24944
+8/23/2022	DEM	Democrat	STR	State Representative	GAD	Gadsden	008		25	25	Brown	Hubert		1946
+8/23/2022	DEM	Democrat	STR	State Representative	LEO	Leon	008		56	56	Brown	Hubert		3332
+8/23/2022	DEM	Democrat	STR	State Representative	GAD	Gadsden	008		25	25	Franklin	Gallop	P.	1858
+8/23/2022	DEM	Democrat	STR	State Representative	LEO	Leon	008		56	56	Franklin	Gallop	P.	4794
+8/23/2022	DEM	Democrat	STR	State Representative	GAD	Gadsden	008		25	25	James	Gregory		3055
+8/23/2022	DEM	Democrat	STR	State Representative	LEO	Leon	008		56	56	James	Gregory		3032
+8/23/2022	DEM	Democrat	STR	State Representative	GAD	Gadsden	008		25	25	Lettman-Hicks	Sharon		418
+8/23/2022	DEM	Democrat	STR	State Representative	LEO	Leon	008		56	56	Lettman-Hicks	Sharon		868
+8/23/2022	DEM	Democrat	STR	State Representative	GAD	Gadsden	008		25	25	Rattigan	Marie		559
+8/23/2022	DEM	Democrat	STR	State Representative	LEO	Leon	008		56	56	Rattigan	Marie		2074
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	013		42	42	Nixon	Angie		16803
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	013		42	42	Smith	Delaine		2171
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	014		41	41	Daniels	Kimberly		8498
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	014		41	41	Dennis	Garrett		5970
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	014		41	41	Hinton	Iris		552
+8/23/2022	DEM	Democrat	STR	State Representative	DUV	Duval	014		41	41	Pollock	Mincy		2784
+8/23/2022	DEM	Democrat	STR	State Representative	ALA	Alachua	022		27	27	Magruder	Olysha		7467
+8/23/2022	DEM	Democrat	STR	State Representative	GIL	Gilchrist	022		10	10	Magruder	Olysha		213
+8/23/2022	DEM	Democrat	STR	State Representative	LEV	Levy	022		13	13	Magruder	Olysha		564
+8/23/2022	DEM	Democrat	STR	State Representative	ALA	Alachua	022		27	27	Peters	Brandon		6726
+8/23/2022	DEM	Democrat	STR	State Representative	GIL	Gilchrist	022		10	10	Peters	Brandon		424
+8/23/2022	DEM	Democrat	STR	State Representative	LEV	Levy	022		13	13	Peters	Brandon		1644
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	035		32	32	Bagga	Rishi		3606
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	035		18	18	Bagga	Rishi		454
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	035		32	32	Keen	Tom		3250
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	035		18	18	Keen	Tom		753
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	035		32	32	Munoz-Chaffin	Tahitiana 'T'		2005
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	035		18	18	Munoz-Chaffin	Tahitiana 'T'		427
+8/23/2022	DEM	Democrat	STR	State Representative	SEM	Seminole	036		30	30	Joseph	Rod		3533
+8/23/2022	DEM	Democrat	STR	State Representative	SEM	Seminole	036		30	30	Poulalion	Deborah		8159
+8/23/2022	DEM	Democrat	STR	State Representative	SEM	Seminole	038		31	31	Douglas	Dominique	B.	2977
+8/23/2022	DEM	Democrat	STR	State Representative	SEM	Seminole	038		31	31	Henry	Sarah		6239
+8/23/2022	DEM	Democrat	STR	State Representative	SEM	Seminole	038		31	31	Measom	Ed		2170
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	040		40	40	Bracy Davis	LaVon		8826
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	040		40	40	Myers	Melissa	S.	5024
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	041		32	32	Antone	Bruce	H.	2906
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	041		32	32	McCurdy	Travaris		2823
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	041		32	32	Powell	Pam		2034
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	041		32	32	Rose	Shaniqua 'Shan'		2119
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	044		35	35	Harris	Jennifer	'Rita'	8348
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	044		35	35	Morales	Daisy		7053
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	047		5	5	Jeng	Horng	'Andrew'	362
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	047		39	39	Jeng	Horng	'Andrew'	2716
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	047		5	5	Marquith	Dan		267
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	047		39	39	Marquith	Dan		2578
+8/23/2022	DEM	Democrat	STR	State Representative	ORA	Orange	047		5	5	Nieves	Anthony		470
+8/23/2022	DEM	Democrat	STR	State Representative	OSC	Osceola	047		39	39	Nieves	Anthony		2980
+8/23/2022	DEM	Democrat	STR	State Representative	PIN	Pinellas	058		50	50	Fensterwald	Bernard	'Bernie'	8605
+8/23/2022	DEM	Democrat	STR	State Representative	PIN	Pinellas	058		50	50	Saportas	Joseph		5090
+8/23/2022	DEM	Democrat	STR	State Representative	HIL	Hillsborough	062		34	34	Newton	Wengay	'Newt'	1614
+8/23/2022	DEM	Democrat	STR	State Representative	PIN	Pinellas	062		26	26	Newton	Wengay	'Newt'	5145
+8/23/2022	DEM	Democrat	STR	State Representative	HIL	Hillsborough	062		34	34	Philippe	Jesse		931
+8/23/2022	DEM	Democrat	STR	State Representative	PIN	Pinellas	062		26	26	Philippe	Jesse		655
+8/23/2022	DEM	Democrat	STR	State Representative	HIL	Hillsborough	062		34	34	Rayner	Michele	K.	3013
+8/23/2022	DEM	Democrat	STR	State Representative	PIN	Pinellas	062		26	26	Rayner	Michele	K.	6520
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	092		88	88	Skidmore	Kelly		22794
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	092		88	88	Zahangir	Hasan		2103
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	093		77	77	Albright	Shelly	Lariz	4494
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	093		77	77	Densen	Seth		1596
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	093		77	77	Valeo	Thomas 'Tom'		4149
+8/23/2022	DEM	Democrat	STR	State Representative	PAL	Palm Beach	093		77	77	Waldron	Katherine	M.	4649
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	097		30	30	Dunkley	Lisa		12591
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	097		30	30	Farooqui	Saima		3040
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	097		30	30	Scurry	Kelly	N-L.	4634
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	098		38	38	Hawkins-Williams	Patricia		14057
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	098		38	38	Jones	Carmen		4847
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	099		38	38	Campbell	Daryl		17251
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	099		38	38	Manley	Elijah		7117
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	101		37	37	Cassel	Hillary		4428
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	101		37	37	Delmay	Todd		3771
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	101		37	37	Miller	Clay		2804
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	105		30	30	Siddiqui	Dr. Imran	Uddin	2237
+8/23/2022	DEM	Democrat	STR	State Representative	BRO	Broward	105		30	30	Woodson	Marie		11370
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	106		60	60	Leonard	Jordan	W.	7132
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	106		60	60	Ortega	Gustavo		2498
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	107		73	73	Benjamin	Christopher		12667
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	107		73	73	Francius	Wancito		2915
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	108		104	104	Etienne	Michael	A.	4973
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	108		104	104	Hardemon	Roy		3808
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	108		104	104	Joseph	Dotie		10092
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	109		121	121	Bush	James		6886
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	109		121	121	Gantt	Ashley	V.	7385
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	113		54	54	Althabe	Andres		2165
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	113		54	54	D'Amico	Alessandro 'A.J.'		4557
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	119		49	49	Cueva	James	A.	2449
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	119		49	49	Gonzalez	Gabriel		3095
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	120		69	69	Gentle	Adam		1388
+8/23/2022	DEM	Democrat	STR	State Representative	MON	Monroe	120		33	33	Gentle	Adam		4005
+8/23/2022	DEM	Democrat	STR	State Representative	DAD	Miami-Dade	120		69	69	Horton-Diaz	Daniel 'Dan'		1373
+8/23/2022	DEM	Democrat	STR	State Representative	MON	Monroe	120		33	33	Horton-Diaz	Daniel 'Dan'		2929
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAS	Pasco	006	022	0	0	Fiorentino	Nicholas 'Nick'		42462
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PIN	Pinellas	006	022	286	286	Fiorentino	Nicholas 'Nick'		74764
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAS	Pasco	006	022	0	0	Newton	Cynthia		49046
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PIN	Pinellas	006	022	286	286	Newton	Cynthia		124940
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAS	Pasco	006	027	0	0	Finelli	Scott		36822
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PIN	Pinellas	006	027	286	286	Finelli	Scott		62225
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAS	Pasco	006	027	0	0	Meyer	Keith		52742
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PIN	Pinellas	006	027	286	286	Meyer	Keith		134156
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ALA	Alachua	008	012	66	66	Brewer	Sean		14322
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BAK	Baker	008	012	0	0	Brewer	Sean		2990
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRA	Bradford	008	012	14	14	Brewer	Sean		2809
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	GIL	Gilchrist	008	012	10	10	Brewer	Sean		2233
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	LEV	Levy	008	012	13	13	Brewer	Sean		4234
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	UNI	Union	008	012	8	8	Brewer	Sean		1454
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ALA	Alachua	008	012	66	66	Martin	AuBroncee		16651
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BAK	Baker	008	012	0	0	Martin	AuBroncee		350
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRA	Bradford	008	012	14	14	Martin	AuBroncee		534
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	GIL	Gilchrist	008	012	10	10	Martin	AuBroncee		280
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	LEV	Levy	008	012	13	13	Martin	AuBroncee		1089
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	UNI	Union	008	012	8	8	Martin	AuBroncee		111
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ALA	Alachua	008	012	66	66	Skop	Nathan	A.	8296
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BAK	Baker	008	012	0	0	Skop	Nathan	A.	873
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRA	Bradford	008	012	14	14	Skop	Nathan	A.	826
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	GIL	Gilchrist	008	012	10	10	Skop	Nathan	A.	928
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	LEV	Levy	008	012	13	13	Skop	Nathan	A.	1531
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	UNI	Union	008	012	8	8	Skop	Nathan	A.	299
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ALA	Alachua	008	012	66	66	Weisman	Dan		9987
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BAK	Baker	008	012	0	0	Weisman	Dan		1132
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRA	Bradford	008	012	14	14	Weisman	Dan		892
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	GIL	Gilchrist	008	012	10	10	Weisman	Dan		603
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	LEV	Levy	008	012	13	13	Weisman	Dan		2063
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	UNI	Union	008	012	8	8	Weisman	Dan		231
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	009	257	257	Kerestes	Alison		93271
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	009	125	125	Kerestes	Alison		24139
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	009	257	257	Pappas	Fay	Olga	75528
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	009	125	125	Pappas	Fay	Olga	17200
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	014	257	257	Beamer	John		89844
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	014	125	125	Beamer	John		21305
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	014	257	257	Stewart	Michael		79531
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	014	125	125	Stewart	Michael		20132
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	044	257	257	Bartolone	Aldo		54424
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	044	125	125	Bartolone	Aldo		15450
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	ORA	Orange	009	044	257	257	Chiu	Vincent		114525
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OSC	Osceola	009	044	125	125	Chiu	Vincent		25938
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	003	1045	1045	Cervera	Teressa	Maria	114998
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	003	1045	1045	Jean	Lody		151235
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	020	1045	1045	Guerrero	Brenda		123574
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	020	1045	1045	Watson	Robert		138045
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	034	1045	1045	Blumstein	Mark		127575
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	034	1045	1045	Rodriguez	Ariel		135300
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	052	1045	1045	Bloch	Jason	Edward	130369
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	DAD	Miami-Dade	011	052	1045	1045	Rodriguez-Fonts	Oscar		132220
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	HIL	Hillsborough	013	006	448	448	Noah	Belinda		87669
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	HIL	Hillsborough	013	006	448	448	Tibbals	Wesley		122996
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	HIL	Hillsborough	013	037	448	448	Jacobs	Nancy	L.	109392
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	HIL	Hillsborough	013	037	448	448	Smith	Jared		101472
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAL	Palm Beach	015	023	0	0	Siperstein	Caryn		142247
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	PAL	Palm Beach	015	023	0	0	St. Juste	Alcolya		79812
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	009	345	345	Alperstein	Lauren	Melissa	153019
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	009	345	345	Gundersen	Andrea	Ruth	81438
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	014	345	345	Arreaza	Alejandro 'Alex'		83182
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	014	345	345	Haury	William	W. 'Bill'	148895
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	023	345	345	Farmer	Gary	M.	91887
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	023	345	345	Sokoloff	Rhoda		69249
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	023	345	345	Williams	Tania	Maria	76472
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	051	345	345	Hamilton	Tamar	N.	80653
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	051	345	345	Kistner	Denise		60051
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRO	Broward	017	051	345	345	Mastrarrigo	Lorena		91650
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRE	Brevard	018	003	0	0	Mannion	John		47226
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	SEM	Seminole	018	003	83	83	Mannion	John		36081
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	BRE	Brevard	018	003	0	0	Recksiedler	Jessica		68449
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	SEM	Seminole	018	003	83	83	Recksiedler	Jessica		43128
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	IND	Indian River	019	001	34	34	Van Riper	Christian		8713
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	MRT	Martin	019	001	27	27	Van Riper	Christian		9902
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OKE	Okeechobee	019	001	11	11	Van Riper	Christian		864
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	STL	St. Lucie	019	001	60	60	Van Riper	Christian		15069
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	IND	Indian River	019	001	34	34	White	Rebecca		26321
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	MRT	Martin	019	001	27	27	White	Rebecca		24477
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OKE	Okeechobee	019	001	11	11	White	Rebecca		3540
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	STL	St. Lucie	019	001	60	60	White	Rebecca		35206
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	IND	Indian River	019	002	34	34	Mullins	Leatha	Dawn	21476
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	MRT	Martin	019	002	27	27	Mullins	Leatha	Dawn	19103
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OKE	Okeechobee	019	002	11	11	Mullins	Leatha	Dawn	2367
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	STL	St. Lucie	019	002	60	60	Mullins	Leatha	Dawn	28991
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	IND	Indian River	019	002	34	34	Nelson	Alexander	Stuart	12737
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	MRT	Martin	019	002	27	27	Nelson	Alexander	Stuart	14043
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	OKE	Okeechobee	019	002	11	11	Nelson	Alexander	Stuart	1942
+8/23/2022	NOP	Non-Partisan	CTJ	Circuit Judge	STL	St. Lucie	019	002	60	60	Nelson	Alexander	Stuart	20339
