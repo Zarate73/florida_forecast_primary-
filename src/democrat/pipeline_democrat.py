@@ -1011,15 +1011,34 @@ print(f"[Diagnóstico] std ponderado del swing 2022 vs 2018 (Reg_Dem): {turnout_
 TURNOUT_CV_ASSUMED_DEM = 0.12  # mismo hiperparámetro asumido que el modelo REP, ver nota arriba
 ensemble_estimates_dem = final_ensemble_estimates_dem
 
+# FIX v9 (corrección post-elección 2026, aplicando al modelo DEM la misma
+# corrección ya hecha en el modelo REP -- ver FIX v8 de pipeline_republican.py
+# y docs/RESULTADOS_2026_VS_PRONOSTICO.md): 'early_vote_point_shares_dem' y
+# 'undecided_allocation_point_dem' YA NO son el caso base del Monte Carlo
+# (ver run_monte_carlo_dem) -- se conservan solo para que las filas de
+# sensibilidad que explícitamente quieren un escenario de PUNTO FIJO
+# (comparación contra el mecanismo viejo) sigan funcionando igual que antes.
 # FIX v8: Joseph se agrega -- ver DECISIÓN METODOLÓGICA v8, celda 1.
 early_vote_point_shares_dem = {
     'Jolly': ensemble_estimates_dem['Jolly']['mean'],
     'Foster': ensemble_estimates_dem['Foster']['mean'],
     'Joseph': ensemble_estimates_dem['Joseph']['mean'],
 }
-EARLY_VOTE_CONFIDENCE_DEM = 25          # mismo hiperparámetro asumido que REP
+# FIX v9: EARLY_VOTE_CONFIDENCE_DEM cambia de significado, igual que en REP
+# (FIX v8 republicano). Antes anclaba "early vote" a un punto fijo
+# pre-calculado (early_vote_point_shares_dem) con baja confianza (25) --
+# ahora ancla "early vote" a la composición YA REALIZADA de 'remaining' en
+# la MISMA simulación, y controla qué tan chica es la perturbación
+# independiente permitida. Se usa el MISMO valor recalibrado que REP (300)
+# por consistencia arquitectónica entre ambos modelos (misma derivación:
+# std ≈ sqrt(p(1-p)/(confidence+1)) -- con confidence=300 el std resultante
+# de esa perturbación es de ~2.5-3 pts, dependiendo de p) -- no se deriva un
+# valor propio para DEM porque no hay más datos aquí que en REP para
+# calibrarlo con precisión distinta; se marca explícitamente como pendiente
+# de verificación en el dry-run.
+EARLY_VOTE_CONFIDENCE_DEM = 300         # hiperparámetro asumido -- recalibrado v9 (antes: 25, otro significado)
 UNDECIDED_ALLOCATION_CONFIDENCE_DEM = 20  # mismo hiperparámetro asumido que REP
-undecided_allocation_point_dem = dict(undecided_allocation_dem)
+undecided_allocation_point_dem = dict(undecided_allocation_dem)  # ESCENARIO DE COMPARACIÓN, ya no es el base (ver FIX v9 arriba)
 
 remaining_votes_preview_dem = total_expected_turnout_dem - total_early_votes_dem
 print(f"\nVotos Esperados DEM (Reg_Dem x Avg_Pct_Gov_Primaries, promedio 2018+2022): "
@@ -1086,6 +1105,28 @@ def run_monte_carlo_dem(early_confidence, undecided_confidence, turnout_cv_value
     la mediana de 3 con un outlier tan marcado sigue siendo una elección
     defendible (no la arrastra tanto como un promedio), pero se documenta
     explícitamente como limitación, no se pretende que sea homogénea.
+
+    FIX v9 (corrección post-elección 2026, aplicando al modelo DEM el mismo
+    diagnóstico que el modelo REP -- ver docs/RESULTADOS_2026_VS_PRONOSTICO.md):
+    el modelo REP repartía indecisos con un punto fijo elegido a mano
+    (60/25/15) y sobreestimó al puntero en -10.4 pts. El modelo DEM NO
+    elegía el reparto a mano (era proporcional al posterior de
+    Jolly:Foster:Joseph, 78/11/10 aprox.) pero el efecto fue el mismo:
+    sobreestimó a Jolly en -13.2 pts, con el mismo patrón (puntero
+    sobreestimado, resto subestimado) que REP -- un ÚNICO vector fijo
+    aplicado igual en las 10,000 simulaciones no deja lugar para que el
+    residual se incline distinto de lo que el modelo ya asumía, sea cual
+    sea el criterio (a mano o proporcional). Además, 'Other_Minor' fue la
+    categoría peor calibrada de las dos carreras (mediana 4.8% vs. real
+    14.3%, ver RESULTADOS_2026_VS_PRONOSTICO.md) y estaba excluida por
+    diseño de recibir indecisos salvo por el parámetro bolt-on
+    'undecided_to_other_share' (0.0 por defecto). Se corrige con la MISMA
+    mezcla de 3 escenarios que REP, extendida a las 4 categorías
+    [Jolly, Foster, Joseph, Other_Minor] -- ver bloque "Reparto de
+    indecisos" más abajo. El punto fijo proporcional histórico
+    ('undecided_allocation_point_dem') y el parámetro 'undecided_to_other_share'
+    siguen disponibles para escenarios de comparación explícitos (ver
+    'undecided_allocation_ov' y la nota en el bloque de reparto).
     """
     rng = np.random.default_rng(seed)
 
@@ -1094,9 +1135,16 @@ def run_monte_carlo_dem(early_confidence, undecided_confidence, turnout_cv_value
     o_std = other_std_ov if other_std_ov is not None else other_minor_std
     u_avg = undecided_avg_ov if undecided_avg_ov is not None else current_unallocated_avg
     u_std = undecided_std_ov if undecided_std_ov is not None else unallocated_std
-    u_alloc = undecided_allocation_ov if undecided_allocation_ov is not None else undecided_allocation_point_dem
-    ev_shares = early_vote_point_shares_ov if early_vote_point_shares_ov is not None else early_vote_point_shares_dem
-    ev_others = early_vote_others_share_ov if early_vote_others_share_ov is not None else early_vote_others_share_dem
+    # FIX v9: u_alloc/ev_shares YA NO caen de vuelta a un vector fijo global
+    # cuando no se pasa override -- ver docstring arriba. Si no se pasa
+    # override (u_alloc_ov/ev_shares_ov quedan en None), el reparto se
+    # resuelve más abajo con la mezcla de escenarios nueva. Si SÍ se pasa un
+    # override explícito, se preserva el comportamiento ANTERIOR exacto
+    # (punto fijo) para que los escenarios de comparación sigan funcionando
+    # igual que antes.
+    u_alloc_ov = undecided_allocation_ov
+    ev_shares_ov = early_vote_point_shares_ov
+    ev_others_ov = early_vote_others_share_ov
 
     POOL_CANDS = ['Jolly', 'Foster', 'Joseph']
 
@@ -1127,7 +1175,18 @@ def run_monte_carlo_dem(early_confidence, undecided_confidence, turnout_cv_value
     within_means_raw = np.array([ens_post[c]['mean'] for c in POOL_CANDS]) / pool_mean
     within_stds_raw = np.array([ens_post[c]['std'] for c in POOL_CANDS]) / pool_mean
     within_kappas = (within_means_raw * (1 - within_means_raw)) / (within_stds_raw ** 2) - 1
-    kappa_within = max(np.median(within_kappas), 1.0)
+    # FIX v9 (misma corrección que REP FIX v8): techo al kappa moment-matched
+    # -- kappa moment-matched mide SOLO el desacuerdo observado entre
+    # encuestas, que sistemáticamente SUBESTIMA la incertidumbre real cuando
+    # las encuestas de una misma elección están correlacionadas ("herding").
+    # Aquí el efecto es mucho menor que en REP en la práctica (el spread de
+    # within_kappas ya está dominado por JOSEPH_MIN_POLL_STD, ver docstring),
+    # pero se aplica el MISMO techo por consistencia arquitectónica y como
+    # salvaguarda si Jolly/Foster llegan a tener kappas altos con más
+    # encuestas en el futuro. NO calibrado contra datos (ver
+    # docs/BACKTEST_RESULTS.md) -- misma advertencia que en REP.
+    KAPPA_WITHIN_CAP = 30.0
+    kappa_within = min(max(np.median(within_kappas), 1.0), KAPPA_WITHIN_CAP)
     within_alphas = np.clip(within_means_raw * kappa_within, 1e-3, None)
     simulated_within = rng.dirichlet(within_alphas, size=n_simulations)
 
@@ -1135,31 +1194,90 @@ def run_monte_carlo_dem(early_confidence, undecided_confidence, turnout_cv_value
     remaining_foster_base = S_pool * simulated_within[:, 1]
     remaining_joseph_base = S_pool * simulated_within[:, 2]
 
-    # FIX v3 (pedido explícitamente en la auditoría): antes, el 100% de
-    # S_undecided se repartía SIEMPRE entre los candidatos del pool -- con
-    # un Unallocated_Residual que ni siquiera es indeciso real observado
-    # (es inferido, ver celda 1), imponer que ninguna parte de ese
-    # residual pueda terminar en 'Other_Minor' es un supuesto más fuerte de
-    # lo que los datos justifican. 'undecided_to_other_share' (0.0 por
-    # defecto, preserva el comportamiento BASE/paridad con REP) permite
-    # explorar qué tan sensible es el resultado a relajar ese supuesto.
-    S_undecided_to_other = S_undecided * undecided_to_other_share
-    S_undecided_to_pool = S_undecided * (1.0 - undecided_to_other_share)
+    # --- Reparto de indecisos ---
+    # FIX v9 (corrección post-elección 2026, misma corrección que REP FIX
+    # v8 -- ver docstring de esta función): reemplaza el punto fijo (a mano
+    # en REP, proporcional-al-posterior aquí) por una MEZCLA de 3 escenarios
+    # sorteada POR SIMULACIÓN sobre las 4 categorías [Jolly, Foster, Joseph,
+    # Other_Minor] -- Other_Minor pasa a poder recibir residual de forma
+    # orgánica dentro de la mezcla, así que el parámetro bolt-on
+    # 'undecided_to_other_share' queda SIN EFECTO en este camino (se sigue
+    # aceptando como argumento por compatibilidad, pero solo se usa en el
+    # camino de comparación de punto fijo, rama 'else' de abajo):
+    #   (a) Proporcional (peso 0.40): igual que el bloque YA decidido de esa
+    #       simulación (mismo criterio validado en el backtest 2018-2022,
+    #       MAE 2.04 pts, ver docs/BACKTEST_RESULTS.md).
+    #   (b) Fragmentado (peso 0.35): reparto uniforme (1/4 cada uno).
+    #   (c) Consolidación hacia el líder (peso 0.25): composición YA
+    #       decidida elevada a un exponente > 1 (no un punto fijo elegido a
+    #       mano ni derivado del posterior).
+    # El punto fijo proporcional histórico ('undecided_allocation_dem')
+    # sigue disponible como escenario de comparación explícito (ver celda de
+    # sensibilidad, grupo 'indecisos') -- en ESE modo (u_alloc_ov no-None) se
+    # preserva el comportamiento viejo EXACTO (Other_Minor excluido salvo por
+    # 'undecided_to_other_share'), para que esas filas de comparación sigan
+    # midiendo lo mismo que antes.
+    if u_alloc_ov is None:
+        GAMMA_CONSOLIDACION = 2.0
+        SCENARIO_WEIGHTS_INDECISOS = np.array([0.40, 0.35, 0.25])
+        decided_composition = np.stack(
+            [remaining_jolly_base, remaining_foster_base, remaining_joseph_base, S_other], axis=1
+        )
+        decided_composition = decided_composition / decided_composition.sum(axis=1, keepdims=True)
+        scenario_draw = rng.choice(3, size=n_simulations, p=SCENARIO_WEIGHTS_INDECISOS)
+        alloc_proporcional = decided_composition
+        alloc_fragmentado = np.full_like(decided_composition, 1.0 / decided_composition.shape[1])
+        _powered = decided_composition ** GAMMA_CONSOLIDACION
+        alloc_consolidacion = _powered / _powered.sum(axis=1, keepdims=True)
+        _stack_alloc = np.stack([alloc_proporcional, alloc_fragmentado, alloc_consolidacion], axis=0)
+        target_alloc_indecisos = _stack_alloc[scenario_draw, np.arange(n_simulations), :]
+        alpha_matrix_indecisos = np.clip(target_alloc_indecisos * undecided_confidence, 1e-3, None)
+        _g_ind = rng.gamma(alpha_matrix_indecisos)
+        simulated_undecided_alloc = _g_ind / _g_ind.sum(axis=1, keepdims=True)
+        if verbose:
+            _sc_names = ['proporcional', 'fragmentado', 'consolidación_líder']
+            _sc_counts = np.bincount(scenario_draw, minlength=3)
+            print("Reparto de indecisos: MEZCLA de escenarios por simulación sobre 4 categorías "
+                  "(Jolly/Foster/Joseph/Other_Minor, FIX v9) -- " +
+                  ", ".join(f"{n}={c/n_simulations*100:.0f}%" for n, c in zip(_sc_names, _sc_counts)))
+        remaining_jolly = remaining_jolly_base + S_undecided * simulated_undecided_alloc[:, 0]
+        remaining_foster = remaining_foster_base + S_undecided * simulated_undecided_alloc[:, 1]
+        remaining_joseph = remaining_joseph_base + S_undecided * simulated_undecided_alloc[:, 2]
+        remaining_other = S_other + S_undecided * simulated_undecided_alloc[:, 3]
+    else:
+        S_undecided_to_other = S_undecided * undecided_to_other_share
+        S_undecided_to_pool = S_undecided * (1.0 - undecided_to_other_share)
+        undecided_alloc_alpha = [max(u_alloc_ov[c] * undecided_confidence, 1e-3) for c in POOL_CANDS]
+        simulated_undecided_alloc = rng.dirichlet(undecided_alloc_alpha, size=n_simulations)
+        remaining_jolly = remaining_jolly_base + S_undecided_to_pool * simulated_undecided_alloc[:, 0]
+        remaining_foster = remaining_foster_base + S_undecided_to_pool * simulated_undecided_alloc[:, 1]
+        remaining_joseph = remaining_joseph_base + S_undecided_to_pool * simulated_undecided_alloc[:, 2]
+        remaining_other = S_other + S_undecided_to_other  # comportamiento viejo (comparación)
 
-    # --- Reparto de indecisos (su propia Dirichlet, su propio kappa -- 3 categorías) ---
-    undecided_alloc_alpha = [max(u_alloc[c] * undecided_confidence, 1e-3) for c in POOL_CANDS]
-    simulated_undecided_alloc = rng.dirichlet(undecided_alloc_alpha, size=n_simulations)
-
-    remaining_jolly = remaining_jolly_base + S_undecided_to_pool * simulated_undecided_alloc[:, 0]
-    remaining_foster = remaining_foster_base + S_undecided_to_pool * simulated_undecided_alloc[:, 1]
-    remaining_joseph = remaining_joseph_base + S_undecided_to_pool * simulated_undecided_alloc[:, 2]
-    remaining_other = S_other + S_undecided_to_other
-
-    # --- Early vote (su propia Dirichlet, su propia confianza -- 4 categorías: Jolly/Foster/Joseph/Other_Minor) ---
-    early_alpha = [ev_shares[c] * early_confidence for c in POOL_CANDS]
-    early_alpha.append(ev_others * early_confidence)
-    early_alpha = [max(a, 1e-3) for a in early_alpha]
-    simulated_early_shares = rng.dirichlet(early_alpha, size=n_simulations)
+    # --- Early vote ---
+    # FIX v9 (corrección post-elección 2026, misma corrección que REP FIX
+    # v8): antes, "early vote" simulaba su PROPIA Dirichlet anclada a un
+    # punto fijo pre-calculado (ev_shares) que YA incluía la asignación
+    # puntual (sesgada) de indecisos. Ahora "early vote" se ancla a la
+    # composición YA REALIZADA de 'remaining' en ESA MISMA simulación (que
+    # ya incorpora la mezcla de escenarios de arriba, sin sesgo estructural)
+    # y solo se le permite una perturbación INDEPENDIENTE modesta alrededor
+    # de ese ancla -- el "ajuste de segundo orden" que debería ser.
+    if ev_shares_ov is None:
+        remaining_composition = np.stack(
+            [remaining_jolly, remaining_foster, remaining_joseph, remaining_other], axis=1
+        )
+        # normalización de seguridad (deberían sumar 1.0 exacto por construcción)
+        remaining_composition = remaining_composition / remaining_composition.sum(axis=1, keepdims=True)
+        alpha_matrix_early = np.clip(remaining_composition * early_confidence, 1e-3, None)
+        _g_early = rng.gamma(alpha_matrix_early)
+        simulated_early_shares = _g_early / _g_early.sum(axis=1, keepdims=True)
+    else:
+        early_alpha = [ev_shares_ov[c] * early_confidence for c in POOL_CANDS]
+        _ev_others = ev_others_ov if ev_others_ov is not None else early_vote_others_share_dem
+        early_alpha.append(_ev_others * early_confidence)
+        early_alpha = [max(a, 1e-3) for a in early_alpha]
+        simulated_early_shares = rng.dirichlet(early_alpha, size=n_simulations)
 
     # --- Turnout (su propia incertidumbre) ---
     simulated_turnout = rng.normal(total_expected_turnout_dem, total_expected_turnout_dem * turnout_cv_value,
@@ -1189,7 +1307,7 @@ def run_monte_carlo_dem(early_confidence, undecided_confidence, turnout_cv_value
 def recompute_and_simulate_dem(half_life_value=None, prior_overrides=None, undecided_center=None,
                                 early_vote_shift=None, other_avg_override=None, turnout_cv_override=None,
                                 other_impute_value=None,
-                                undecided_to_other_share=0.0,
+                                undecided_to_other_share=None,
                                 n_simulations=10_000, seed=42,
                                 poll_subset=None):
     """Análogo a recompute_and_simulate() del modelo REP (v7): re-corre
@@ -1340,37 +1458,56 @@ def recompute_and_simulate_dem(half_life_value=None, prior_overrides=None, undec
         post_m, post_s = bayesian_update(pm, ps, dm, ds)
         posteriors[cand] = {'mean': post_m, 'std': post_s}
 
-    alloc = undecided_center if undecided_center is not None else undecided_allocation_dem
-    final_est = {c: posteriors[c]['mean'] + u_avg * alloc[c] for c in posteriors}
-    ev_shares = {c: final_est[c] for c in ['Jolly', 'Foster', 'Joseph']}  # FIX v8
-    if early_vote_shift:
-        for cand, delta in early_vote_shift.items():
-            ev_shares[cand] = max(ev_shares[cand] + delta, 0.0)
-
-    # FIX v2 (mismo bug de composición #1, ahora dentro de la función que
-    # alimenta la sensibilidad estructural y el stress test) + FIX v2
-    # (bug de composición #4: coherencia con other_avg_override). Antes,
-    # 'other_avg_override' solo entraba en la Nivel 1 del árbol ('remaining'
-    # vote) pero el early vote seguía calculando su 'Other' implícito
-    # SIEMPRE como 0% (porque ev_shares solo suma J/F) -- así que un
-    # escenario "Other=15%" en el stress test no se aplicaba de forma
-    # coherente al early vote. Ahora: si hay override de Other, se usa
-    # directamente como su share de early vote y J/F se renormalizan para
-    # dejarle exactamente (1 - other_share) al pool; si no hay override,
-    # se aplica la misma normalización explícita que en el bloque
-    # principal de la celda 4 (evita que J+F > 100% quede sin corregir,
-    # como ya podía pasar en la tabla de sensibilidad).
-    _ev_raw_total = sum(ev_shares.values())
-    if other_avg_override is not None:
-        ev_others = other_avg_override
-        _target_jfd_total = max(1.0 - ev_others, 0.0)
-        if _ev_raw_total > 0:
-            ev_shares = {c: v / _ev_raw_total * _target_jfd_total for c, v in ev_shares.items()}
-    elif _ev_raw_total > 1.0:
-        ev_shares = {c: v / _ev_raw_total for c, v in ev_shares.items()}
-        ev_others = 0.0
+    # FIX v9 (corrección post-elección 2026, misma corrección que REP FIX
+    # v8 -- ver recompute_and_simulate() de pipeline_republican.py): antes,
+    # `alloc` SIEMPRE caía a un punto fijo (undecided_center si se pasó, si
+    # no `undecided_allocation_dem`) y `ev_shares` SIEMPRE se derivaba de
+    # ese punto fijo -- TODAS las filas de la celda de sensibilidad
+    # (half_life, priors, early_vote, other_missingness, Modelo A/B, stress
+    # test) heredaban el mecanismo viejo sin importar qué se estuviera
+    # variando. Ahora: si el llamador NO pidió explícitamente un escenario
+    # de punto fijo (undecided_center), un shift explícito de early vote
+    # (early_vote_shift), ni un 'undecided_to_other_share' explícito, se
+    # deja alloc_ov/ev_shares_ov/ev_others_ov en None para que
+    # run_monte_carlo_dem use la MEZCLA de escenarios nueva -- igual que el
+    # caso base. Nótese que 'other_avg_override' (solo) YA NO fuerza el
+    # camino de punto fijo -- a diferencia de la versión anterior (que
+    # necesitaba un bloque de coherencia manual para propagar Other al
+    # early vote), la mezcla nueva + el anclaje de early vote a 'remaining'
+    # (ver run_monte_carlo_dem) ya propagan o_avg de forma orgánica a
+    # TODO el árbol (S_other entra a 'decided_composition' de la mezcla y a
+    # 'remaining_composition' del early vote), así que ya no hace falta ese
+    # bloque de coherencia -- se retira, no se preserva como rama muerta.
+    if undecided_center is None and not early_vote_shift and undecided_to_other_share is None:
+        alloc_ov, ev_shares_ov, ev_others_ov, uos_use = None, None, None, 0.0
     else:
-        ev_others = max(1.0 - _ev_raw_total, 0.0)
+        alloc = undecided_center if undecided_center is not None else undecided_allocation_dem
+        final_est = {c: posteriors[c]['mean'] + u_avg * alloc[c] for c in posteriors}
+        ev_shares = {c: final_est[c] for c in ['Jolly', 'Foster', 'Joseph']}  # FIX v8
+        if early_vote_shift:
+            for cand, delta in early_vote_shift.items():
+                ev_shares[cand] = max(ev_shares[cand] + delta, 0.0)
+
+        # FIX v2 (bug de composición #1) + FIX v2 (bug de composición #4:
+        # coherencia con other_avg_override) -- preservado EXACTO para el
+        # camino de comparación de punto fijo (rama 'else'): si hay override
+        # de Other, se usa directamente como su share de early vote y J/F/Jo
+        # se renormalizan para dejarle exactamente (1 - other_share) al
+        # pool; si no hay override, se aplica la misma normalización
+        # explícita que en el bloque principal de la celda 4.
+        _ev_raw_total = sum(ev_shares.values())
+        if other_avg_override is not None:
+            ev_others = other_avg_override
+            _target_jfd_total = max(1.0 - ev_others, 0.0)
+            if _ev_raw_total > 0:
+                ev_shares = {c: v / _ev_raw_total * _target_jfd_total for c, v in ev_shares.items()}
+        elif _ev_raw_total > 1.0:
+            ev_shares = {c: v / _ev_raw_total for c, v in ev_shares.items()}
+            ev_others = 0.0
+        else:
+            ev_others = max(1.0 - _ev_raw_total, 0.0)
+        alloc_ov, ev_shares_ov, ev_others_ov = alloc, ev_shares, ev_others
+        uos_use = undecided_to_other_share if undecided_to_other_share is not None else 0.0
 
     turnout_cv_use = turnout_cv_override if turnout_cv_override is not None else TURNOUT_CV_ASSUMED_DEM
 
@@ -1378,9 +1515,9 @@ def recompute_and_simulate_dem(half_life_value=None, prior_overrides=None, undec
         EARLY_VOTE_CONFIDENCE_DEM, UNDECIDED_ALLOCATION_CONFIDENCE_DEM, turnout_cv_use,
         n_simulations=n_simulations, seed=seed,
         ensemble_posteriors_ov=posteriors, other_avg_ov=o_avg, other_std_ov=o_std,
-        undecided_avg_ov=u_avg, undecided_std_ov=u_std, undecided_allocation_ov=alloc,
-        early_vote_point_shares_ov=ev_shares, early_vote_others_share_ov=ev_others,
-        undecided_to_other_share=undecided_to_other_share,
+        undecided_avg_ov=u_avg, undecided_std_ov=u_std, undecided_allocation_ov=alloc_ov,
+        early_vote_point_shares_ov=ev_shares_ov, early_vote_others_share_ov=ev_others_ov,
+        undecided_to_other_share=uos_use,
     )
     # FIX v7 (Prioridad 4 de la auditoría v6, 🟡 Media-baja -- "recalcular
     # priors neutros dentro de Modelo B"): se expone el promedio de
@@ -1600,8 +1737,20 @@ methodology_warnings_dem.append(
     "carpeta. El Bayes no está aportando información adicional sobre el promedio de encuestas hoy."
 )
 methodology_warnings_dem.append(
-    "El reparto de indecisos se DERIVA proporcionalmente al polling actual (no se eligió a mano como en "
-    "REP) -- sigue siendo un supuesto, no una medición."
+    "FIX v9 (corrección post-elección 2026): el reparto de indecisos YA NO es un punto fijo (ni elegido a "
+    "mano como en REP v7, ni proporcional al posterior como en este modelo hasta v8 -- ese punto fijo "
+    "proporcional sobreestimó a Jolly en -13.2 pts en el resultado real) -- es una mezcla de 3 escenarios "
+    "(proporcional 40%, fragmentado 35%, consolidación hacia el líder 25%) sorteada por simulación sobre "
+    "4 categorías (Jolly/Foster/Joseph/Other_Minor). Sigue siendo un supuesto de diseño (los pesos "
+    "0.40/0.35/0.25 no están calibrados con datos, ver docs/BACKTEST_RESULTS.md), no una medición -- misma "
+    "corrección aplicada al modelo REP (ver methodology_warnings de pipeline_republican.py)."
+)
+methodology_warnings_dem.append(
+    "FIX v9: la preferencia de candidato en el voto anticipado ya no se ancla a un punto fijo separado -- "
+    "se ancla a la composición realizada de 'remaining' en la misma simulación, con una perturbación "
+    "independiente modesta (EARLY_VOTE_CONFIDENCE_DEM, recalibrado a 300 -- ver celda 4, mismo valor y "
+    "misma derivación que REP). Sigue siendo un supuesto (no se observa la preferencia real del voto "
+    "anticipado), pero ya no puede fijar el pronóstico a un ancla potencialmente sesgada por sí solo."
 )
 methodology_warnings_dem.append(
     "CORRECCIÓN v5 (hallazgo crítico de la auditoría v4): Jerry Demings suspendió su candidatura el "
@@ -1666,8 +1815,13 @@ BASE_EARLY_CONF_DEM = EARLY_VOTE_CONFIDENCE_DEM
 BASE_UNDECIDED_CONF_DEM = UNDECIDED_ALLOCATION_CONFIDENCE_DEM
 BASE_TURNOUT_CV_DEM = TURNOUT_CV_ASSUMED_DEM
 
+# FIX v9: rango de EARLY_VOTE_CONFIDENCE_DEM recalibrado -- mismo motivo
+# que REP FIX v8 (nuevo significado: perturbación alrededor de 'remaining',
+# no ancla a un punto fijo separado); 100-600 cubre de "early vote puede
+# diferir varios puntos de remaining" a "early vote casi idéntico a
+# remaining".
 scenario_grids_dem = {
-    'EARLY_VOTE_CONFIDENCE': [10, 25, 50, 100],
+    'EARLY_VOTE_CONFIDENCE': [100, 200, 300, 600],
     'UNDECIDED_ALLOCATION_CONFIDENCE': [5, 10, 20, 50],
     'TURNOUT_CV_ASSUMED': [0.05, 0.10, 0.15, 0.20],
 }
@@ -1778,8 +1932,18 @@ structural_scenarios_dem = [
     # Se relabela como "decaimiento más lento" (correcto: MÁS lento que
     # 7/14/21d, no "ausente").
     {'grupo': 'half_life', 'label': '30d (decaimiento más lento)', 'kwargs': dict(half_life_value=30)},
-    {'grupo': 'indecisos', 'label': f'BASE (derivado: J{_j0*100:.0f}/F{_f0*100:.0f}/Jo{_jo0*100:.0f})',
-     'kwargs': dict(undecided_center=undecided_allocation_dem), 'is_base': True},
+    # FIX v9: el reparto proporcional-al-posterior de punto fijo YA NO es
+    # el base (era exactamente el mecanismo que sobreestimó a Jolly -13.2
+    # pts en el resultado real 2026, el mismo patrón que REP con su punto
+    # fijo 60/25/15 -- ver docs/RESULTADOS_2026_VS_PRONOSTICO.md) -- se
+    # conserva como escenario de comparación explícito. El nuevo base es la
+    # mezcla de escenarios (kwargs=dict() activa el camino nuevo en
+    # run_monte_carlo_dem, igual que el resto de grupos de esta tabla).
+    {'grupo': 'indecisos', 'label': 'Mezcla de escenarios 40/35/25% (NUEVO BASE v9, ver FIX v9 celda 4)',
+     'kwargs': dict(), 'is_base': True},
+    {'grupo': 'indecisos', 'label': f'Proporcional J{_j0*100:.0f}/F{_f0*100:.0f}/Jo{_jo0*100:.0f} punto fijo '
+                                     f'(MECANISMO VIEJO -- sobreestimó a Jolly -13.2 pts en 2026)',
+     'kwargs': dict(undecided_center=undecided_allocation_dem)},
     # v5: escenarios de indecisos ahora 2-way (Jolly/Foster) -- Demings ya
     # no participa del reparto de indecisos (no compite).
     # FIX v7 (Prioridad 5 de la auditoría v6, 🟡 Baja -- etiqueta
@@ -1824,13 +1988,22 @@ structural_scenarios_dem = [
     # se considere probable, sino porque no hay evidencia para descartarlo
     # y el rango anterior (máx. ~4.3 pts de Unallocated_Residual) era
     # demasiado angosto para acotar honestamente esta incertidumbre.
-    {'grupo': 'undecided_a_other', 'label': '0% a Other_Minor (paridad con REP, NO es el reparto proporcional)',
-     'kwargs': dict(undecided_to_other_share=0.0), 'is_base': True},
-    {'grupo': 'undecided_a_other', 'label': '10% a Other_Minor (≈ reparto proporcional J:F:Jo:Om real)',
+    #
+    # FIX v9: NINGUNA fila de este grupo es 'BASE' ya -- pasar
+    # 'undecided_to_other_share' explícitamente (incluido 0.0) activa la
+    # rama de PUNTO FIJO en run_monte_carlo_dem (ver docstring), así que
+    # las 4 filas de abajo miden el mecanismo VIEJO a distintos niveles de
+    # fuga hacia Other_Minor -- no el modelo vigente. El modelo vigente
+    # (mezcla de escenarios, grupo 'indecisos' arriba) ya deja que
+    # Other_Minor reciba residual de forma orgánica, así que este grupo
+    # queda como comparación histórica, no como sensibilidad del base.
+    {'grupo': 'undecided_a_other (MECANISMO VIEJO)', 'label': '0% a Other_Minor (punto fijo, paridad con v8)',
+     'kwargs': dict(undecided_to_other_share=0.0)},
+    {'grupo': 'undecided_a_other (MECANISMO VIEJO)', 'label': '10% a Other_Minor (punto fijo)',
      'kwargs': dict(undecided_to_other_share=0.10)},
-    {'grupo': 'undecided_a_other', 'label': '25% del indeciso a Other_Minor',
+    {'grupo': 'undecided_a_other (MECANISMO VIEJO)', 'label': '25% a Other_Minor (punto fijo)',
      'kwargs': dict(undecided_to_other_share=0.25)},
-    {'grupo': 'undecided_a_other', 'label': '50% del indeciso a Other_Minor (extremo, no se considera probable)',
+    {'grupo': 'undecided_a_other (MECANISMO VIEJO)', 'label': '50% a Other_Minor (punto fijo, extremo)',
      'kwargs': dict(undecided_to_other_share=0.50)},
 ]
 
@@ -1899,14 +2072,16 @@ print(structural_df_dem.to_string(index=False))
 print("\n--- LECTURA (sensibilidad estructural DEM) ---")
 print("half_life: dado el aviso crítico de la celda 2 (2 encuestas concentran casi todo el peso), se "
       "espera un efecto MAYOR aquí que en el modelo REP.")
-print("Indecisos: la asignación BASE ya está derivada del polling (no elegida a mano); el escenario "
-      "adverso 55/45 reduce deliberadamente la ventaja implícita de Jolly.")
+print("Indecisos: FIX v9 -- el BASE ya NO es el punto fijo proporcional al polling; es la mezcla de 3 "
+      "escenarios (proporcional/fragmentado/consolidación) sobre 4 categorías, la misma corrección "
+      "aplicada al modelo REP tras el resultado real 2026 (ver docs/RESULTADOS_2026_VS_PRONOSTICO.md). "
+      "El punto fijo derivado y los escenarios 95/5 y 55/45 quedan como comparación histórica.")
 print("Priors: se prueban ambas direcciones, aunque el prior BASE ya es neutro (no jala hacia ningún lado).")
-print("Undecided a Other: por defecto (BASE) Other no recibe nada del residual, en paridad con el modelo "
-      "REP -- pero ese 0% NO es 'el reparto proporcional', es el extremo inferior del rango (ver aclaración "
-      "celda 3). FIX v6 (auditoría v5): rango ampliado de 0%-10% a 0%-50% -- con Unallocated_Residual "
-      "~43%, el rango anterior acotaba como máximo ~4.3 pts y no reflejaba honestamente cuánto se desconoce "
-      "sobre la composición real de ese residual.")
+print("Undecided a Other (MECANISMO VIEJO): FIX v9 -- este grupo entero pasó a ser un escenario de punto "
+      "fijo (ya no representa el BASE) porque cualquier 'undecided_to_other_share' explícito activa el "
+      "camino de comparación de punto fijo en run_monte_carlo_dem. Bajo el BASE nuevo (mezcla de "
+      "escenarios), Other_Minor ya recibe residual de forma orgánica sin necesitar este parámetro -- se "
+      "conserva solo para comparar contra el mecanismo viejo a distintos niveles de fuga hacia Other_Minor.")
 print("Other/missingness: 'Other' se estima sobre solo 4/7 encuestas -- el rango 5%-15% acota la "
       "incertidumbre de esa estimación.")
 print("NOTA v5: el bloque de sensibilidad de missingness de 'Demings' (presente en v1-v4) se eliminó -- "

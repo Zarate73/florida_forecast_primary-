@@ -10,6 +10,14 @@ Dato estructurado (votos y % por candidato, proveniencia completa, y qué falta 
 `data/Florida_Governor_Primary_2026_Results.xlsx` — generado por `src/results/build_2026_results.py`.
 Las cifras de este documento son las mismas que ese archivo, no una fuente independiente.
 
+> **Nota (19-ago-2026)**: las cifras de "Mediana pronosticada" de este documento son las del pronóstico
+> **ORIGINAL pre-elección** (última corrida 17-ago-2026), el que se compara aquí contra el resultado real.
+> Los notebooks (`notebooks/*.ipynb`) YA NO reproducen exactamente estos números -- tras este post-mortem
+> se aplicó una corrección metodológica al reparto de indecisos (ver
+> [`docs/CORRECCION_POST_ELECCION_2026.md`](CORRECCION_POST_ELECCION_2026.md)) y se re-ejecutaron. Este
+> documento se deja intacto como el registro del pronóstico original que efectivamente se hizo antes de
+> conocer el resultado -- no se retocan sus números para que coincidan con la versión corregida.
+
 ## Resultado agregado: ambos ganadores acertados, ambos márgenes sobreestimados
 
 | | Ganador real | Top-pick del modelo | ¿Acertó? | P(gana) asignada | Mediana pronosticada | Resultado real | Error |
@@ -84,9 +92,16 @@ P(gana) saturada").
 
 ## Qué revisar antes de la próxima elección
 
-- Recalibrar el reparto de indecisos con datos reales (encuestas con cross-tabs de "hacia dónde se
+- ~~Recalibrar el reparto de indecisos con datos reales (encuestas con cross-tabs de "hacia dónde se
   inclinan" los indecisos, o encuestas de "segunda opción") en vez de una asignación a mano o
-  proporcional simple — es el hiperparámetro que más explica el error observado aquí.
+  proporcional simple — es el hiperparámetro que más explica el error observado aquí.~~ — parcialmente
+  hecho (19-ago-2026): sin cross-tabs reales disponibles, se reemplazó el punto fijo por una mezcla de 3
+  escenarios plausibles (proporcional/fragmentado/consolidación) en vez de datos de "segunda opción" que
+  no existen para esta elección — ver `docs/CORRECCION_POST_ELECCION_2026.md` para el detalle completo,
+  incluida una autocrítica de sobreajuste (la mezcla se calibró viendo ya este resultado) y la evaluación
+  de una retroalimentación externa recibida sobre ambos modelos. La recomendación de fondo (datos reales de
+  cross-tabs de indecisos) sigue pendiente para una próxima elección — no existe forma de generarlos
+  retroactivamente para 2026.
 - Considerar si el patrón "puntero sobreestimado" es un sesgo genérico de encuestas de primarias con
   campo fragmentado (consolidación tardía de indecisos hacia los no-punteros, un patrón documentado en la
   literatura de primarias) y, si se confirma con más datos, aplicar una corrección sistemática en vez de

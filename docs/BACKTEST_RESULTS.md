@@ -19,6 +19,17 @@ mientras que los modelos 2026 usaron sus propios priors/reparto de indecisos rea
 proporcional-concentrado en DEM) — mezclarlas en la misma tabla compararía dos metodologías distintas
 como si fueran una sola medición. Son dos ejercicios complementarios, no una sola serie de n=4.
 
+**Actualización adicional (19-ago-2026, corrección post-elección)**: tras comparar el pronóstico 2026
+contra el resultado real, se corrigió el reparto de indecisos de ambos modelos (ver
+[`CORRECCION_POST_ELECCION_2026.md`](CORRECCION_POST_ELECCION_2026.md)) — el nuevo mecanismo base es una
+mezcla de 3 escenarios en la que el componente "proporcional" (peso 0.40) es, precisamente, el mismo
+criterio neutro que este backtest usa como único mecanismo (reparto proporcional a la composición ya
+decidida). Es decir, el modelo 2026 corregido ahora se ACERCA parcialmente a la metodología de este
+backtest en vez de alejarse de ella con un punto fijo -- pero sigue sin ser idéntica (los otros dos
+componentes de la mezcla, fragmentado y consolidación, no tienen equivalente en este backtest), así que la
+distinción metodológica del párrafo anterior sigue vigente y las tablas de este documento NO se
+recalcularon con el motor 2026 corregido.
+
 **Alcance real de esta validación: léase antes de citar cualquier número de aquí.** Solo hay **3
 elecciones primarias históricas comparables** disponibles para este backtest específico (Florida elige
 gobernador cada 4 años; 2018 tuvo primaria competitiva en ambos partidos, 2022 solo la tuvo en el lado

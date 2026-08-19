@@ -673,14 +673,28 @@ print(f"[Diagnóstico, NO USADO] std ponderado (fórmula corregida) del swing 20
 TURNOUT_CV_ASSUMED = 0.12  # hiperparámetro asumido, NO calibrado con estos datos ni con literatura verificable
 ensemble_estimates = final_ensemble_estimates
 
+# FIX v8 (corrección post-elección 2026): early_vote_point_shares y
+# undecided_allocation_point YA NO son el caso base del Monte Carlo (ver
+# run_monte_carlo) -- se conservan solo para que las filas de sensibilidad
+# que explícitamente quieren un escenario de PUNTO FIJO (comparación
+# contra el mecanismo viejo) sigan funcionando igual que antes.
 early_vote_point_shares = {
     'Donalds': ensemble_estimates['Donalds']['mean'],
     'Collins': ensemble_estimates['Collins']['mean'],
     'Fishback': ensemble_estimates['Fishback']['mean'],
 }
-EARLY_VOTE_CONFIDENCE = 25          # hiperparámetro asumido
-UNDECIDED_ALLOCATION_CONFIDENCE = 20  # hiperparámetro asumido
-undecided_allocation_point = {'Donalds': 0.60, 'Collins': 0.25, 'Fishback': 0.15}
+# FIX v8: EARLY_VOTE_CONFIDENCE cambia de significado. Antes anclaba
+# "early vote" a un punto fijo pre-calculado (early_vote_point_shares) con
+# baja confianza (25) -- ahora ancla "early vote" a la composición YA
+# REALIZADA de 'remaining' en la MISMA simulación, y controla qué tan
+# chica es la perturbación independiente permitida (el "ajuste de segundo
+# orden ±2-3 pts" que debería ser, no un anclaje separado a un punto
+# potencialmente sesgado). Con confidence=300 y p≈0.4-0.5, el std
+# resultante de esa perturbación es de ~2.5 pts (std ≈ sqrt(p(1-p)/(conf+1))
+# -- ver celda de sensibilidad para el rango probado).
+EARLY_VOTE_CONFIDENCE = 300          # hiperparámetro asumido -- recalibrado v8 (antes: 25, otro significado)
+UNDECIDED_ALLOCATION_CONFIDENCE = 20  # hiperparámetro asumido (controla qué tan cerca del escenario sorteado cae cada simulación individual)
+undecided_allocation_point = {'Donalds': 0.60, 'Collins': 0.25, 'Fishback': 0.15}  # ESCENARIO DE COMPARACIÓN, ya no es el base (ver FIX v8 arriba)
 
 remaining_votes_preview = total_expected_turnout - total_early_votes
 print(f"Votos Esperados (Reg_Rep x Pct_2018): {total_expected_turnout:,.0f}")
@@ -750,9 +764,19 @@ def run_monte_carlo(early_confidence, undecided_confidence, turnout_cv_value, n_
     o_std = other_named_std_ov if other_named_std_ov is not None else other_named_std
     u_avg = undecided_avg_ov if undecided_avg_ov is not None else current_undecided_avg
     u_std = undecided_std_ov if undecided_std_ov is not None else undecided_std
-    u_alloc = undecided_allocation_ov if undecided_allocation_ov is not None else undecided_allocation_point
-    ev_shares = early_vote_point_shares_ov if early_vote_point_shares_ov is not None else early_vote_point_shares
-    ev_others = early_vote_others_share_ov if early_vote_others_share_ov is not None else early_vote_others_share
+    # FIX v8 (corrección post-elección 2026): u_alloc/ev_shares YA NO caen
+    # de vuelta a un vector fijo global cuando no se pasa override -- caer
+    # a un punto fijo (60/25/15, elegido a mano) era exactamente el
+    # mecanismo que sobreestimó a Donalds en -10.4 pts en el resultado
+    # real. Si NO se pasa override (u_alloc_ov/ev_shares_ov quedan en
+    # None), el reparto se resuelve más abajo con la mezcla de escenarios
+    # nueva (ver bloque "Reparto de indecisos"). Si SÍ se pasa un override
+    # explícito (como en las filas de sensibilidad 70/20/10, 40/35/25...),
+    # se preserva el comportamiento ANTERIOR exacto (punto fijo) para que
+    # esos escenarios de comparación sigan funcionando igual que antes.
+    u_alloc_ov = undecided_allocation_ov
+    ev_shares_ov = early_vote_point_shares_ov
+    ev_others_ov = early_vote_others_share_ov
     r_alpha = renner_split_alpha_ov if renner_split_alpha_ov is not None else renner_split_alpha
     r_beta = renner_split_beta_ov if renner_split_beta_ov is not None else renner_split_beta
 
@@ -831,7 +855,20 @@ def run_monte_carlo(early_confidence, undecided_confidence, turnout_cv_value, n_
         ens_post['Fishback']['std'],
     ]) / pool_mean
     within_kappas = (within_means_raw * (1 - within_means_raw)) / (within_stds_raw ** 2) - 1
-    kappa_within = max(np.median(within_kappas), 1.0)
+    # FIX v8 (corrección post-elección 2026): se agrega un TECHO al kappa
+    # moment-matched (KAPPA_WITHIN_CAP=30). Motivo: kappa moment-matched
+    # mide SOLO el desacuerdo observado entre encuestas -- pero encuestas
+    # de la misma elección suelen estar correlacionadas entre sí (mismo
+    # supuesto de quién vota, "herding" hacia el consenso previo), así que
+    # ese desacuerdo observado sistemáticamente SUBESTIMA la incertidumbre
+    # real. El resultado 2026 mostró P(Donalds gana)=99.94% con un error
+    # de -10.4 pts en la mediana -- una probabilidad saturada así de alta
+    # no es defendible cuando el margen real puede moverse 2 dígitos. El
+    # techo es una salvaguarda conservadora documentada, no un valor
+    # calibrado contra datos (no hay suficientes elecciones para
+    # calibrarlo formalmente -- ver docs/BACKTEST_RESULTS.md).
+    KAPPA_WITHIN_CAP = 30.0
+    kappa_within = min(max(np.median(within_kappas), 1.0), KAPPA_WITHIN_CAP)
     within_alphas = np.clip(within_means_raw * kappa_within, 1e-3, None)
 
     simulated_within = rng.dirichlet(within_alphas, size=n_simulations)
@@ -840,21 +877,104 @@ def run_monte_carlo(early_confidence, undecided_confidence, turnout_cv_value, n_
     remaining_collins_base = S_pool * simulated_within[:, 1]
     remaining_fishback_base = S_pool * simulated_within[:, 2]
 
-    # --- Reparto de indecisos (su propia Dirichlet, su propio kappa) ---
-    undecided_alloc_alpha = [u_alloc[c] * undecided_confidence
-                              for c in ['Donalds', 'Collins', 'Fishback']]
-    simulated_undecided_alloc = rng.dirichlet(undecided_alloc_alpha, size=n_simulations)
+    # --- Reparto de indecisos ---
+    # FIX v8 (corrección post-elección 2026, hallazgo propio del usuario
+    # comparando contra el resultado real): repartir los indecisos con un
+    # ÚNICO vector fijo (60/25/15, elegido a mano, favorable al puntero, y
+    # que ADEMÁS excluía a Other_Named por completo de recibir indecisos)
+    # sobreestimó a Donalds en -10.4 pts y subestimó a Renner+Other en
+    # +4.4 pts -- el error relativo MÁS GRANDE de toda la carrera (Renner+
+    # Other real terminó en ~16.4%, más del doble del 7.3% pronosticado).
+    # Un dry-run de esta misma corrección mostró que excluir a Other_Named
+    # de recibir indecisos por diseño no tenía más justificación que la
+    # que tendría excluir a Donalds/Collins/Fishback -- un indeciso puede
+    # terminar votando por CUALQUIER candidato de la boleta, no solo por
+    # los 3 "principales". Se corrige en dos partes:
+    #   1) Other_Named se agrega como CUARTA categoría que SÍ puede recibir
+    #      indecisos (antes estaba excluida por construcción).
+    #   2) El punto fijo se reemplaza por una MEZCLA de 3 escenarios
+    #      sorteada POR SIMULACIÓN sobre las 4 categorías
+    #      [Donalds, Collins, Fishback, Other_Named]:
+    #        (a) Proporcional (peso 0.40): igual que el bloque YA decidido
+    #            de ESA simulación -- el mismo criterio ya validado en el
+    #            backtest 2018-2022 (MAE 2.04 pts, ver docs/BACKTEST_RESULTS.md).
+    #        (b) Fragmentado (peso 0.35): reparto uniforme (1/4 cada uno)
+    #            -- indecisos que NO se inclinan estructuralmente hacia
+    #            nadie, incluidos los candidatos menores.
+    #        (c) Consolidación hacia el líder (peso 0.25): eleva la
+    #            composición YA decidida a un exponente > 1 (no un punto
+    #            fijo elegido a mano).
+    # El vector histórico 60/25/15 sigue disponible como escenario de
+    # comparación explícito en la celda de sensibilidad (undecided_center=
+    # ...) -- en ESE modo (u_alloc_ov no-None) se preserva el comportamiento
+    # viejo EXACTO (Other_Named excluido), para que esas filas de
+    # comparación sigan midiendo lo mismo que antes.
+    if u_alloc_ov is None:
+        GAMMA_CONSOLIDACION = 2.0
+        SCENARIO_WEIGHTS_INDECISOS = np.array([0.40, 0.35, 0.25])
+        decided_composition = np.stack(
+            [remaining_donalds_base, remaining_collins_base, remaining_fishback_base, S_other], axis=1
+        )
+        decided_composition = decided_composition / decided_composition.sum(axis=1, keepdims=True)
+        scenario_draw = rng.choice(3, size=n_simulations, p=SCENARIO_WEIGHTS_INDECISOS)
+        alloc_proporcional = decided_composition
+        alloc_fragmentado = np.full_like(decided_composition, 1.0 / decided_composition.shape[1])
+        _powered = decided_composition ** GAMMA_CONSOLIDACION
+        alloc_consolidacion = _powered / _powered.sum(axis=1, keepdims=True)
+        _stack_alloc = np.stack([alloc_proporcional, alloc_fragmentado, alloc_consolidacion], axis=0)
+        target_alloc_indecisos = _stack_alloc[scenario_draw, np.arange(n_simulations), :]
+        alpha_matrix_indecisos = np.clip(target_alloc_indecisos * undecided_confidence, 1e-3, None)
+        _g_ind = rng.gamma(alpha_matrix_indecisos)
+        simulated_undecided_alloc = _g_ind / _g_ind.sum(axis=1, keepdims=True)
+        if verbose:
+            _sc_names = ['proporcional', 'fragmentado', 'consolidación_líder']
+            _sc_counts = np.bincount(scenario_draw, minlength=3)
+            print("Reparto de indecisos: MEZCLA de escenarios por simulación sobre 4 categorías "
+                  "(D/C/F/Other_Named, FIX v8) -- " +
+                  ", ".join(f"{n}={c/n_simulations*100:.0f}%" for n, c in zip(_sc_names, _sc_counts)))
+        remaining_donalds = remaining_donalds_base + S_undecided * simulated_undecided_alloc[:, 0]
+        remaining_collins = remaining_collins_base + S_undecided * simulated_undecided_alloc[:, 1]
+        remaining_fishback = remaining_fishback_base + S_undecided * simulated_undecided_alloc[:, 2]
+        remaining_other_named = S_other + S_undecided * simulated_undecided_alloc[:, 3]
+    else:
+        undecided_alloc_alpha = [u_alloc_ov[c] * undecided_confidence
+                                  for c in ['Donalds', 'Collins', 'Fishback']]
+        simulated_undecided_alloc = rng.dirichlet(undecided_alloc_alpha, size=n_simulations)
+        remaining_donalds = remaining_donalds_base + S_undecided * simulated_undecided_alloc[:, 0]
+        remaining_collins = remaining_collins_base + S_undecided * simulated_undecided_alloc[:, 1]
+        remaining_fishback = remaining_fishback_base + S_undecided * simulated_undecided_alloc[:, 2]
+        remaining_other_named = S_other  # comportamiento viejo exacto (comparación) -- Other_Named no recibe indecisos
 
-    remaining_donalds = remaining_donalds_base + S_undecided * simulated_undecided_alloc[:, 0]
-    remaining_collins = remaining_collins_base + S_undecided * simulated_undecided_alloc[:, 1]
-    remaining_fishback = remaining_fishback_base + S_undecided * simulated_undecided_alloc[:, 2]
-    remaining_other_named = S_other  # Other_Named no recibe indecisos (igual que antes)
-
-    # --- Early vote (su propia Dirichlet, su propia confianza) ---
-    early_alpha = [ev_shares[c] * early_confidence for c in ['Donalds', 'Collins', 'Fishback']]
-    early_alpha.append(ev_others * early_confidence)
-    early_alpha = [max(a, 1e-3) for a in early_alpha]
-    simulated_early_shares = rng.dirichlet(early_alpha, size=n_simulations)
+    # --- Early vote ---
+    # FIX v8 (corrección post-elección 2026): antes, "early vote" simulaba
+    # su PROPIA Dirichlet anclada a un punto fijo pre-calculado
+    # (ev_shares) que YA incluía la asignación puntual (sesgada) de
+    # indecisos -- con EARLY_VOTE_CONFIDENCE alta, eso bloqueaba ese sesgo
+    # con confianza fuerte sobre el 54% del voto total (early+VBM), sin
+    # aportar información independiente real (el "prior de early vote" no
+    # era más que el mismo ensemble, re-simulado). Ahora "early vote" se
+    # ancla a la composición YA REALIZADA de 'remaining' en ESA MISMA
+    # simulación (que ya incorpora la mezcla de escenarios de arriba, sin
+    # sesgo estructural) y solo se le permite una perturbación
+    # INDEPENDIENTE modesta alrededor de ese ancla -- el "ajuste de
+    # segundo orden" que debería ser: primero/mail voters sí pueden diferir
+    # algo de los votantes de día de elección, pero no deberían poder
+    # anclar todo el pronóstico a un punto fijo separado.
+    if ev_shares_ov is None:
+        remaining_composition = np.stack(
+            [remaining_donalds, remaining_collins, remaining_fishback, remaining_other_named], axis=1
+        )
+        # normalización de seguridad (deberían sumar 1.0 exacto por construcción)
+        remaining_composition = remaining_composition / remaining_composition.sum(axis=1, keepdims=True)
+        alpha_matrix_early = np.clip(remaining_composition * early_confidence, 1e-3, None)
+        _g_early = rng.gamma(alpha_matrix_early)
+        simulated_early_shares = _g_early / _g_early.sum(axis=1, keepdims=True)
+    else:
+        early_alpha = [ev_shares_ov[c] * early_confidence for c in ['Donalds', 'Collins', 'Fishback']]
+        _ev_others = ev_others_ov if ev_others_ov is not None else early_vote_others_share
+        early_alpha.append(_ev_others * early_confidence)
+        early_alpha = [max(a, 1e-3) for a in early_alpha]
+        simulated_early_shares = rng.dirichlet(early_alpha, size=n_simulations)
 
     # --- Turnout (su propia incertidumbre) ---
     simulated_turnout = rng.normal(total_expected_turnout, total_expected_turnout * turnout_cv_value, size=n_simulations)
@@ -979,13 +1099,31 @@ def recompute_and_simulate(half_life_value=None, use_house_effects=True, prior_o
         post_m, post_s = bayesian_update(pm, ps, dm, ds)
         posteriors[cand] = {'mean': post_m, 'std': post_s}
 
-    alloc = undecided_center if undecided_center is not None else undecided_allocation
-    final_est = {c: posteriors[c]['mean'] + u_avg * alloc[c] for c in posteriors}
-    ev_shares = {c: final_est[c] for c in ['Donalds', 'Collins', 'Fishback']}
-    if early_vote_shift:
-        for cand, delta in early_vote_shift.items():
-            ev_shares[cand] = max(ev_shares[cand] + delta, 0.0)
-    ev_others = max(1.0 - sum(ev_shares.values()), 0.0)
+    # FIX v8 (corrección post-elección 2026): antes, `alloc` SIEMPRE caía a
+    # un punto fijo (undecided_center si se pasó, si no `undecided_allocation`
+    # -- el 60/25/15 global) y `ev_shares` SIEMPRE se derivaba de ese punto
+    # fijo -- es decir, TODAS las filas de la celda de sensibilidad (half_life,
+    # house_effects, priors, early_vote, other_named_missingness, y el stress
+    # test) heredaban el mecanismo viejo sin importar qué se estuviera
+    # variando, incluso después de "arreglar" el caso base en run_monte_carlo.
+    # Ahora: si el llamador NO pidió explícitamente un escenario de punto fijo
+    # (undecided_center) ni un shift explícito de early vote (early_vote_shift),
+    # se deja alloc/ev_shares en None para que run_monte_carlo use la MEZCLA
+    # de escenarios nueva -- igual que el caso base. Si SÍ se pidió alguno de
+    # los dos, se preserva el comportamiento anterior exacto (necesario para
+    # que "indecisos 70/20/10", "early vote adverso -5pts", etc. sigan
+    # funcionando como escenarios de punto fijo explícitos).
+    if undecided_center is None and not early_vote_shift:
+        alloc_ov, ev_shares_ov, ev_others_ov = None, None, None
+    else:
+        alloc = undecided_center if undecided_center is not None else undecided_allocation
+        final_est = {c: posteriors[c]['mean'] + u_avg * alloc[c] for c in posteriors}
+        ev_shares = {c: final_est[c] for c in ['Donalds', 'Collins', 'Fishback']}
+        if early_vote_shift:
+            for cand, delta in early_vote_shift.items():
+                ev_shares[cand] = max(ev_shares[cand] + delta, 0.0)
+        ev_others = max(1.0 - sum(ev_shares.values()), 0.0)
+        alloc_ov, ev_shares_ov, ev_others_ov = alloc, ev_shares, ev_others
 
     turnout_cv_use = turnout_cv_override if turnout_cv_override is not None else TURNOUT_CV_ASSUMED
 
@@ -993,8 +1131,8 @@ def recompute_and_simulate(half_life_value=None, use_house_effects=True, prior_o
         EARLY_VOTE_CONFIDENCE, UNDECIDED_ALLOCATION_CONFIDENCE, turnout_cv_use,
         n_simulations=n_simulations, seed=seed,
         ensemble_posteriors_ov=posteriors, other_named_avg_ov=o_avg, other_named_std_ov=o_std,
-        undecided_avg_ov=u_avg, undecided_std_ov=u_std, undecided_allocation_ov=alloc,
-        early_vote_point_shares_ov=ev_shares, early_vote_others_share_ov=ev_others,
+        undecided_avg_ov=u_avg, undecided_std_ov=u_std, undecided_allocation_ov=alloc_ov,
+        early_vote_point_shares_ov=ev_shares_ov, early_vote_others_share_ov=ev_others_ov,
         renner_split_alpha_ov=r_alpha, renner_split_beta_ov=r_beta,
     )
 
@@ -1026,6 +1164,8 @@ candidates_list = result['winner_pool']
 winner_candidates_list = candidates_list + ['Other_Residual']
 n_simulations = result['n_simulations']
 win_probabilities = sim_results['Winner'].value_counts(normalize=True) * 100
+# usado más abajo (stress test) para comparar contra el margen BASE real, en vez de un número hardcodeado
+base_median_margin = (np.median(sim_results['Donalds']) - np.median(sim_results['Collins'])) * 100
 
 print("-" * 40)
 print("PROBABILIDAD DE VICTORIA (Tras 10,000 Simulaciones):")
@@ -1201,12 +1341,18 @@ methodology_warnings.append(
     "demografía, fundraising o endorsements."
 )
 methodology_warnings.append(
-    "La preferencia de candidato en el voto anticipado no se observa -- se centra en el ensemble general "
-    "con confianza declarada baja (EARLY_VOTE_CONFIDENCE)."
+    "FIX v8: la preferencia de candidato en el voto anticipado ya no se ancla a un punto fijo separado -- "
+    "se ancla a la composición realizada de 'remaining' en la misma simulación, con una perturbación "
+    "independiente modesta (EARLY_VOTE_CONFIDENCE, recalibrado a 300 -- ver celda 4). Sigue siendo un "
+    "supuesto (no se observa la preferencia real del voto anticipado), pero ya no puede fijar el "
+    "pronóstico a un ancla potencialmente sesgada por sí solo."
 )
 methodology_warnings.append(
-    "El reparto de indecisos (60/25/15) es un supuesto simulado con confianza declarada baja "
-    "(UNDECIDED_ALLOCATION_CONFIDENCE), no una medición."
+    "FIX v8 (corrección post-elección 2026): el reparto de indecisos YA NO es un punto fijo (60/25/15, "
+    "que sobreestimó a Donalds en -10.4 pts en el resultado real) -- es una mezcla de 3 escenarios "
+    "(proporcional 40%, fragmentado 35%, consolidación hacia el líder 25%) sorteada por simulación. "
+    "Sigue siendo un supuesto de diseño (los pesos 0.40/0.35/0.25 no están calibrados con datos -- no hay "
+    "suficientes elecciones para calibrarlos, ver docs/BACKTEST_RESULTS.md), no una medición."
 )
 methodology_warnings.append(
     "El turnout esperado de 2026 se basa esencialmente en un solo precedente histórico válido (2018); "
@@ -1270,8 +1416,13 @@ BASE_EARLY_CONF = EARLY_VOTE_CONFIDENCE
 BASE_UNDECIDED_CONF = UNDECIDED_ALLOCATION_CONFIDENCE
 BASE_TURNOUT_CV = TURNOUT_CV_ASSUMED
 
+# FIX v8: rango de EARLY_VOTE_CONFIDENCE recalibrado -- con el nuevo
+# significado (perturbación alrededor de 'remaining', no ancla a un punto
+# fijo separado), 100-600 cubre de "early vote puede diferir varios puntos
+# de remaining" a "early vote casi idéntico a remaining" (ver comentario en
+# la definición de EARLY_VOTE_CONFIDENCE, celda 4).
 scenario_grids = {
-    'EARLY_VOTE_CONFIDENCE': [10, 25, 50, 100],
+    'EARLY_VOTE_CONFIDENCE': [100, 200, 300, 600],
     'UNDECIDED_ALLOCATION_CONFIDENCE': [5, 10, 20, 50],
     'TURNOUT_CV_ASSUMED': [0.05, 0.10, 0.15, 0.20],
 }
@@ -1386,7 +1537,16 @@ structural_scenarios = [
     {'grupo': 'half_life', 'label': '30d (casi sin decaimiento)', 'kwargs': dict(half_life_value=30)},
     {'grupo': 'house_effects', 'label': 'Activos (BASE)', 'kwargs': dict(use_house_effects=True), 'is_base': True},
     {'grupo': 'house_effects', 'label': 'Desactivados', 'kwargs': dict(use_house_effects=False)},
-    {'grupo': 'indecisos', 'label': '60/25/15 (BASE)', 'kwargs': dict(undecided_center=undecided_allocation), 'is_base': True},
+    # FIX v8: el reparto 60/25/15 de punto fijo YA NO es el base (era
+    # exactamente el mecanismo que sobreestimó a Donalds -10.4 pts en el
+    # resultado real 2026) -- se conserva como escenario de comparación
+    # explícito. El nuevo base es la mezcla de escenarios (kwargs=dict()
+    # activa el camino nuevo en run_monte_carlo, igual que el resto de
+    # grupos de esta tabla).
+    {'grupo': 'indecisos', 'label': 'Mezcla de escenarios 40/35/25% (NUEVO BASE v8, ver FIX v8 celda 4)',
+     'kwargs': dict(), 'is_base': True},
+    {'grupo': 'indecisos', 'label': '60/25/15 punto fijo (MECANISMO VIEJO -- sobreestimó -10.4 pts en 2026)',
+     'kwargs': dict(undecided_center=undecided_allocation)},
     {'grupo': 'indecisos', 'label': '70/20/10 (favorable a Donalds)',
      'kwargs': dict(undecided_center={'Donalds': 0.70, 'Collins': 0.20, 'Fishback': 0.10})},
     {'grupo': 'indecisos', 'label': '50/30/20 (desfavorable, pero Donalds sigue >su polling)',
@@ -1468,8 +1628,9 @@ print("half_life: entre más corto, más peso a las encuestas recientes (con Sam
       "half_life es hoy el ÚNICO mando real detrás de Poll_Weight -- ver aviso en celda 1).")
 print("House effects: activarlos/desactivarlos mueve el punto central según cuánto pesen hoy las "
       "encuestas de Targoz/Change Research/RCP en el promedio ponderado vigente.")
-print("Centro de indecisos: 60/25/15 es un supuesto, no una medición -- el escenario 40/35/25 es el "
-      "primero genuinamente ADVERSO (deja a Donalds por debajo de su polling inicial ~45%).")
+print("Centro de indecisos: FIX v8 -- el base ya no es un punto fijo, es una mezcla de 3 escenarios "
+      "(proporcional/fragmentado/consolidación); el viejo 60/25/15 y los escenarios 70/20/10, 50/30/20, "
+      "40/35/25 quedan como comparaciones de punto fijo explícitas, no como el número central reportado.")
 print("Priors subjetivos: se prueban AMBAS direcciones (favorable y adversa a Donalds) para no sesgar "
       "la sensibilidad hacia un solo lado.")
 print("Early vote: el escenario adverso mueve 5pts de Donalds a Collins en el prior de early vote "
@@ -1525,7 +1686,7 @@ print(f"P(Donalds gana):        {format_win_prob(n_donalds_stress, n_tot_stress)
       f"({n_donalds_stress:,}/{n_tot_stress:,})")
 print(f"P(Collins gana):        {format_win_prob(n_collins_stress, n_tot_stress)} "
       f"({n_collins_stress:,}/{n_tot_stress:,})")
-print(f"Margen mediano D-C:     {median_margin_stress:.1f} pts (BASE: 38.5 pts)")
+print(f"Margen mediano D-C:     {median_margin_stress:.1f} pts (BASE: {base_median_margin:.1f} pts)")
 print(f"Donalds IC95%:          {lo_stress:.1f}%-{hi_stress:.1f}%")
 print(f"\nLECTURA: incluso combinando TODOS los supuestos adversos probados a la vez, el margen mediano "
       f"queda en {median_margin_stress:.1f} pts -- {'todavía claramente positivo para Donalds' if median_margin_stress > 5 else 'la carrera se acerca sustancialmente bajo este escenario conjunto'}. "
