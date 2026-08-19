@@ -10,10 +10,20 @@ la maquinaria de pronóstico en sí misma — ponderación de encuestas por time
 documento cierra parcialmente ese hueco corriendo esa misma maquinaria sobre encuestas reales de tres
 primarias de gobernador de Florida ya resueltas.
 
+**Actualización 19-ago-2026**: la primaria de gobernador 2026 ya se realizó (18-ago-2026), así que ahora
+existe además una validación DIRECTA (no un backtest reconstruido) del pronóstico real contra el
+resultado real — ver [`RESULTADOS_2026_VS_PRONOSTICO.md`](RESULTADOS_2026_VS_PRONOSTICO.md). No se fusiona
+esa observación en la tabla de este documento porque usa una condición metodológica distinta: este
+backtest corre con prior neutro y reparto de indecisos proporcional (para no meter lookahead bias),
+mientras que los modelos 2026 usaron sus propios priors/reparto de indecisos reales (subjetivo en REP,
+proporcional-concentrado en DEM) — mezclarlas en la misma tabla compararía dos metodologías distintas
+como si fueran una sola medición. Son dos ejercicios complementarios, no una sola serie de n=4.
+
 **Alcance real de esta validación: léase antes de citar cualquier número de aquí.** Solo hay **3
-elecciones primarias comparables** disponibles (Florida elige gobernador cada 4 años; 2018 tuvo primaria
-competitiva en ambos partidos, 2022 solo la tuvo en el lado demócrata — el REP 2022 no tuvo contienda
-real, DeSantis corrió sin oposición efectiva). Con n=3 **no es posible calibrar** el modelo en el sentido
+elecciones primarias históricas comparables** disponibles para este backtest específico (Florida elige
+gobernador cada 4 años; 2018 tuvo primaria competitiva en ambos partidos, 2022 solo la tuvo en el lado
+demócrata — el REP 2022 no tuvo contienda real, DeSantis corrió sin oposición efectiva). Con n=3 **no es
+posible calibrar** el modelo en el sentido
 estadístico estricto (no se puede estimar, por ejemplo, si un intervalo de confianza del 90% cubre el
 resultado real el 90% de las veces con 3 observaciones). Lo que sí permite este ejercicio es una **prueba
 de sanidad direccional**: corriendo el modelo de forma honesta, solo con información disponible ANTES

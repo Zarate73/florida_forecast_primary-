@@ -1,5 +1,7 @@
 # Forecast Primarias Florida 2026 (Gobernador)
 
+> **La primaria ya se realizó (18-ago-2026) y AP proyectó ganador en ambas contiendas: Byron Donalds (REP) y David Jolly (DEM).** Los notebooks de este repo son el pronóstico **pre-electoral congelado** (última corrida: 17-ago-2026, un día antes de la elección) — se dejan intactos como registro histórico, no se re-ejecutan con el resultado ya conocido. Para la comparación pronóstico-vs-resultado real, ver [`docs/RESULTADOS_2026_VS_PRONOSTICO.md`](docs/RESULTADOS_2026_VS_PRONOSTICO.md) (resumen: ambos ganadores acertados, ambos márgenes sobreestimados ~10-13 pts — detalle y causa probable en ese documento). El dato del resultado real es **preliminar, no certificado** — ver `data/Florida_Governor_Primary_2026_Results.xlsx`.
+
 Modelos de pronóstico probabilístico (encuestas + Monte Carlo Bayesiano/Dirichlet) para las primarias de gobernador de Florida 2026, lado **Republicano** (v7, final) y **Demócrata** (v8, final).
 
 Ambos modelos comparten arquitectura: ponderación de encuestas por time-decay, ensamble Bayesiano conjugado-normal (prior neutro/subjetivo + datos de encuestas), y una simulación Monte Carlo con un árbol de composición Beta/Dirichlet de varios niveles (cada nivel con su propio parámetro de concentración, en vez de una única Dirichlet compartida).
@@ -13,6 +15,7 @@ data/                           Insumos crudos (encuestas, early vote, turnout h
 ├── Florida_Governor_Primary_Turnout_2018_2022.xlsx
 ├── Florida_Governor_Primaries_2018_2022.xlsx
 ├── Historical_Polls_2018_2022.xlsx   Encuestas individuales reales 2018/2022 (insumo del backtest)
+├── Florida_Governor_Primary_2026_Results.xlsx   Resultado REAL 2026 (PRELIMINAR, no certificado -- ver hoja Metadata)
 └── Historico/                  Resultados oficiales 2018/2022 (texto plano, fuente del turnout histórico)
 
 src/
@@ -22,16 +25,19 @@ src/
 │   └── pipeline_republican.py  Pipeline republicano v7 (fuente de verdad, script plano)
 ├── democrat/
 │   └── pipeline_democrat.py    Pipeline demócrata v8 (fuente de verdad, script plano)
-└── backtest/
-    ├── build_historical_polls.py   Construye Historical_Polls_2018_2022.xlsx
-    └── backtest_engine.py          Corre la misma metodología del pipeline sobre 2018/2022 (ver docs/BACKTEST_RESULTS.md)
+├── backtest/
+│   ├── build_historical_polls.py   Construye Historical_Polls_2018_2022.xlsx
+│   └── backtest_engine.py          Corre la misma metodología del pipeline sobre 2018/2022 (ver docs/BACKTEST_RESULTS.md)
+└── results/
+    └── build_2026_results.py       Construye Florida_Governor_Primary_2026_Results.xlsx, con proveniencia y advertencia de dato preliminar documentadas
 
 notebooks/
-├── FLORIDA_2026_Primaria_Republicana_v7.ipynb   Notebook final republicano (ejecutado, 0 errores/0 warnings)
-└── FLORIDA_2026_Primaria_Democrata_v8.ipynb     Notebook final demócrata (ejecutado, 0 errores/0 warnings)
+├── FLORIDA_2026_Primaria_Republicana_v7.ipynb   Notebook final republicano (ejecutado, 0 errores/0 warnings; congelado pre-elección, 17-ago-2026)
+└── FLORIDA_2026_Primaria_Democrata_v8.ipynb     Notebook final demócrata (ejecutado, 0 errores/0 warnings; congelado pre-elección, 17-ago-2026)
 
 docs/
-└── BACKTEST_RESULTS.md         Backtest 2018/2022: metodología, resultados y límites (n=3 elecciones)
+├── BACKTEST_RESULTS.md              Backtest 2018/2022: metodología, resultados y límites (n=3 elecciones históricas)
+└── RESULTADOS_2026_VS_PRONOSTICO.md Comparación del pronóstico contra el resultado REAL de 2026 (post-mortem)
 ```
 
 Los `.ipynb` en `notebooks/` son la versión **final publicable**, ya ejecutados end-to-end. Los `.py` en `src/` son la fuente canónica: cada `.ipynb` se generó automáticamente a partir de su `.py` correspondiente vía `build_notebook.py` (ver abajo), así que cualquier cambio futuro debe hacerse en el `.py`, no editando el notebook a mano.
@@ -76,9 +82,23 @@ Verificación esperada: 0 celdas con `output_type == 'error'`, 0 stderr con "War
 
 `src/backtest/` corre la MISMA metodología nuclear (time-decay half_life=14, ensamble Bayesiano, árbol Beta/Dirichlet moment-matched) sobre encuestas reales de las 3 primarias de gobernador de Florida comparables ya resueltas (REP 2018 DeSantis-Putnam, DEM 2018 Gillum-Graham-Levine-Greene-King, DEM 2022 Crist-Fried) y compara el pronóstico contra el resultado real. Resultado: **2 de 3 aciertos direccionales**, MAE promedio 2.04 pts; el fallo (DEM 2018) reproduce la conocida "sorpresa Gillum" — todas las encuestas, incluida la última a 2 días de la elección, daban a Graham como líder. Detalle completo, metodología, qué SÍ y qué NO replica del pipeline 2026, y por qué (evitando lookahead bias en cada decisión), en [`docs/BACKTEST_RESULTS.md`](docs/BACKTEST_RESULTS.md) — **léase antes de citar cualquier cifra de ese backtest**, en particular la sección sobre por qué n=3 no permite calibrar el modelo, solo una prueba de sanidad direccional.
 
+## Resultado real 2026 vs. pronóstico
+
+La primaria se realizó el 18-ago-2026; AP proyectó a **Byron Donalds** (REP) y **David Jolly** (DEM) como
+ganadores, ambos consistentes con el top-pick de cada modelo (P(gana) 99.94% y >99.97% respectivamente).
+Pero en ambas carreras, de forma independiente, el modelo sobreestimó el margen del puntero: Donalds
+58.4% pronosticado vs. 48.0% real (-10.4 pts), Jolly 74.2% pronosticado vs. 61.0% real (-13.2 pts). La
+individualización de Joseph (v8) se validó con precisión: 9.2% pronosticado vs. 9.6% real. Análisis
+completo, tabla candidato-por-candidato, y la hipótesis más probable de la causa (el reparto de
+indecisos, sesgado hacia el puntero en ambos modelos) en
+[`docs/RESULTADOS_2026_VS_PRONOSTICO.md`](docs/RESULTADOS_2026_VS_PRONOSTICO.md). El dato del resultado
+real usado ahí es **preliminar** (99.2% de precintas reportadas, no certificado) — ver
+`data/Florida_Governor_Primary_2026_Results.xlsx` (hoja `Metadata`) para la proveniencia completa y qué
+falta refrescar cuando salga el canvass oficial.
+
 ## Limitaciones y advertencias (leer antes de citar cualquier número)
 
-- Ninguna probabilidad de este modelo es una probabilidad electoral calibrada: son probabilidades **condicionales al modelo** (a sus supuestos de ponderación, priors e imputación). Existe un backtest direccional contra 3 primarias reales de Florida (2018 REP, 2018 DEM, 2022 DEM) — ver sección "Backtest 2018/2022" arriba — pero n=3 no alcanza para una calibración estadística real.
+- Ninguna probabilidad de este modelo es una probabilidad electoral calibrada: son probabilidades **condicionales al modelo** (a sus supuestos de ponderación, priors e imputación). Existe un backtest direccional contra 3 primarias históricas de Florida (2018 REP, 2018 DEM, 2022 DEM, ver sección "Backtest 2018/2022") más la validación directa contra el resultado real 2026 (ver sección de arriba) — pero incluso combinando ambas fuentes, el n efectivo (4 elecciones, bajo dos condiciones metodológicas distintas: motor neutro del backtest vs. priors/asignación de indecisos reales de cada modelo) sigue siendo demasiado chico para una calibración estadística real.
 - El lado demócrata tiene un orden de magnitud menos de encuestas que el republicano (7 vs. 39 tras deduplicar) — toda estimación es proporcionalmente más ruidosa.
 - No existe columna "Undecided" real en ninguna de las dos hojas de encuestas; se infiere como residuo, con las limitaciones que eso implica (documentadas extensamente en la celda 1 de cada pipeline).
 - Cada notebook imprime, en su celda 5, una lista completa de advertencias metodológicas (`methodology_warnings`) — es la fuente de verdad sobre limitaciones vigentes, más actualizada que este README.

@@ -6,6 +6,10 @@ señal de que el conteo ya estaba estabilizado). No son cifras certificadas ofic
 este nivel de conteo el margen de variación remanente es mínimo. **AP proyectó ganador en ambas primarias
 la noche de la elección**: Byron Donalds (REP) y David Jolly (DEM).
 
+Dato estructurado (votos y % por candidato, proveniencia completa, y qué falta certificar) en
+`data/Florida_Governor_Primary_2026_Results.xlsx` — generado por `src/results/build_2026_results.py`.
+Las cifras de este documento son las mismas que ese archivo, no una fuente independiente.
+
 ## Resultado agregado: ambos ganadores acertados, ambos márgenes sobreestimados
 
 | | Ganador real | Top-pick del modelo | ¿Acertó? | P(gana) asignada | Mediana pronosticada | Resultado real | Error |
@@ -87,6 +91,13 @@ P(gana) saturada").
   campo fragmentado (consolidación tardía de indecisos hacia los no-punteros, un patrón documentado en la
   literatura de primarias) y, si se confirma con más datos, aplicar una corrección sistemática en vez de
   esperar que el promedio de encuestas por sí solo lo capture.
-- Esta elección real ahora puede sumarse como una 4ª observación al backtest de `docs/BACKTEST_RESULTS.md`
-  en la próxima iteración del proyecto (n=4, sigue siendo insuficiente para calibrar formalmente, pero
-  cada punto ayuda).
+- ~~Sumar esta elección al backtest de `docs/BACKTEST_RESULTS.md` como observación adicional~~ — hecho
+  (19-ago-2026): se agregó como validación DIRECTA separada, no fusionada a la tabla de n=3 del backtest
+  histórico, porque usa una condición metodológica distinta (prior/reparto de indecisos reales de cada
+  modelo, no el motor neutro del backtest) — ver la nota "Actualización 19-ago-2026" al inicio de
+  `docs/BACKTEST_RESULTS.md`. Contando ambas fuentes el n efectivo sube a 4, todavía insuficiente para
+  calibrar formalmente, pero cada punto ayuda.
+- Actualizar `data/Florida_Governor_Primary_2026_Results.xlsx` con el canvass oficial certificado cuando
+  el Florida Division of Elections lo publique (~10 días post-elección) — el dato actual es preliminar
+  (99.2% de precintas), y el bucket "Other_Minor" del lado REP es un estimado por resta, no un conteo
+  directo (ver hoja `Metadata` del archivo para el detalle).
