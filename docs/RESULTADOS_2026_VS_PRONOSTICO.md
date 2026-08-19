@@ -1,0 +1,92 @@
+# Primaria real 2026 vs. pronóstico (v7 REP / v8 DEM)
+
+Elección: 18-ago-2026. Resultados a **99.2% de las precintas reportadas** (fuente: News4Jax, cifras
+consistentes con las publicadas por WFTV a 92% de conteo — la brecha entre ambos cortes es pequeña,
+señal de que el conteo ya estaba estabilizado). No son cifras certificadas oficialmente todavía, pero a
+este nivel de conteo el margen de variación remanente es mínimo. **AP proyectó ganador en ambas primarias
+la noche de la elección**: Byron Donalds (REP) y David Jolly (DEM).
+
+## Resultado agregado: ambos ganadores acertados, ambos márgenes sobreestimados
+
+| | Ganador real | Top-pick del modelo | ¿Acertó? | P(gana) asignada | Mediana pronosticada | Resultado real | Error |
+|---|---|---|---|---|---|---|---|
+| REP | Donalds | Donalds | **SÍ** | 99.94% | 58.4% | 48.0% | **-10.4 pts** |
+| DEM | Jolly | Jolly | **SÍ** | >99.97% | 74.2% | 61.0% | **-13.2 pts** |
+
+**2 de 2 aciertos direccionales** (consistente con el 2/3 del backtest 2018/2022, ver
+`docs/BACKTEST_RESULTS.md`). Pero en ambas carreras, **de forma independiente y en la misma dirección**,
+el modelo sobreestimó al puntero y subestimó a todo el resto del campo. Esto no es ruido aleatorio — es
+un patrón sistemático que apunta a la misma causa en los dos modelos: el supuesto de reparto de
+indecisos.
+
+## Tabla completa
+
+### Republicana
+
+| Candidato | Mediana pronosticada | IC95% pronosticado | Resultado real | Error (pts) | ¿Real dentro del IC95%? |
+|---|---|---|---|---|---|
+| Donalds | 58.4% | 46.8% – 69.3% | 48.0% | -10.4 | Sí (al borde inferior) |
+| Collins | 19.9% | 11.9% – 30.5% | 25.0% | +5.1 | Sí |
+| Fishback | 13.2% | 7.0% – 22.6% | 10.0% | -3.2 | Sí |
+| Renner | 3.8% | 1.7% – 8.3% | ≈9.0% | +5.2 | No (al borde, +0.7 pts fuera) |
+| Otros (7 candidatos menores) | 3.5% | 1.5% – 7.8% | ≈8.0% | +4.5 | No (al borde, +0.2 pts fuera) |
+
+MAE (Donalds/Collins/Fishback/Renner): **5.98 pts** — casi 3x el MAE promedio del backtest histórico
+(2.04 pts, n=3 elecciones 2018/2022 con la misma metodología).
+
+### Demócrata
+
+| Candidato | Mediana pronosticada | IC95% pronosticado | Resultado real | Error (pts) | ¿Real dentro del IC95%? |
+|---|---|---|---|---|---|
+| Jolly | 74.2% | 60.0% – 85.0% | 61.0% | -13.2 | Sí (al borde inferior) |
+| Foster | 10.2% | 4.1% – 21.3% | 15.1% | +4.9 | Sí |
+| Joseph | 9.2% | 3.3% – 20.1% | 9.6% | **+0.4** | Sí (muy cerca del centro) |
+| Other_Minor (Castillo-Bach + Fernandez + Norman) | 4.8% | 1.3% – 14.0% | 14.3% | +9.5 | No (al borde, +0.3 pts fuera) |
+
+MAE (Jolly/Foster/Joseph): **6.17 pts**.
+
+## Lectura
+
+**1. La individualización de Joseph (v8) fue la apuesta correcta.** Con una sola encuesta (Change
+Research, 6%) y un piso de incertidumbre explícito (`JOSEPH_MIN_POLL_STD=8.0`), el modelo predijo 9.2%
+para Joseph — el resultado real fue 9.6%, un error de solo 0.4 puntos, el mejor call de todo el ejercicio
+y muy superior a cómo le habría ido a Joseph escondida dentro de un "Other_Minor" agregado (que sí quedó
+mal calibrado, ver punto 3). Este es el resultado que justifica retrospectivamente la decisión de
+separarla en v8 en vez de dejarla en la v7.
+
+**2. Ambos modelos, de forma independiente, sobreestimaron al puntero y subestimaron al resto —
+la causa más probable es el reparto de indecisos, no la ponderación de encuestas en sí.** El REP asignó
+indecisos 60/25/15 (Donalds/Collins/Fishback, elegido a mano, con "confianza declarada baja" según su
+propia alerta metodológica). El DEM los repartió proporcional a Jolly:Foster:Joseph (78.1%/11.5%/10.4%),
+igual de concentrado en el puntero. En ambas carreras el resultado real movió la aguja EN CONTRA del
+puntero relativo a esa asignación — exactamente el patrón que se vería si los indecisos reales se
+inclinaron más parejo (o incluso en contra) del líder de lo que ambos modelos asumieron. El backtest
+2018/2022 (que reparte indecisos proporcional al bloque ya decidido, sin sesgo hacia nadie) tuvo un MAE
+promedio de 2.04 pts — bastante menor que los 5.98/6.17 pts de esta elección real, lo cual es consistente
+con esta hipótesis, aunque con n=1 elección por lado no se puede confirmar estadísticamente.
+
+**3. "Other_Minor"/"Otros" fue, en ambos lados, la categoría peor calibrada.** Son candidatos con cero o
+casi cero polling individual — el modelo los trata correctamente como de alta incertidumbre (por eso el
+IC95% de esa categoría es ancho en ambos casos), pero el punto central (mediana) fue el más alejado del
+resultado real en términos relativos (DEM: mediana 4.8% vs. real 14.3%, casi 3x subestimado). Con datos
+así de escasos, esto es más una limitación estructural de la información disponible que un error de
+implementación — no había con qué estimar mejor esa categoría antes de la elección.
+
+**4. Las probabilidades de victoria (P(gana)) fueron correctas en dirección pero, como es esperable con
+carreras tan lopsided en el pronóstico, estaban "saturadas" cerca de 100%/0% y no aportan señal fina —
+el número que sí importaba vigilar (y el que más se equivocó) era el margen mediano, tal como advertía la
+propia celda de sensibilidad de cada notebook** ("la métrica informativa es el margen mediano, no
+P(gana) saturada").
+
+## Qué revisar antes de la próxima elección
+
+- Recalibrar el reparto de indecisos con datos reales (encuestas con cross-tabs de "hacia dónde se
+  inclinan" los indecisos, o encuestas de "segunda opción") en vez de una asignación a mano o
+  proporcional simple — es el hiperparámetro que más explica el error observado aquí.
+- Considerar si el patrón "puntero sobreestimado" es un sesgo genérico de encuestas de primarias con
+  campo fragmentado (consolidación tardía de indecisos hacia los no-punteros, un patrón documentado en la
+  literatura de primarias) y, si se confirma con más datos, aplicar una corrección sistemática en vez de
+  esperar que el promedio de encuestas por sí solo lo capture.
+- Esta elección real ahora puede sumarse como una 4ª observación al backtest de `docs/BACKTEST_RESULTS.md`
+  en la próxima iteración del proyecto (n=4, sigue siendo insuficiente para calibrar formalmente, pero
+  cada punto ayuda).
